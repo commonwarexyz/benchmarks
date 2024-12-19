@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734641017243,
+  "lastUpdate": 1734644317653,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "Benchmark": [
@@ -259,6 +259,122 @@ window.BENCHMARK_DATA = {
             "name": "receiver/67108864",
             "value": 179447310,
             "range": "± 1764625",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "commonwarexyz",
+            "username": "commonwarexyz"
+          },
+          "committer": {
+            "name": "commonwarexyz",
+            "username": "commonwarexyz"
+          },
+          "id": "6a13ca6401987ceb9e84db8b05c91a4a42efb552",
+          "message": "Publish benchmarks to /benchmarks repo",
+          "timestamp": "2024-12-19T10:55:21Z",
+          "url": "https://github.com/commonwarexyz/monorepo/pull/286/commits/6a13ca6401987ceb9e84db8b05c91a4a42efb552"
+        },
+        "date": 1734644317494,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "sender/1024",
+            "value": 2758,
+            "range": "± 27",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sender/4096",
+            "value": 4970,
+            "range": "± 90",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sender/16384",
+            "value": 14069,
+            "range": "± 87",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sender/262144",
+            "value": 218270,
+            "range": "± 15329",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sender/1048576",
+            "value": 1193081,
+            "range": "± 169110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sender/4194304",
+            "value": 9113863,
+            "range": "± 84508",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sender/16777216",
+            "value": 30692351,
+            "range": "± 499056",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sender/67108864",
+            "value": 92851051,
+            "range": "± 314098",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/1024",
+            "value": 4520,
+            "range": "± 26",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/4096",
+            "value": 11876,
+            "range": "± 2774",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/16384",
+            "value": 41382,
+            "range": "± 3092",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/262144",
+            "value": 637992,
+            "range": "± 4372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/1048576",
+            "value": 2813943,
+            "range": "± 39518",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/4194304",
+            "value": 11540066,
+            "range": "± 92715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/16777216",
+            "value": 48943462,
+            "range": "± 232737",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "receiver/67108864",
+            "value": 194216116,
+            "range": "± 1564376",
             "unit": "ns/iter"
           }
         ]
