@@ -2,7 +2,7 @@ window.BENCHMARK_DATA = {
   "lastUpdate": 1734644317653,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
-    "Benchmark": [
+    "commonware-stream": [
       {
         "commit": {
           "author": {
@@ -144,9 +144,7 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           }
         ]
-      }
-    ],
-    "commonware-stream": [
+      },
       {
         "commit": {
           "author": {
