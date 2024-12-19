@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734650357096,
+  "lastUpdate": 1734650793888,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-stream": [
@@ -1639,6 +1639,190 @@ window.BENCHMARK_DATA = {
             "name": "conc=16 msgs=50000",
             "value": 4789430830,
             "range": "± 7672340",
+            "unit": "ns/iter"
+          }
+        ]
+      }
+    ],
+    "commonware-storage": [
+      {
+        "commit": {
+          "author": {
+            "name": "commonwarexyz",
+            "username": "commonwarexyz"
+          },
+          "committer": {
+            "name": "commonwarexyz",
+            "username": "commonwarexyz"
+          },
+          "id": "5a94e97e20605239c5df5098ec8bed9c2e44eb4f",
+          "message": "Publish benchmarks to /benchmarks repo",
+          "timestamp": "2024-12-19T10:55:21Z",
+          "url": "https://github.com/commonwarexyz/monorepo/pull/286/commits/5a94e97e20605239c5df5098ec8bed9c2e44eb4f"
+        },
+        "date": 1734650793744,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "iteration: n=100000 k=4",
+            "value": 5641938,
+            "range": "± 394889",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=100000 k=8",
+            "value": 7153441,
+            "range": "± 918220",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=100000 k=16",
+            "value": 7890164,
+            "range": "± 859418",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=100000 k=32",
+            "value": 7720861,
+            "range": "± 1259234",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=1000000 k=4",
+            "value": 63873864,
+            "range": "± 1947906",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=1000000 k=8",
+            "value": 68591559,
+            "range": "± 659493",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=1000000 k=16",
+            "value": 74055825,
+            "range": "± 2271220",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=1000000 k=32",
+            "value": 145017488,
+            "range": "± 6100644",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=10000000 k=4",
+            "value": 877788876,
+            "range": "± 78899060",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=10000000 k=8",
+            "value": 855236997,
+            "range": "± 53102917",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=10000000 k=16",
+            "value": 864574573,
+            "range": "± 19870148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "iteration: n=10000000 k=32",
+            "value": 1953643802,
+            "range": "± 23527639",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=100000 k=4",
+            "value": 12956592,
+            "range": "± 1112166",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=100000 k=8",
+            "value": 12145087,
+            "range": "± 287631",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=100000 k=16",
+            "value": 12222835,
+            "range": "± 255763",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=100000 k=32",
+            "value": 13597943,
+            "range": "± 426984",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=1000000 k=4",
+            "value": 360685901,
+            "range": "± 9985307",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=1000000 k=8",
+            "value": 384093755,
+            "range": "± 10611457",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=1000000 k=16",
+            "value": 377706819,
+            "range": "± 5011212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=1000000 k=32",
+            "value": 396364009,
+            "range": "± 6816671",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=10000000 k=4",
+            "value": 4438714492,
+            "range": "± 36748948",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=10000000 k=8",
+            "value": 4312114415,
+            "range": "± 68068800",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=10000000 k=16",
+            "value": 4440179039,
+            "range": "± 69996612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load: n=10000000 k=32",
+            "value": 4414097429,
+            "range": "± 22279866",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load_fixed: n=100000 k=4",
+            "value": 6571194,
+            "range": "± 576815",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load_fixed: n=1000000 k=4",
+            "value": 112545873,
+            "range": "± 337938",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "load_fixed: n=10000000 k=4",
+            "value": 1316054956,
+            "range": "± 36755707",
             "unit": "ns/iter"
           }
         ]
