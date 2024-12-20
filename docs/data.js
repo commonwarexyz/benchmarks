@@ -22,7 +22,7 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "sender/1024",
+            "name": "sender: len=1024",
             "value": 2687,
             "range": "± 39",
             "unit": "ns/iter"
@@ -48,97 +48,97 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "sender/1024",
+            "name": "sender: len=1024",
             "value": 2735,
             "range": "± 10",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4096",
+            "name": "sender: len=4096",
             "value": 4953,
             "range": "± 134",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16384",
+            "name": "sender: len=16384",
             "value": 14006,
             "range": "± 53",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/262144",
+            "name": "sender: len=262144",
             "value": 200965,
             "range": "± 15093",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/1048576",
+            "name": "sender: len=1048576",
             "value": 1178271,
             "range": "± 167246",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4194304",
+            "name": "sender: len=4194304",
             "value": 8873580,
             "range": "± 43211",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16777216",
+            "name": "sender: len=16777216",
             "value": 30209286,
             "range": "± 724869",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/67108864",
+            "name": "sender: len=67108864",
             "value": 90857470,
             "range": "± 265406",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1024",
+            "name": "receiver: len=1024",
             "value": 4484,
             "range": "± 13",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4096",
+            "name": "receiver: len=4096",
             "value": 11788,
             "range": "± 2709",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16384",
+            "name": "receiver: len=16384",
             "value": 40936,
             "range": "± 2027",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/262144",
+            "name": "receiver: len=262144",
             "value": 630671,
             "range": "± 5776",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1048576",
+            "name": "receiver: len=1048576",
             "value": 2838389,
             "range": "± 7639",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4194304",
+            "name": "receiver: len=4194304",
             "value": 11658361,
             "range": "± 41587",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16777216",
+            "name": "receiver: len=16777216",
             "value": 49448529,
             "range": "± 3749144",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/67108864",
+            "name": "receiver: len=67108864",
             "value": 181947692,
             "range": "± 445897",
             "unit": "ns/iter"
@@ -164,97 +164,97 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "sender/1024",
+            "name": "sender: len=1024",
             "value": 2700,
             "range": "± 7",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4096",
+            "name": "sender: len=4096",
             "value": 4951,
             "range": "± 58",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16384",
+            "name": "sender: len=16384",
             "value": 13969,
             "range": "± 124",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/262144",
+            "name": "sender: len=262144",
             "value": 198496,
             "range": "± 7151",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/1048576",
+            "name": "sender: len=1048576",
             "value": 1192613,
             "range": "± 165792",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4194304",
+            "name": "sender: len=4194304",
             "value": 9101669,
             "range": "± 79578",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16777216",
+            "name": "sender: len=16777216",
             "value": 30807139,
             "range": "± 83070",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/67108864",
+            "name": "sender: len=67108864",
             "value": 92136855,
             "range": "± 176094",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1024",
+            "name": "receiver: len=1024",
             "value": 4492,
             "range": "± 13",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4096",
+            "name": "receiver: len=4096",
             "value": 11797,
             "range": "± 2814",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16384",
+            "name": "receiver: len=16384",
             "value": 40936,
             "range": "± 140",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/262144",
+            "name": "receiver: len=262144",
             "value": 632382,
             "range": "± 4635",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1048576",
+            "name": "receiver: len=1048576",
             "value": 2830844,
             "range": "± 15923",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4194304",
+            "name": "receiver: len=4194304",
             "value": 11591542,
             "range": "± 45016",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16777216",
+            "name": "receiver: len=16777216",
             "value": 49264371,
             "range": "± 185649",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/67108864",
+            "name": "receiver: len=67108864",
             "value": 179447310,
             "range": "± 1764625",
             "unit": "ns/iter"
@@ -280,97 +280,97 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "sender/1024",
+            "name": "sender: len=1024",
             "value": 2758,
             "range": "± 27",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4096",
+            "name": "sender: len=4096",
             "value": 4970,
             "range": "± 90",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16384",
+            "name": "sender: len=16384",
             "value": 14069,
             "range": "± 87",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/262144",
+            "name": "sender: len=262144",
             "value": 218270,
             "range": "± 15329",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/1048576",
+            "name": "sender: len=1048576",
             "value": 1193081,
             "range": "± 169110",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4194304",
+            "name": "sender: len=4194304",
             "value": 9113863,
             "range": "± 84508",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16777216",
+            "name": "sender: len=16777216",
             "value": 30692351,
             "range": "± 499056",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/67108864",
+            "name": "sender: len=67108864",
             "value": 92851051,
             "range": "± 314098",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1024",
+            "name": "receiver: len=1024",
             "value": 4520,
             "range": "± 26",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4096",
+            "name": "receiver: len=4096",
             "value": 11876,
             "range": "± 2774",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16384",
+            "name": "receiver: len=16384",
             "value": 41382,
             "range": "± 3092",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/262144",
+            "name": "receiver: len=262144",
             "value": 637992,
             "range": "± 4372",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1048576",
+            "name": "receiver: len=1048576",
             "value": 2813943,
             "range": "± 39518",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4194304",
+            "name": "receiver: len=4194304",
             "value": 11540066,
             "range": "± 92715",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16777216",
+            "name": "receiver: len=16777216",
             "value": 48943462,
             "range": "± 232737",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/67108864",
+            "name": "receiver: len=67108864",
             "value": 194216116,
             "range": "± 1564376",
             "unit": "ns/iter"
@@ -396,97 +396,97 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "sender/1024",
+            "name": "sender: len=1024",
             "value": 2697,
             "range": "± 5",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4096",
+            "name": "sender: len=4096",
             "value": 4933,
             "range": "± 101",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16384",
+            "name": "sender: len=16384",
             "value": 14878,
             "range": "± 318",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/262144",
+            "name": "sender: len=262144",
             "value": 197991,
             "range": "± 7940",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/1048576",
+            "name": "sender: len=1048576",
             "value": 1176736,
             "range": "± 174610",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4194304",
+            "name": "sender: len=4194304",
             "value": 8849171,
             "range": "± 67106",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16777216",
+            "name": "sender: len=16777216",
             "value": 30195584,
             "range": "± 95975",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/67108864",
+            "name": "sender: len=67108864",
             "value": 90826234,
             "range": "± 404193",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1024",
+            "name": "receiver: len=1024",
             "value": 4500,
             "range": "± 11",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4096",
+            "name": "receiver: len=4096",
             "value": 11798,
             "range": "± 2766",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16384",
+            "name": "receiver: len=16384",
             "value": 41159,
             "range": "± 4598",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/262144",
+            "name": "receiver: len=262144",
             "value": 632762,
             "range": "± 15132",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1048576",
+            "name": "receiver: len=1048576",
             "value": 2837033,
             "range": "± 7237",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4194304",
+            "name": "receiver: len=4194304",
             "value": 11187446,
             "range": "± 188153",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16777216",
+            "name": "receiver: len=16777216",
             "value": 49516473,
             "range": "± 1508064",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/67108864",
+            "name": "receiver: len=67108864",
             "value": 191086115,
             "range": "± 731104",
             "unit": "ns/iter"
@@ -512,97 +512,97 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "sender/1024",
+            "name": "sender: len=1024",
             "value": 2697,
             "range": "± 11",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4096",
+            "name": "sender: len=4096",
             "value": 4943,
             "range": "± 20",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16384",
+            "name": "sender: len=16384",
             "value": 13979,
             "range": "± 108",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/262144",
+            "name": "sender: len=262144",
             "value": 201732,
             "range": "± 12445",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/1048576",
+            "name": "sender: len=1048576",
             "value": 1203813,
             "range": "± 159765",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4194304",
+            "name": "sender: len=4194304",
             "value": 9116606,
             "range": "± 69140",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16777216",
+            "name": "sender: len=16777216",
             "value": 30974314,
             "range": "± 125819",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/67108864",
+            "name": "sender: len=67108864",
             "value": 91287754,
             "range": "± 347117",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1024",
+            "name": "receiver: len=1024",
             "value": 4491,
             "range": "± 15",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4096",
+            "name": "receiver: len=4096",
             "value": 11781,
             "range": "± 2831",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16384",
+            "name": "receiver: len=16384",
             "value": 41690,
             "range": "± 285",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/262144",
+            "name": "receiver: len=262144",
             "value": 628416,
             "range": "± 9427",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1048576",
+            "name": "receiver: len=1048576",
             "value": 2833310,
             "range": "± 5996",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4194304",
+            "name": "receiver: len=4194304",
             "value": 11524313,
             "range": "± 59246",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16777216",
+            "name": "receiver: len=16777216",
             "value": 48768293,
             "range": "± 1031438",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/67108864",
+            "name": "receiver: len=67108864",
             "value": 192530378,
             "range": "± 1092561",
             "unit": "ns/iter"
@@ -628,97 +628,97 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "sender/1024",
+            "name": "sender: len=1024",
             "value": 2701,
             "range": "± 5",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4096",
+            "name": "sender: len=4096",
             "value": 4947,
             "range": "± 267",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16384",
+            "name": "sender: len=16384",
             "value": 14116,
             "range": "± 142",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/262144",
+            "name": "sender: len=262144",
             "value": 197466,
             "range": "± 6736",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/1048576",
+            "name": "sender: len=1048576",
             "value": 1244971,
             "range": "± 166420",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/4194304",
+            "name": "sender: len=4194304",
             "value": 6848970,
             "range": "± 62251",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/16777216",
+            "name": "sender: len=16777216",
             "value": 29518074,
             "range": "± 68991",
             "unit": "ns/iter"
           },
           {
-            "name": "sender/67108864",
+            "name": "sender: len=67108864",
             "value": 91983646,
             "range": "± 154866",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1024",
+            "name": "receiver: len=1024",
             "value": 4501,
             "range": "± 10",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4096",
+            "name": "receiver: len=4096",
             "value": 11784,
             "range": "± 2660",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16384",
+            "name": "receiver: len=16384",
             "value": 40995,
             "range": "± 111",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/262144",
+            "name": "receiver: len=262144",
             "value": 628488,
             "range": "± 7429",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/1048576",
+            "name": "receiver: len=1048576",
             "value": 2844476,
             "range": "± 15452",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/4194304",
+            "name": "receiver: len=4194304",
             "value": 11563116,
             "range": "± 37105",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/16777216",
+            "name": "receiver: len=16777216",
             "value": 47910440,
             "range": "± 122440",
             "unit": "ns/iter"
           },
           {
-            "name": "receiver/67108864",
+            "name": "receiver: len=67108864",
             "value": 193825409,
             "range": "± 740671",
             "unit": "ns/iter"
@@ -956,229 +956,229 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "n=5 t=3",
+            "name": "partial aggregate: n=5 t=3",
             "value": 217191,
             "range": "± 1209",
             "unit": "ns/iter"
           },
           {
-            "name": "n=10 t=7",
+            "name": "partial aggregate: n=10 t=7",
             "value": 640658,
             "range": "± 1703",
             "unit": "ns/iter"
           },
           {
-            "name": "n=20 t=13",
+            "name": "partial aggregate: n=20 t=13",
             "value": 1301536,
             "range": "± 4047",
             "unit": "ns/iter"
           },
           {
-            "name": "n=50 t=33",
+            "name": "partial aggregate: n=50 t=33",
             "value": 3763163,
             "range": "± 8243",
             "unit": "ns/iter"
           },
           {
-            "name": "n=100 t=67",
+            "name": "partial aggregate: n=100 t=67",
             "value": 8842632,
             "range": "± 10703",
             "unit": "ns/iter"
           },
           {
-            "name": "n=250 t=167",
+            "name": "partial aggregate: n=250 t=167",
             "value": 29931821,
             "range": "± 866670",
             "unit": "ns/iter"
           },
           {
-            "name": "n=500 t=333",
+            "name": "partial aggregate: n=500 t=333",
             "value": 66706968,
             "range": "± 155087",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=10",
+            "name": "aggregate: msgs=10",
             "value": 20225,
             "range": "± 92",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=100",
+            "name": "aggregate: msgs=100",
             "value": 201719,
             "range": "± 648",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=1000",
+            "name": "aggregate: msgs=1000",
             "value": 2014321,
             "range": "± 8673",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=10000",
+            "name": "aggregate: msgs=10000",
             "value": 20188237,
             "range": "± 46659",
             "unit": "ns/iter"
           },
           {
-            "name": "ns_len=9 msg_len=5",
+            "name": "sign: ns_len=9 msg_len=5",
             "value": 400800,
             "range": "± 12317",
             "unit": "ns/iter"
           },
           {
-            "name": "ns_len=9 msg_len=5",
+            "name": "verify: ns_len=9 msg_len=5",
             "value": 1748194,
             "range": "± 1405",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=10",
+            "name": "verify_aggregate: conc=1 msgs=10",
             "value": 3706363,
             "range": "± 21229",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=10",
+            "name": "verify_aggregate: conc=2 msgs=10",
             "value": 2616493,
             "range": "± 15165",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=10",
+            "name": "verify_aggregate: conc=4 msgs=10",
             "value": 2656257,
             "range": "± 8055",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=10",
+            "name": "verify_aggregate: conc=8 msgs=10",
             "value": 2839939,
             "range": "± 24717",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=10",
+            "name": "verify_aggregate: conc=16 msgs=10",
             "value": 3363547,
             "range": "± 33543",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=100",
+            "name": "verify_aggregate: conc=1 msgs=100",
             "value": 22753095,
             "range": "± 100033",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=100",
+            "name": "verify_aggregate: conc=2 msgs=100",
             "value": 12179392,
             "range": "± 48584",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=100",
+            "name": "verify_aggregate: conc=4 msgs=100",
             "value": 11354430,
             "range": "± 37407",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=100",
+            "name": "verify_aggregate: conc=8 msgs=100",
             "value": 11919247,
             "range": "± 93755",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=100",
+            "name": "verify_aggregate: conc=16 msgs=100",
             "value": 12631967,
             "range": "± 135896",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=1000",
+            "name": "verify_aggregate: conc=1 msgs=1000",
             "value": 212397358,
             "range": "± 154304",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=1000",
+            "name": "verify_aggregate: conc=2 msgs=1000",
             "value": 107127791,
             "range": "± 126446",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=1000",
+            "name": "verify_aggregate: conc=4 msgs=1000",
             "value": 97616345,
             "range": "± 110626",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=1000",
+            "name": "verify_aggregate: conc=8 msgs=1000",
             "value": 98368510,
             "range": "± 1267659",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=1000",
+            "name": "verify_aggregate: conc=16 msgs=1000",
             "value": 99581264,
             "range": "± 418703",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=10000",
+            "name": "verify_aggregate: conc=1 msgs=10000",
             "value": 2107005369,
             "range": "± 818505",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=10000",
+            "name": "verify_aggregate: conc=2 msgs=10000",
             "value": 1056419236,
             "range": "± 815690",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=10000",
+            "name": "verify_aggregate: conc=4 msgs=10000",
             "value": 957816805,
             "range": "± 2203099",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=10000",
+            "name": "verify_aggregate: conc=8 msgs=10000",
             "value": 960819807,
             "range": "± 7155763",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=10000",
+            "name": "verify_aggregate: conc=16 msgs=10000",
             "value": 962898311,
             "range": "± 1410743",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=50000",
+            "name": "verify_aggregate: conc=1 msgs=50000",
             "value": 10534034127,
             "range": "± 10760665",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=50000",
+            "name": "verify_aggregate: conc=2 msgs=50000",
             "value": 5275724980,
             "range": "± 17358310",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=50000",
+            "name": "verify_aggregate: conc=4 msgs=50000",
             "value": 4785665264,
             "range": "± 26843182",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=50000",
+            "name": "verify_aggregate: conc=8 msgs=50000",
             "value": 4789942386,
             "range": "± 18061614",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=50000",
+            "name": "verify_aggregate: conc=16 msgs=50000",
             "value": 4791090870,
             "range": "± 10157898",
             "unit": "ns/iter"
@@ -1414,229 +1414,229 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "n=5 t=3",
+            "name": "partial aggregate: n=5 t=3",
             "value": 217417,
             "range": "± 2897",
             "unit": "ns/iter"
           },
           {
-            "name": "n=10 t=7",
+            "name": "partial aggregate: n=10 t=7",
             "value": 638259,
             "range": "± 2683",
             "unit": "ns/iter"
           },
           {
-            "name": "n=20 t=13",
+            "name": "partial aggregate: n=20 t=13",
             "value": 1297695,
             "range": "± 6770",
             "unit": "ns/iter"
           },
           {
-            "name": "n=50 t=33",
+            "name": "partial aggregate: n=50 t=33",
             "value": 3754196,
             "range": "± 81640",
             "unit": "ns/iter"
           },
           {
-            "name": "n=100 t=67",
+            "name": "partial aggregate: n=100 t=67",
             "value": 8823738,
             "range": "± 16661",
             "unit": "ns/iter"
           },
           {
-            "name": "n=250 t=167",
+            "name": "partial aggregate: n=250 t=167",
             "value": 29875039,
             "range": "± 247649",
             "unit": "ns/iter"
           },
           {
-            "name": "n=500 t=333",
+            "name": "partial aggregate: n=500 t=333",
             "value": 66532751,
             "range": "± 209061",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=10",
+            "name": "aggregate: msgs=10",
             "value": 20290,
             "range": "± 110",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=100",
+            "name": "aggregate: msgs=100",
             "value": 202435,
             "range": "± 920",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=1000",
+            "name": "aggregate: msgs=1000",
             "value": 2023616,
             "range": "± 7791",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=10000",
+            "name": "aggregate: msgs=10000",
             "value": 20186946,
             "range": "± 49601",
             "unit": "ns/iter"
           },
           {
-            "name": "ns_len=9 msg_len=5",
+            "name": "sign: ns_len=9 msg_len=5",
             "value": 400692,
             "range": "± 1899",
             "unit": "ns/iter"
           },
           {
-            "name": "ns_len=9 msg_len=5",
+            "name": "verify: ns_len=9 msg_len=5",
             "value": 1746431,
             "range": "± 25304",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=10",
+            "name": "verify_aggregate: conc=1 msgs=10",
             "value": 3724798,
             "range": "± 30836",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=10",
+            "name": "verify_aggregate: conc=2 msgs=10",
             "value": 2637672,
             "range": "± 12260",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=10",
+            "name": "verify_aggregate: conc=4 msgs=10",
             "value": 2661396,
             "range": "± 11986",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=10",
+            "name": "verify_aggregate: conc=8 msgs=10",
             "value": 2866053,
             "range": "± 25485",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=10",
+            "name": "verify_aggregate: conc=16 msgs=10",
             "value": 3387136,
             "range": "± 34742",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=100",
+            "name": "verify_aggregate: conc=1 msgs=100",
             "value": 22853891,
             "range": "± 77456",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=100",
+            "name": "verify_aggregate: conc=2 msgs=100",
             "value": 12224367,
             "range": "± 34490",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=100",
+            "name": "verify_aggregate: conc=4 msgs=100",
             "value": 11412499,
             "range": "± 78465",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=100",
+            "name": "verify_aggregate: conc=8 msgs=100",
             "value": 11737940,
             "range": "± 72986",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=100",
+            "name": "verify_aggregate: conc=16 msgs=100",
             "value": 12532198,
             "range": "± 132139",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=1000",
+            "name": "verify_aggregate: conc=1 msgs=1000",
             "value": 212415943,
             "range": "± 746926",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=1000",
+            "name": "verify_aggregate: conc=2 msgs=1000",
             "value": 107110204,
             "range": "± 260957",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=1000",
+            "name": "verify_aggregate: conc=4 msgs=1000",
             "value": 97844091,
             "range": "± 162960",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=1000",
+            "name": "verify_aggregate: conc=8 msgs=1000",
             "value": 98789570,
             "range": "± 809327",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=1000",
+            "name": "verify_aggregate: conc=16 msgs=1000",
             "value": 99826131,
             "range": "± 2446540",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=10000",
+            "name": "verify_aggregate: conc=1 msgs=10000",
             "value": 2107396863,
             "range": "± 981461",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=10000",
+            "name": "verify_aggregate: conc=2 msgs=10000",
             "value": 1056585292,
             "range": "± 12182393",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=10000",
+            "name": "verify_aggregate: conc=4 msgs=10000",
             "value": 960411783,
             "range": "± 10754729",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=10000",
+            "name": "verify_aggregate: conc=8 msgs=10000",
             "value": 959800760,
             "range": "± 1414014",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=10000",
+            "name": "verify_aggregate: conc=16 msgs=10000",
             "value": 962883081,
             "range": "± 1745460",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=50000",
+            "name": "verify_aggregate: conc=1 msgs=50000",
             "value": 10528338139,
             "range": "± 10116924",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=50000",
+            "name": "verify_aggregate: conc=2 msgs=50000",
             "value": 5279520273,
             "range": "± 17344945",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=50000",
+            "name": "verify_aggregate: conc=4 msgs=50000",
             "value": 4783067710,
             "range": "± 14699064",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=50000",
+            "name": "verify_aggregate: conc=8 msgs=50000",
             "value": 4785558183,
             "range": "± 7699311",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=16 msgs=50000",
+            "name": "verify_aggregate: conc=16 msgs=50000",
             "value": 4789430830,
             "range": "± 7672340",
             "unit": "ns/iter"
@@ -1872,199 +1872,199 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "n=5 t=3",
+            "name": "partial aggregate: n=5 t=3",
             "value": 217120,
             "range": "± 3078",
             "unit": "ns/iter"
           },
           {
-            "name": "n=10 t=7",
+            "name": "partial aggregate: n=10 t=7",
             "value": 638881,
             "range": "± 6387",
             "unit": "ns/iter"
           },
           {
-            "name": "n=20 t=13",
+            "name": "partial aggregate: n=20 t=13",
             "value": 1298007,
             "range": "± 2394",
             "unit": "ns/iter"
           },
           {
-            "name": "n=50 t=33",
+            "name": "partial aggregate: n=50 t=33",
             "value": 3755117,
             "range": "± 2612",
             "unit": "ns/iter"
           },
           {
-            "name": "n=100 t=67",
+            "name": "partial aggregate: n=100 t=67",
             "value": 8828777,
             "range": "± 12452",
             "unit": "ns/iter"
           },
           {
-            "name": "n=250 t=167",
+            "name": "partial aggregate: n=250 t=167",
             "value": 29881308,
             "range": "± 159702",
             "unit": "ns/iter"
           },
           {
-            "name": "n=500 t=333",
+            "name": "partial aggregate: n=500 t=333",
             "value": 66550072,
             "range": "± 163417",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=10",
+            "name": "aggregate: msgs=10",
             "value": 20309,
             "range": "± 54",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=100",
+            "name": "aggregate: msgs=100",
             "value": 201772,
             "range": "± 613",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=1000",
+            "name": "aggregate: msgs=1000",
             "value": 2023079,
             "range": "± 6162",
             "unit": "ns/iter"
           },
           {
-            "name": "msgs=10000",
+            "name": "aggregate: msgs=10000",
             "value": 20176393,
             "range": "± 19386",
             "unit": "ns/iter"
           },
           {
-            "name": "ns_len=9 msg_len=5",
+            "name": "sign: ns_len=9 msg_len=5",
             "value": 400630,
             "range": "± 533",
             "unit": "ns/iter"
           },
           {
-            "name": "ns_len=9 msg_len=5",
+            "name": "verify: ns_len=9 msg_len=5",
             "value": 1745498,
             "range": "± 720",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=10",
+            "name": "verify_aggregate: conc=1 msgs=10",
             "value": 3902293,
             "range": "± 18666",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=10",
+            "name": "verify_aggregate: conc=2 msgs=10",
             "value": 2682046,
             "range": "± 16161",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=10",
+            "name": "verify_aggregate: conc=4 msgs=10",
             "value": 2233185,
             "range": "± 8567",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=10",
+            "name": "verify_aggregate: conc=8 msgs=10",
             "value": 2383790,
             "range": "± 18959",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=100",
+            "name": "verify_aggregate: conc=1 msgs=100",
             "value": 22885923,
             "range": "± 14637",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=100",
+            "name": "verify_aggregate: conc=2 msgs=100",
             "value": 12400720,
             "range": "± 20806",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=100",
+            "name": "verify_aggregate: conc=4 msgs=100",
             "value": 7200911,
             "range": "± 213006",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=100",
+            "name": "verify_aggregate: conc=8 msgs=100",
             "value": 6804936,
             "range": "± 31801",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=1000",
+            "name": "verify_aggregate: conc=1 msgs=1000",
             "value": 212229488,
             "range": "± 4739042",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=1000",
+            "name": "verify_aggregate: conc=2 msgs=1000",
             "value": 107394400,
             "range": "± 570287",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=1000",
+            "name": "verify_aggregate: conc=4 msgs=1000",
             "value": 54595017,
             "range": "± 1285884",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=1000",
+            "name": "verify_aggregate: conc=8 msgs=1000",
             "value": 49988232,
             "range": "± 107593",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=10000",
+            "name": "verify_aggregate: conc=1 msgs=10000",
             "value": 2106022955,
             "range": "± 1132517",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=10000",
+            "name": "verify_aggregate: conc=2 msgs=10000",
             "value": 1054826174,
             "range": "± 311606",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=10000",
+            "name": "verify_aggregate: conc=4 msgs=10000",
             "value": 529414396,
             "range": "± 1001662",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=10000",
+            "name": "verify_aggregate: conc=8 msgs=10000",
             "value": 480697800,
             "range": "± 1164488",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=1 msgs=50000",
+            "name": "verify_aggregate: conc=1 msgs=50000",
             "value": 10524666223,
             "range": "± 7545633",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=2 msgs=50000",
+            "name": "verify_aggregate: conc=2 msgs=50000",
             "value": 5266339233,
             "range": "± 9250837",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=4 msgs=50000",
+            "name": "verify_aggregate: conc=4 msgs=50000",
             "value": 2639820590,
             "range": "± 8123718",
             "unit": "ns/iter"
           },
           {
-            "name": "conc=8 msgs=50000",
+            "name": "verify_aggregate: conc=8 msgs=50000",
             "value": 2393722335,
             "range": "± 3607242",
             "unit": "ns/iter"
