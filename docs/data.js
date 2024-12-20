@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734650793888,
+  "lastUpdate": 1734653393811,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-stream": [
@@ -1639,6 +1639,434 @@ window.BENCHMARK_DATA = {
             "name": "conc=16 msgs=50000",
             "value": 4789430830,
             "range": "± 7672340",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "commonwarexyz",
+            "username": "commonwarexyz"
+          },
+          "committer": {
+            "name": "commonwarexyz",
+            "username": "commonwarexyz"
+          },
+          "id": "5a94e97e20605239c5df5098ec8bed9c2e44eb4f",
+          "message": "Publish benchmarks to /benchmarks repo",
+          "timestamp": "2024-12-19T10:55:21Z",
+          "url": "https://github.com/commonwarexyz/monorepo/pull/286/commits/5a94e97e20605239c5df5098ec8bed9c2e44eb4f"
+        },
+        "date": 1734653393650,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "dkg: conc=1 n=5 t=2",
+            "value": 4441,
+            "range": "± 65",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "dkg: conc=1 n=10 t=4",
+            "value": 15196,
+            "range": "± 273",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "dkg: conc=1 n=20 t=7",
+            "value": 45047,
+            "range": "± 1057",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "dkg: conc=1 n=50 t=17",
+            "value": 251927,
+            "range": "± 1225",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "dkg: conc=1 n=100 t=34",
+            "value": 987437,
+            "range": "± 4793",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "dkg: conc=1 n=250 t=84",
+            "value": 6607337,
+            "range": "± 35253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "dkg: conc=1 n=500 t=167",
+            "value": 25184963,
+            "range": "± 971350",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=1 n=5 t=2",
+            "value": 310467,
+            "range": "± 7158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=2 n=5 t=2",
+            "value": 195943,
+            "range": "± 2416",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=4 n=5 t=2",
+            "value": 240404,
+            "range": "± 4816",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=8 n=5 t=2",
+            "value": 388803,
+            "range": "± 2173",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=1 n=10 t=4",
+            "value": 1048763,
+            "range": "± 32958",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=2 n=10 t=4",
+            "value": 570364,
+            "range": "± 24462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=4 n=10 t=4",
+            "value": 409082,
+            "range": "± 10828",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=8 n=10 t=4",
+            "value": 624158,
+            "range": "± 11464",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=1 n=20 t=7",
+            "value": 2634932,
+            "range": "± 20633",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=2 n=20 t=7",
+            "value": 1560454,
+            "range": "± 47121",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=4 n=20 t=7",
+            "value": 922056,
+            "range": "± 31286",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=8 n=20 t=7",
+            "value": 937568,
+            "range": "± 33391",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=1 n=50 t=17",
+            "value": 16159913,
+            "range": "± 55625",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=2 n=50 t=17",
+            "value": 8814116,
+            "range": "± 37751",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=4 n=50 t=17",
+            "value": 4972843,
+            "range": "± 12307",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=8 n=50 t=17",
+            "value": 4567334,
+            "range": "± 36359",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=1 n=100 t=34",
+            "value": 71658091,
+            "range": "± 3245029",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=2 n=100 t=34",
+            "value": 36098071,
+            "range": "± 87533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=4 n=100 t=34",
+            "value": 19412676,
+            "range": "± 50709",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=8 n=100 t=34",
+            "value": 18268345,
+            "range": "± 364261",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=1 n=250 t=84",
+            "value": 520778452,
+            "range": "± 165607",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=2 n=250 t=84",
+            "value": 261162356,
+            "range": "± 171218",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=4 n=250 t=84",
+            "value": 131331809,
+            "range": "± 243454",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=8 n=250 t=84",
+            "value": 118678301,
+            "range": "± 717853",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=1 n=500 t=167",
+            "value": 2618313544,
+            "range": "± 1536818",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=2 n=500 t=167",
+            "value": 1317800526,
+            "range": "± 1253842",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=4 n=500 t=167",
+            "value": 661564345,
+            "range": "± 1541862",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reshare: conc=8 n=500 t=167",
+            "value": 571811079,
+            "range": "± 5107535",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n=5 t=3",
+            "value": 217120,
+            "range": "± 3078",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n=10 t=7",
+            "value": 638881,
+            "range": "± 6387",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n=20 t=13",
+            "value": 1298007,
+            "range": "± 2394",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n=50 t=33",
+            "value": 3755117,
+            "range": "± 2612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n=100 t=67",
+            "value": 8828777,
+            "range": "± 12452",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n=250 t=167",
+            "value": 29881308,
+            "range": "± 159702",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "n=500 t=333",
+            "value": 66550072,
+            "range": "± 163417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "msgs=10",
+            "value": 20309,
+            "range": "± 54",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "msgs=100",
+            "value": 201772,
+            "range": "± 613",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "msgs=1000",
+            "value": 2023079,
+            "range": "± 6162",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "msgs=10000",
+            "value": 20176393,
+            "range": "± 19386",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ns_len=9 msg_len=5",
+            "value": 400630,
+            "range": "± 533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ns_len=9 msg_len=5",
+            "value": 1745498,
+            "range": "± 720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=1 msgs=10",
+            "value": 3902293,
+            "range": "± 18666",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=2 msgs=10",
+            "value": 2682046,
+            "range": "± 16161",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=4 msgs=10",
+            "value": 2233185,
+            "range": "± 8567",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=8 msgs=10",
+            "value": 2383790,
+            "range": "± 18959",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=1 msgs=100",
+            "value": 22885923,
+            "range": "± 14637",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=2 msgs=100",
+            "value": 12400720,
+            "range": "± 20806",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=4 msgs=100",
+            "value": 7200911,
+            "range": "± 213006",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=8 msgs=100",
+            "value": 6804936,
+            "range": "± 31801",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=1 msgs=1000",
+            "value": 212229488,
+            "range": "± 4739042",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=2 msgs=1000",
+            "value": 107394400,
+            "range": "± 570287",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=4 msgs=1000",
+            "value": 54595017,
+            "range": "± 1285884",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=8 msgs=1000",
+            "value": 49988232,
+            "range": "± 107593",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=1 msgs=10000",
+            "value": 2106022955,
+            "range": "± 1132517",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=2 msgs=10000",
+            "value": 1054826174,
+            "range": "± 311606",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=4 msgs=10000",
+            "value": 529414396,
+            "range": "± 1001662",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=8 msgs=10000",
+            "value": 480697800,
+            "range": "± 1164488",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=1 msgs=50000",
+            "value": 10524666223,
+            "range": "± 7545633",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=2 msgs=50000",
+            "value": 5266339233,
+            "range": "± 9250837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=4 msgs=50000",
+            "value": 2639820590,
+            "range": "± 8123718",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "conc=8 msgs=50000",
+            "value": 2393722335,
+            "range": "± 3607242",
             "unit": "ns/iter"
           }
         ]
