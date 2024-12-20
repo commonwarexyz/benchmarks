@@ -28,13 +28,6 @@
   <meta property="twitter:creator:id" content="@commonwarexyz" />
 
   <link rel="stylesheet" type="text/css" href="https://commonware.xyz/style.css">
-  <style>
-    /* Ensure charts also use Consolas font */
-    body,
-    .benchmark-chart {
-      font-family: 'Consolas', monospace;
-    }
-  </style>
 </head>
 
 <body>
@@ -104,23 +97,7 @@
       Chart.defaults.global.defaultFontFamily = 'Consolas, monospace';
       Chart.defaults.global.defaultFontColor = "#000";
 
-      // Colors from https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
-      const toolColors = {
-        cargo: '#666666',
-        go: '#00add8',
-        benchmarkjs: '#f1e05a',
-        benchmarkluau: '#000080',
-        pytest: '#3572a5',
-        googlecpp: '#f34b7d',
-        catch2: '#f34b7d',
-        julia: '#a270ba',
-        jmh: '#b07219',
-        benchmarkdotnet: '#178600',
-        customBiggerIsBetter: '#38ff38',
-        customSmallerIsBetter: '#ff3838',
-        _: '#333333'
-      };
-
+      // Build cases
       function init() {
         function collectBenchesPerTestCase(entries) {
           const map = new Map();
@@ -164,15 +141,14 @@
           canvas.className = 'benchmark-chart';
           parent.appendChild(canvas);
 
-          const color = toolColors[dataset.length > 0 ? dataset[0].tool : '_'];
           const data = {
             labels: dataset.map(d => d.commit.id.slice(0, 7)),
             datasets: [
               {
                 label: name,
                 data: dataset.map(d => d.bench.value),
-                borderColor: color,
-                backgroundColor: color + '60'
+                borderColor: '#0000ee',
+                backgroundColor: '#0000ee' + '60'
               }
             ]
           };
@@ -193,6 +169,9 @@
                   beginAtZero: true,
                 }
               }]
+            },
+            legend: {
+              display: false,
             },
             tooltips: {
               callbacks: {
@@ -223,6 +202,12 @@
               const index = activeElems[0]._index;
               const url = dataset[index].commit.url;
               window.open(url, '_blank');
+            },
+            title: {
+              display: true,
+              text: name,
+              fontSize: 16,
+              fontStyle: 'bold',
             },
           };
 
