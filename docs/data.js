@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734739247752,
+  "lastUpdate": 1734739547228,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-stream": [
@@ -721,6 +721,124 @@ window.BENCHMARK_DATA = {
             "name": "receiver: len=67108864",
             "value": 193825409,
             "range": "± 740671",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Brendan Chou",
+            "username": "BrendanChou",
+            "email": "3680392+BrendanChou@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b087d22598d80420439b459545801a7206fba232",
+          "message": "Add style rules to CONTRIBUTING.md (#293)",
+          "timestamp": "2024-12-21T00:03:21Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/b087d22598d80420439b459545801a7206fba232"
+        },
+        "date": 1734739547070,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2685,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 4968,
+            "range": "± 107",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 13957,
+            "range": "± 69",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 198554,
+            "range": "± 7780",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 1234849,
+            "range": "± 163263",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 9135597,
+            "range": "± 23204",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 30835154,
+            "range": "± 47540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 91527222,
+            "range": "± 270003",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4496,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 11783,
+            "range": "± 245",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 40967,
+            "range": "± 3807",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 632418,
+            "range": "± 5037",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2841730,
+            "range": "± 4540",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 11564306,
+            "range": "± 173640",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 49078066,
+            "range": "± 287935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 194008827,
+            "range": "± 421584",
             "unit": "ns/iter"
           }
         ]
