@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735816525679,
+  "lastUpdate": 1735816768217,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-stream": [
@@ -1429,6 +1429,124 @@ window.BENCHMARK_DATA = {
             "name": "public_key::receiver_receive/len=67108864",
             "value": 194375728,
             "range": "± 1348923",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Patrick O'Grady",
+            "username": "patrick-ogrady",
+            "email": "me@patrickogrady.xyz"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a56935ea1ca881218a06539c57a6fc0d78e0f33a",
+          "message": "[licenses + docs] Update to 2025 + Dynamically Compute Year in Footer (#306)",
+          "timestamp": "2025-01-01T17:22:26Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/a56935ea1ca881218a06539c57a6fc0d78e0f33a"
+        },
+        "date": 1735816767949,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2664,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 4942,
+            "range": "± 71",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 13993,
+            "range": "± 134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 219621,
+            "range": "± 18144",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 1175710,
+            "range": "± 170523",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 9053145,
+            "range": "± 151811",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 30654834,
+            "range": "± 126080",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 91278919,
+            "range": "± 214659",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4523,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 11933,
+            "range": "± 1383",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 41506,
+            "range": "± 4160",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 638740,
+            "range": "± 5147",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2882306,
+            "range": "± 15013",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 11495804,
+            "range": "± 402406",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 49047875,
+            "range": "± 230254",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 193770763,
+            "range": "± 1283349",
             "unit": "ns/iter"
           }
         ]
