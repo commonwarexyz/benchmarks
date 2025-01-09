@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736422129475,
+  "lastUpdate": 1736422366452,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -1271,6 +1271,126 @@ window.BENCHMARK_DATA = {
             "name": "archive::hashmap_insert/n=10000000 k=32",
             "value": 4142091602,
             "range": "± 98133115",
+            "unit": "ns/iter"
+          }
+        ]
+      }
+    ],
+    "commonware-stream": [
+      {
+        "commit": {
+          "author": {
+            "name": "nathan haim",
+            "username": "najeal",
+            "email": "haim.nathan@icloud.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "fa13112fb94d0946bc13fce36f374b0419b14358",
+          "message": "[cryptography/secp256r1] add secp256r1 scheme (#314)\n\nCo-authored-by: Patrick O'Grady <me@patrickogrady.xyz>",
+          "timestamp": "2025-01-09T00:19:48Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/fa13112fb94d0946bc13fce36f374b0419b14358"
+        },
+        "date": 1736422366268,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2671,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 4949,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 13964,
+            "range": "± 153",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 203822,
+            "range": "± 16253",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 1160874,
+            "range": "± 166898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 8954212,
+            "range": "± 31533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 29903295,
+            "range": "± 165054",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 90606000,
+            "range": "± 428515",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4491,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 11765,
+            "range": "± 1182",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 40866,
+            "range": "± 1369",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 630705,
+            "range": "± 3525",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2842953,
+            "range": "± 8684",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 11470448,
+            "range": "± 84874",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 48667631,
+            "range": "± 214249",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 178652997,
+            "range": "± 1793739",
             "unit": "ns/iter"
           }
         ]
