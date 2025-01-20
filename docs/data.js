@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737372831584,
+  "lastUpdate": 1737373148556,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -7237,6 +7237,124 @@ window.BENCHMARK_DATA = {
             "name": "public_key::receiver_receive/len=67108864",
             "value": 178600935,
             "range": "± 428621",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "NikolaiKryshnev",
+            "username": "NikolaiKryshnev",
+            "email": "63440682+NikolaiKryshnev@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bd2a4ece9eb96d793d2ac456aab75c79cb4a4899",
+          "message": "[examples] Fix Spacing (#365)",
+          "timestamp": "2025-01-20T04:49:38Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/bd2a4ece9eb96d793d2ac456aab75c79cb4a4899"
+        },
+        "date": 1737373148312,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2838,
+            "range": "± 31",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 5206,
+            "range": "± 67",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 14709,
+            "range": "± 206",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 228144,
+            "range": "± 17972",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 850448,
+            "range": "± 131394",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 5504106,
+            "range": "± 175817",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 20646506,
+            "range": "± 565531",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 111772237,
+            "range": "± 3751730",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4783,
+            "range": "± 53",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 12472,
+            "range": "± 5102",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 43394,
+            "range": "± 10204",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 670006,
+            "range": "± 18421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2677453,
+            "range": "± 36380",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 10578345,
+            "range": "± 215970",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 51142113,
+            "range": "± 1312718",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 210423683,
+            "range": "± 3669245",
             "unit": "ns/iter"
           }
         ]
