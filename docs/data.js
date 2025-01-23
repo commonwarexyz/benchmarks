@@ -8612,24 +8612,6 @@ window.BENCHMARK_DATA = {
             "value": 4160152109,
             "range": "± 35257422",
             "unit": "ns/iter"
-          },
-          {
-            "name": "mmr::build",
-            "value": 335035555,
-            "range": "± 525246",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "mmr::prove_element_range",
-            "value": 1707002127,
-            "range": "± 8443955",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "mmr::prove_single_element",
-            "value": 293569945,
-            "range": "± 433573",
-            "unit": "ns/iter"
           }
         ]
       }
