@@ -8612,7 +8612,7 @@ window.BENCHMARK_DATA = {
             "value": 4160152109,
             "range": "± 35257422",
             "unit": "ns/iter"
-          },
+          }
         ]
       }
     ],
