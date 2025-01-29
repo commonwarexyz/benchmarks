@@ -322,13 +322,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 400794,
             "range": "± 5355",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1746128,
             "range": "± 6809",
             "unit": "ns/iter"
@@ -866,13 +866,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 400388,
             "range": "± 349",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1750128,
             "range": "± 2575",
             "unit": "ns/iter"
@@ -1410,13 +1410,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 400459,
             "range": "± 372",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1746873,
             "range": "± 3756",
             "unit": "ns/iter"
@@ -1960,13 +1960,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 400598,
             "range": "± 626",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1750578,
             "range": "± 1210",
             "unit": "ns/iter"
@@ -2510,13 +2510,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 400518,
             "range": "± 479",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1752386,
             "range": "± 5720",
             "unit": "ns/iter"
@@ -3060,13 +3060,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401528,
             "range": "± 1236",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1751273,
             "range": "± 2811",
             "unit": "ns/iter"
@@ -3610,13 +3610,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401211,
             "range": "± 738",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1753697,
             "range": "± 1270",
             "unit": "ns/iter"
@@ -4160,13 +4160,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401580,
             "range": "± 883",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1758511,
             "range": "± 1001",
             "unit": "ns/iter"
@@ -4710,13 +4710,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 422685,
             "range": "± 5167",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1883971,
             "range": "± 20744",
             "unit": "ns/iter"
@@ -5260,13 +5260,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401353,
             "range": "± 14395",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1754089,
             "range": "± 3580",
             "unit": "ns/iter"
@@ -5810,13 +5810,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401272,
             "range": "± 419",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1751147,
             "range": "± 5028",
             "unit": "ns/iter"
@@ -6360,13 +6360,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401332,
             "range": "± 550",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1775731,
             "range": "± 1356",
             "unit": "ns/iter"
@@ -6910,13 +6910,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401153,
             "range": "± 440",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1751265,
             "range": "± 3142",
             "unit": "ns/iter"
@@ -7460,13 +7460,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 402014,
             "range": "± 599",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1758942,
             "range": "± 1040",
             "unit": "ns/iter"
@@ -8010,13 +8010,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401304,
             "range": "± 1046",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1754000,
             "range": "± 1174",
             "unit": "ns/iter"
@@ -8560,13 +8560,13 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_generation/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
             "value": 401263,
             "range": "± 546",
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::signature_verification/ns_len=9 msg_len=5",
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
             "value": 1756891,
             "range": "± 857",
             "unit": "ns/iter"
