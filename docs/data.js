@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738840612949,
+  "lastUpdate": 1738842409736,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -20273,6 +20273,670 @@ window.BENCHMARK_DATA = {
             "name": "mmr::prove_single_element/n=10000000 samples=100",
             "value": 409460,
             "range": "± 670",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Avory",
+            "username": "avorylli",
+            "email": "avorycorelli@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "eaedda6419daf13e682e81201cb90991b77578b5",
+          "message": "fix: Rename test function to correct name (#448)",
+          "timestamp": "2025-02-05T17:18:28Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/eaedda6419daf13e682e81201cb90991b77578b5"
+        },
+        "date": 1738842409542,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "value": 5159333,
+            "range": "± 698898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "value": 6521857,
+            "range": "± 1118947",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "value": 7482949,
+            "range": "± 1191401",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "value": 7844760,
+            "range": "± 1383434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "value": 61493925,
+            "range": "± 501242",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "value": 63748138,
+            "range": "± 535660",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "value": 69925038,
+            "range": "± 358450",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "value": 160065803,
+            "range": "± 4778673",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "value": 761697149,
+            "range": "± 3313015",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "value": 769251784,
+            "range": "± 6395720",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "value": 852161187,
+            "range": "± 146666447",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "value": 2181753597,
+            "range": "± 15880035",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "value": 5574203,
+            "range": "± 20602",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "value": 106342503,
+            "range": "± 1136975",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "value": 1420268698,
+            "range": "± 21486570",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=100000 k=4",
+            "value": 10945762,
+            "range": "± 222247",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=100000 k=8",
+            "value": 11214710,
+            "range": "± 164009",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=100000 k=16",
+            "value": 11496867,
+            "range": "± 252129",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=100000 k=32",
+            "value": 12503301,
+            "range": "± 308909",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "value": 334209877,
+            "range": "± 13474350",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "value": 361958486,
+            "range": "± 7499143",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "value": 362825019,
+            "range": "± 6839515",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "value": 438322261,
+            "range": "± 18240800",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "value": 3360393334,
+            "range": "± 12424103",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "value": 3962416434,
+            "range": "± 22903038",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "value": 3921138094,
+            "range": "± 58570878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "value": 4033837242,
+            "range": "± 36245642",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append/n=10000",
+            "value": 2554157,
+            "range": "± 647",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append/n=100000",
+            "value": 25781935,
+            "range": "± 18612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append/n=1000000",
+            "value": 268837802,
+            "range": "± 526254",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append/n=5000000",
+            "value": 1353399632,
+            "range": "± 1002393",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append/n=10000000",
+            "value": 2719936271,
+            "range": "± 2778670",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000 add=100",
+            "value": 23528,
+            "range": "± 482",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000 add=1000",
+            "value": 250986,
+            "range": "± 2033",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000 add=10000",
+            "value": 2589958,
+            "range": "± 6577",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000 add=50000",
+            "value": 12849911,
+            "range": "± 12298",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=100000 add=100",
+            "value": 25497,
+            "range": "± 501",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=100000 add=1000",
+            "value": 256243,
+            "range": "± 1756",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=100000 add=10000",
+            "value": 2563014,
+            "range": "± 4881",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=100000 add=50000",
+            "value": 13254874,
+            "range": "± 139170",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=1000000 add=100",
+            "value": 443375,
+            "range": "± 10902",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=1000000 add=1000",
+            "value": 688842,
+            "range": "± 9465",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=1000000 add=10000",
+            "value": 3042458,
+            "range": "± 7839",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=1000000 add=50000",
+            "value": 14660783,
+            "range": "± 11833",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=5000000 add=100",
+            "value": 1735564,
+            "range": "± 39836",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=5000000 add=1000",
+            "value": 1980129,
+            "range": "± 42837",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=5000000 add=10000",
+            "value": 4299043,
+            "range": "± 39509",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=5000000 add=50000",
+            "value": 15329868,
+            "range": "± 53765",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000000 add=100",
+            "value": 3137296,
+            "range": "± 77754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000000 add=1000",
+            "value": 3290368,
+            "range": "± 51261",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000000 add=10000",
+            "value": 5687622,
+            "range": "± 58031",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::append_additional/start=10000000 add=50000",
+            "value": 16497001,
+            "range": "± 60511",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=2 samples=100",
+            "value": 290502,
+            "range": "± 529",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=5 samples=100",
+            "value": 349175,
+            "range": "± 240",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=10 samples=100",
+            "value": 447640,
+            "range": "± 762",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=25 samples=100",
+            "value": 738339,
+            "range": "± 620",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=50 samples=100",
+            "value": 1226471,
+            "range": "± 608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=100 samples=100",
+            "value": 2198090,
+            "range": "± 2735",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=250 samples=100",
+            "value": 5115346,
+            "range": "± 4634",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=500 samples=100",
+            "value": 9972932,
+            "range": "± 15133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=1000 samples=100",
+            "value": 19688565,
+            "range": "± 75823",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000 range=5000 samples=100",
+            "value": 97775598,
+            "range": "± 14517",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=2 samples=100",
+            "value": 363162,
+            "range": "± 2374",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=5 samples=100",
+            "value": 423065,
+            "range": "± 1785",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=10 samples=100",
+            "value": 519197,
+            "range": "± 2431",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=25 samples=100",
+            "value": 811638,
+            "range": "± 1326",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=50 samples=100",
+            "value": 1294153,
+            "range": "± 1500",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=100 samples=100",
+            "value": 2268516,
+            "range": "± 1125",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=250 samples=100",
+            "value": 5178797,
+            "range": "± 1688",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=500 samples=100",
+            "value": 10028661,
+            "range": "± 21306",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=1000 samples=100",
+            "value": 19734380,
+            "range": "± 50120",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=100000 range=5000 samples=100",
+            "value": 97949965,
+            "range": "± 11683",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=2 samples=100",
+            "value": 419741,
+            "range": "± 1357",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=5 samples=100",
+            "value": 482012,
+            "range": "± 600",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=10 samples=100",
+            "value": 576028,
+            "range": "± 610",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=25 samples=100",
+            "value": 876735,
+            "range": "± 1148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=50 samples=100",
+            "value": 1361924,
+            "range": "± 2067",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=100 samples=100",
+            "value": 2332408,
+            "range": "± 1450",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=250 samples=100",
+            "value": 5248377,
+            "range": "± 912",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=500 samples=100",
+            "value": 10100014,
+            "range": "± 15577",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=1000 samples=100",
+            "value": 19810283,
+            "range": "± 36098",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=1000000 range=5000 samples=100",
+            "value": 97926392,
+            "range": "± 20252",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=2 samples=100",
+            "value": 489135,
+            "range": "± 842",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=5 samples=100",
+            "value": 545326,
+            "range": "± 629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=10 samples=100",
+            "value": 643649,
+            "range": "± 697",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=25 samples=100",
+            "value": 942807,
+            "range": "± 1131",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=50 samples=100",
+            "value": 1427615,
+            "range": "± 1434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=100 samples=100",
+            "value": 2400668,
+            "range": "± 1340",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=250 samples=100",
+            "value": 5316191,
+            "range": "± 1199",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=500 samples=100",
+            "value": 10179816,
+            "range": "± 8622",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=1000 samples=100",
+            "value": 19897433,
+            "range": "± 19452",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=5000000 range=5000 samples=100",
+            "value": 97874354,
+            "range": "± 19598",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=2 samples=100",
+            "value": 500683,
+            "range": "± 518",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=5 samples=100",
+            "value": 559756,
+            "range": "± 655",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=10 samples=100",
+            "value": 660429,
+            "range": "± 1454",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=25 samples=100",
+            "value": 952943,
+            "range": "± 1519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=50 samples=100",
+            "value": 1437895,
+            "range": "± 1539",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=100 samples=100",
+            "value": 2408281,
+            "range": "± 1259",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=250 samples=100",
+            "value": 5324457,
+            "range": "± 1915",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=500 samples=100",
+            "value": 10170121,
+            "range": "± 19963",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=1000 samples=100",
+            "value": 19877117,
+            "range": "± 49533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_many_elements/n=10000000 range=5000 samples=100",
+            "value": 98075147,
+            "range": "± 46337",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_single_element/n=10000 samples=100",
+            "value": 233183,
+            "range": "± 103",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_single_element/n=100000 samples=100",
+            "value": 294963,
+            "range": "± 1172",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_single_element/n=1000000 samples=100",
+            "value": 341777,
+            "range": "± 523",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_single_element/n=5000000 samples=100",
+            "value": 394007,
+            "range": "± 808",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "mmr::prove_single_element/n=10000000 samples=100",
+            "value": 411944,
+            "range": "± 538",
             "unit": "ns/iter"
           }
         ]
