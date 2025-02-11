@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739101995041,
+  "lastUpdate": 1739272624503,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -14011,6 +14011,586 @@ window.BENCHMARK_DATA = {
             "name": "sha256::hash_message/msg_len=10000",
             "value": 6299,
             "range": "± 1",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Roberto Bayardo",
+            "username": "roberto-bayardo",
+            "email": "roberto@commonware.xyz"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "220642f1702ffa6ffe12022772297633202373d3",
+          "message": "[commonware-storage/mmr] add rewind function to fixed-item journal (#477)",
+          "timestamp": "2025-02-11T00:46:38Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/220642f1702ffa6ffe12022772297633202373d3"
+        },
+        "date": 1739272624017,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bls12381::dkg_recovery/n=5 t=3",
+            "value": 7840,
+            "range": "± 142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_recovery/n=10 t=7",
+            "value": 41307,
+            "range": "± 1049",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_recovery/n=20 t=13",
+            "value": 139337,
+            "range": "± 637",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_recovery/n=50 t=33",
+            "value": 891841,
+            "range": "± 1188",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_recovery/n=100 t=67",
+            "value": 3674143,
+            "range": "± 17567",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_recovery/n=250 t=167",
+            "value": 23495264,
+            "range": "± 109019",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_recovery/n=500 t=333",
+            "value": 93435729,
+            "range": "± 418085",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
+            "value": 426652,
+            "range": "± 6010",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
+            "value": 314216,
+            "range": "± 2012",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
+            "value": 255638,
+            "range": "± 5600",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
+            "value": 439634,
+            "range": "± 9036",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=1 n=10 t=7",
+            "value": 2556134,
+            "range": "± 21945",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=2 n=10 t=7",
+            "value": 1487575,
+            "range": "± 13423",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=4 n=10 t=7",
+            "value": 865035,
+            "range": "± 12583",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
+            "value": 927509,
+            "range": "± 8679",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
+            "value": 9293863,
+            "range": "± 27816",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
+            "value": 5058727,
+            "range": "± 38861",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
+            "value": 3010218,
+            "range": "± 15099",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
+            "value": 2787805,
+            "range": "± 59723",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
+            "value": 66003728,
+            "range": "± 57475",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
+            "value": 34338052,
+            "range": "± 20723",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
+            "value": 18323304,
+            "range": "± 212077",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
+            "value": 16259228,
+            "range": "± 34519",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=1 n=100 t=67",
+            "value": 311113918,
+            "range": "± 376503",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=2 n=100 t=67",
+            "value": 158782772,
+            "range": "± 161554",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=4 n=100 t=67",
+            "value": 79736586,
+            "range": "± 157700",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=8 n=100 t=67",
+            "value": 72918464,
+            "range": "± 48223",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=1 n=250 t=167",
+            "value": 2627711680,
+            "range": "± 1133163",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=2 n=250 t=167",
+            "value": 1325721151,
+            "range": "± 1793890",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=4 n=250 t=167",
+            "value": 663914276,
+            "range": "± 13552313",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=8 n=250 t=167",
+            "value": 574747532,
+            "range": "± 275648",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
+            "value": 12502552147,
+            "range": "± 15116961",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
+            "value": 6279704118,
+            "range": "± 15845339",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
+            "value": 3161107845,
+            "range": "± 24822050",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
+            "value": 2754211078,
+            "range": "± 1586350",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::threshold_signature_recover/n=5 t=3",
+            "value": 217221,
+            "range": "± 1594",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::threshold_signature_recover/n=10 t=7",
+            "value": 639322,
+            "range": "± 1236",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::threshold_signature_recover/n=20 t=13",
+            "value": 1300314,
+            "range": "± 18119",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::threshold_signature_recover/n=50 t=33",
+            "value": 3760274,
+            "range": "± 4923",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::threshold_signature_recover/n=100 t=67",
+            "value": 8838897,
+            "range": "± 4477",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::threshold_signature_recover/n=250 t=167",
+            "value": 29922121,
+            "range": "± 31507",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::threshold_signature_recover/n=500 t=333",
+            "value": 66700853,
+            "range": "± 33364",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_public_keys/pks=10",
+            "value": 8195,
+            "range": "± 48",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_public_keys/pks=100",
+            "value": 81745,
+            "range": "± 313",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_public_keys/pks=1000",
+            "value": 813535,
+            "range": "± 1319",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_public_keys/pks=10000",
+            "value": 8130621,
+            "range": "± 14465",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_signatures/sigs=10",
+            "value": 20438,
+            "range": "± 139",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_signatures/sigs=100",
+            "value": 203026,
+            "range": "± 1087",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_signatures/sigs=1000",
+            "value": 2026986,
+            "range": "± 4213",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_signatures/sigs=10000",
+            "value": 20254631,
+            "range": "± 18721",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::signature_generation/ns_len=9 msg_len=32",
+            "value": 401125,
+            "range": "± 663",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::signature_verification/ns_len=9 msg_len=32",
+            "value": 1104810,
+            "range": "± 1392",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=1 msgs=10",
+            "value": 3327333,
+            "range": "± 29099",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=2 msgs=10",
+            "value": 2098498,
+            "range": "± 15612",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=4 msgs=10",
+            "value": 1769271,
+            "range": "± 10585",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=8 msgs=10",
+            "value": 1898825,
+            "range": "± 10514",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=1 msgs=100",
+            "value": 22491309,
+            "range": "± 44164",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=2 msgs=100",
+            "value": 11988001,
+            "range": "± 86727",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=4 msgs=100",
+            "value": 6795656,
+            "range": "± 277226",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=8 msgs=100",
+            "value": 6389138,
+            "range": "± 41933",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=1 msgs=1000",
+            "value": 212630932,
+            "range": "± 141260",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=2 msgs=1000",
+            "value": 107227444,
+            "range": "± 117987",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=4 msgs=1000",
+            "value": 54379659,
+            "range": "± 258327",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=8 msgs=1000",
+            "value": 49911524,
+            "range": "± 75544",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=1 msgs=10000",
+            "value": 2113764289,
+            "range": "± 1749479",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=2 msgs=10000",
+            "value": 1058056187,
+            "range": "± 977134",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=4 msgs=10000",
+            "value": 530655759,
+            "range": "± 351964",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=8 msgs=10000",
+            "value": 482567909,
+            "range": "± 517697",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=1 msgs=50000",
+            "value": 10562920120,
+            "range": "± 5289995",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=2 msgs=50000",
+            "value": 5286879140,
+            "range": "± 7631711",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=4 msgs=50000",
+            "value": 2648226952,
+            "range": "± 25736843",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_messages/conc=8 msgs=50000",
+            "value": 2405497205,
+            "range": "± 3753747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_public_keys/pks=10",
+            "value": 1109292,
+            "range": "± 526",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_public_keys/pks=100",
+            "value": 1183215,
+            "range": "± 3076",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_public_keys/pks=1000",
+            "value": 1916745,
+            "range": "± 2047",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bls12381::aggregate_verify_multiple_public_keys/pks=10000",
+            "value": 9228491,
+            "range": "± 6766",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::signature_generation/ns_len=9 msg_len=32",
+            "value": 20652,
+            "range": "± 299",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::signature_verification/ns_len=9 msg_len=32",
+            "value": 57222,
+            "range": "± 13",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_public_keys/pks=1",
+            "value": 75625,
+            "range": "± 40",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_public_keys/pks=10",
+            "value": 318491,
+            "range": "± 353",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_public_keys/pks=100",
+            "value": 2812711,
+            "range": "± 4351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_public_keys/pks=1000",
+            "value": 21217863,
+            "range": "± 60454",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_public_keys/pks=10000",
+            "value": 201355375,
+            "range": "± 142776",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_messages/msgs=1",
+            "value": 77182,
+            "range": "± 89",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_messages/msgs=10",
+            "value": 185275,
+            "range": "± 513",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_messages/msgs=100",
+            "value": 1263109,
+            "range": "± 636",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_messages/msgs=1000",
+            "value": 10388496,
+            "range": "± 8569",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ed25519::batch_verify_multiple_messages/msgs=10000",
+            "value": 88163023,
+            "range": "± 102746",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "secp256r1::signature_generation/ns_len=9 msg_len=32",
+            "value": 193108,
+            "range": "± 478",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "secp256r1::signature_verification/ns_len=9 msg_len=32",
+            "value": 335234,
+            "range": "± 472",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sha256::hash_message/msg_len=100",
+            "value": 82,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sha256::hash_message/msg_len=1000",
+            "value": 649,
+            "range": "± 0",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "sha256::hash_message/msg_len=10000",
+            "value": 6301,
+            "range": "± 3",
             "unit": "ns/iter"
           }
         ]
