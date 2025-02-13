@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739447363176,
+  "lastUpdate": 1739447615287,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -31891,6 +31891,124 @@ window.BENCHMARK_DATA = {
             "name": "public_key::receiver_receive/len=67108864",
             "value": 180340144,
             "range": "± 3370767",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Roberto Bayardo",
+            "username": "roberto-bayardo",
+            "email": "roberto@commonware.xyz"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8d2d8375eabfe610cb50d8b21985ed39927f2268",
+          "message": "[commonware-storage/mmr] less restrictive in-mem-mmr forgetting (#484)",
+          "timestamp": "2025-02-12T23:15:16Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/8d2d8375eabfe610cb50d8b21985ed39927f2268"
+        },
+        "date": 1739447615004,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2684,
+            "range": "± 3",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 4967,
+            "range": "± 19",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 14051,
+            "range": "± 128",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 197926,
+            "range": "± 5781",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 804211,
+            "range": "± 104274",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 4336161,
+            "range": "± 26856",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 16811719,
+            "range": "± 63797",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 88437523,
+            "range": "± 225530",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4522,
+            "range": "± 15",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 11855,
+            "range": "± 1244",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 41179,
+            "range": "± 2691",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 632763,
+            "range": "± 2212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2538508,
+            "range": "± 7260",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 9897644,
+            "range": "± 30689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 43420700,
+            "range": "± 200331",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 176160735,
+            "range": "± 674505",
             "unit": "ns/iter"
           }
         ]
