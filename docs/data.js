@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743249217254,
+  "lastUpdate": 1743249471365,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -74017,6 +74017,124 @@ window.BENCHMARK_DATA = {
             "name": "public_key::receiver_receive/len=67108864",
             "value": 175775164,
             "range": "± 1936314",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Brendan Chou",
+            "username": "BrendanChou",
+            "email": "3680392+BrendanChou@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "9ece2c31506714ab59e4e46666870c3a5e7b5672",
+          "message": "[p2p] Use codec instead of prost (#638)\n\nCo-authored-by: Patrick O'Grady <me@patrickogrady.xyz>",
+          "timestamp": "2025-03-28T14:34:21Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/9ece2c31506714ab59e4e46666870c3a5e7b5672"
+        },
+        "date": 1743249470868,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2716,
+            "range": "± 19",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 5011,
+            "range": "± 24",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 14119,
+            "range": "± 84",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 219865,
+            "range": "± 19619",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 801427,
+            "range": "± 115878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 4541606,
+            "range": "± 77758",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 17155468,
+            "range": "± 118038",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 90539616,
+            "range": "± 645747",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4551,
+            "range": "± 31",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 11873,
+            "range": "± 48",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 41093,
+            "range": "± 4175",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 634498,
+            "range": "± 4798",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2546316,
+            "range": "± 9316",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 10250290,
+            "range": "± 549256",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 44411503,
+            "range": "± 229155",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 178702555,
+            "range": "± 869701",
             "unit": "ns/iter"
           }
         ]
