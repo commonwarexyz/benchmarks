@@ -22,27 +22,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8087,
-            "range": "± 135",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41850,
             "range": "± 617",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141066,
-            "range": "± 2336",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 910489,
-            "range": "± 5423",
             "unit": "ns/iter"
           },
           {
@@ -55,36 +37,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23474206,
             "range": "± 29701",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 92951189,
-            "range": "± 100332",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 432757,
-            "range": "± 5395",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312607,
-            "range": "± 10929",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 248514,
-            "range": "± 6931",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 446579,
-            "range": "± 18530",
             "unit": "ns/iter"
           },
           {
@@ -109,54 +61,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 929807,
             "range": "± 19130",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9175582,
-            "range": "± 28806",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5012581,
-            "range": "± 107180",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2965917,
-            "range": "± 17150",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2783307,
-            "range": "± 77885",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65691228,
-            "range": "± 860681",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34101426,
-            "range": "± 54024",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18211194,
-            "range": "± 73612",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16144831,
-            "range": "± 28871",
             "unit": "ns/iter"
           },
           {
@@ -208,51 +112,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12465212751,
-            "range": "± 11407179",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6259242834,
-            "range": "± 7338349",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3150387081,
-            "range": "± 5491745",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2739011081,
-            "range": "± 1030471",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217936,
-            "range": "± 5628",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639673,
             "range": "± 4171",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301545,
-            "range": "± 1898",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3764354,
-            "range": "± 6293",
             "unit": "ns/iter"
           },
           {
@@ -265,12 +127,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29965093,
             "range": "± 21243",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66881827,
-            "range": "± 1281520",
             "unit": "ns/iter"
           },
           {
@@ -566,27 +422,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8215,
-            "range": "± 148",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41863,
             "range": "± 432",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141365,
-            "range": "± 1292",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 898350,
-            "range": "± 2670",
             "unit": "ns/iter"
           },
           {
@@ -599,36 +437,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23415889,
             "range": "± 24237",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93161331,
-            "range": "± 90265",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 434370,
-            "range": "± 5505",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 309712,
-            "range": "± 6915",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 265643,
-            "range": "± 6152",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 429285,
-            "range": "± 5022",
             "unit": "ns/iter"
           },
           {
@@ -653,54 +461,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 930162,
             "range": "± 29792",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9229462,
-            "range": "± 32290",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5028026,
-            "range": "± 52921",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2965230,
-            "range": "± 8803",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2793554,
-            "range": "± 63844",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65609845,
-            "range": "± 99753",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34137040,
-            "range": "± 50245",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18209100,
-            "range": "± 28627",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16128982,
-            "range": "± 25965",
             "unit": "ns/iter"
           },
           {
@@ -752,51 +512,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12427728591,
-            "range": "± 5551056",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6238112126,
-            "range": "± 4245594",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3141259934,
-            "range": "± 11969862",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2735220855,
-            "range": "± 1464367",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217461,
-            "range": "± 601",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638258,
             "range": "± 1980",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1298098,
-            "range": "± 1531",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3755517,
-            "range": "± 4768",
             "unit": "ns/iter"
           },
           {
@@ -809,12 +527,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29881226,
             "range": "± 56145",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66677600,
-            "range": "± 133370",
             "unit": "ns/iter"
           },
           {
@@ -1110,27 +822,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8064,
-            "range": "± 39",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41212,
             "range": "± 358",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140296,
-            "range": "± 523",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 896514,
-            "range": "± 5555",
             "unit": "ns/iter"
           },
           {
@@ -1143,36 +837,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23458976,
             "range": "± 50519",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93162830,
-            "range": "± 86270",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 435930,
-            "range": "± 7705",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 310272,
-            "range": "± 4711",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 261067,
-            "range": "± 4957",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 422135,
-            "range": "± 2312",
             "unit": "ns/iter"
           },
           {
@@ -1197,54 +861,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 905740,
             "range": "± 9423",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9217932,
-            "range": "± 40625",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5030103,
-            "range": "± 21596",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2963718,
-            "range": "± 8351",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2750288,
-            "range": "± 33903",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65602635,
-            "range": "± 76564",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34121676,
-            "range": "± 58599",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18147640,
-            "range": "± 273063",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16101896,
-            "range": "± 32637",
             "unit": "ns/iter"
           },
           {
@@ -1296,51 +912,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12470244985,
-            "range": "± 4241568",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6264737553,
-            "range": "± 4634822",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3150601870,
-            "range": "± 10374318",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2738359996,
-            "range": "± 583919",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217868,
-            "range": "± 579",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639158,
             "range": "± 1408",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299835,
-            "range": "± 7355",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3759594,
-            "range": "± 2947",
             "unit": "ns/iter"
           },
           {
@@ -1353,12 +927,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29993666,
             "range": "± 20994",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66804326,
-            "range": "± 52749",
             "unit": "ns/iter"
           },
           {
@@ -1660,27 +1228,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8128,
-            "range": "± 169",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 42146,
             "range": "± 668",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141943,
-            "range": "± 1948",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 904108,
-            "range": "± 1803",
             "unit": "ns/iter"
           },
           {
@@ -1693,36 +1243,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23447177,
             "range": "± 31757",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93390713,
-            "range": "± 57487",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 436921,
-            "range": "± 5816",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311969,
-            "range": "± 4853",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 246262,
-            "range": "± 2739",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 425283,
-            "range": "± 4390",
             "unit": "ns/iter"
           },
           {
@@ -1747,54 +1267,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 915495,
             "range": "± 24189",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9235971,
-            "range": "± 48976",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5037577,
-            "range": "± 34930",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2972852,
-            "range": "± 19162",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2731922,
-            "range": "± 27430",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65556980,
-            "range": "± 28640",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34148849,
-            "range": "± 193168",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18193169,
-            "range": "± 17043",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16150670,
-            "range": "± 16861",
             "unit": "ns/iter"
           },
           {
@@ -1846,51 +1318,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12428182015,
-            "range": "± 4921812",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6238242391,
-            "range": "± 14379779",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3142240941,
-            "range": "± 1530369",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2734945151,
-            "range": "± 680647",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217167,
-            "range": "± 550",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638332,
             "range": "± 1349",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1297691,
-            "range": "± 1058",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3754568,
-            "range": "± 3227",
             "unit": "ns/iter"
           },
           {
@@ -1903,12 +1333,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29891679,
             "range": "± 18293",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66680073,
-            "range": "± 122301",
             "unit": "ns/iter"
           },
           {
@@ -2210,27 +1634,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8117,
-            "range": "± 181",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41644,
             "range": "± 771",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141251,
-            "range": "± 1631",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 898861,
-            "range": "± 2072",
             "unit": "ns/iter"
           },
           {
@@ -2243,36 +1649,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23393925,
             "range": "± 35182",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93143111,
-            "range": "± 163803",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 433285,
-            "range": "± 4828",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 308588,
-            "range": "± 5463",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 251914,
-            "range": "± 4483",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 416655,
-            "range": "± 6239",
             "unit": "ns/iter"
           },
           {
@@ -2297,54 +1673,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 888180,
             "range": "± 11738",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9202059,
-            "range": "± 23260",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5025412,
-            "range": "± 62998",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2949505,
-            "range": "± 7805",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2710636,
-            "range": "± 24452",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65457292,
-            "range": "± 78139",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34057237,
-            "range": "± 40400",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18096525,
-            "range": "± 188604",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16084043,
-            "range": "± 24694",
             "unit": "ns/iter"
           },
           {
@@ -2396,51 +1724,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12429854879,
-            "range": "± 2823525",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6237087001,
-            "range": "± 5057843",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3141762616,
-            "range": "± 2219805",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2733758576,
-            "range": "± 687494",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217251,
-            "range": "± 683",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638000,
             "range": "± 1344",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1297230,
-            "range": "± 3006",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3753340,
-            "range": "± 5583",
             "unit": "ns/iter"
           },
           {
@@ -2453,12 +1739,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29876799,
             "range": "± 67414",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66620559,
-            "range": "± 64057",
             "unit": "ns/iter"
           },
           {
@@ -2760,27 +2040,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8040,
-            "range": "± 65",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41352,
             "range": "± 238",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140515,
-            "range": "± 802",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 895277,
-            "range": "± 481",
             "unit": "ns/iter"
           },
           {
@@ -2793,36 +2055,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23424880,
             "range": "± 59781",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93305767,
-            "range": "± 364225",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426040,
-            "range": "± 4106",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 314958,
-            "range": "± 3684",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 246478,
-            "range": "± 3760",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 419576,
-            "range": "± 2082",
             "unit": "ns/iter"
           },
           {
@@ -2847,54 +2079,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 920569,
             "range": "± 19439",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9259742,
-            "range": "± 23269",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5062134,
-            "range": "± 48266",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2970187,
-            "range": "± 8075",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2786120,
-            "range": "± 86794",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65899287,
-            "range": "± 33297",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34266979,
-            "range": "± 49968",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18220333,
-            "range": "± 18049",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16169829,
-            "range": "± 20074",
             "unit": "ns/iter"
           },
           {
@@ -2946,51 +2130,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12516567237,
-            "range": "± 1906860",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6296397569,
-            "range": "± 7148286",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3162569817,
-            "range": "± 2135129",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2749831371,
-            "range": "± 662411",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217941,
-            "range": "± 1566",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640090,
             "range": "± 27468",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301413,
-            "range": "± 40681",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3764589,
-            "range": "± 18654",
             "unit": "ns/iter"
           },
           {
@@ -3003,12 +2145,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29953076,
             "range": "± 18462",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66811480,
-            "range": "± 22905",
             "unit": "ns/iter"
           },
           {
@@ -3310,27 +2446,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8031,
-            "range": "± 81",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41231,
             "range": "± 220",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140645,
-            "range": "± 783",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 895379,
-            "range": "± 1253",
             "unit": "ns/iter"
           },
           {
@@ -3343,36 +2461,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23499128,
             "range": "± 53235",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93455881,
-            "range": "± 126821",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 423457,
-            "range": "± 2592",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311364,
-            "range": "± 1975",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 248655,
-            "range": "± 1950",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 419386,
-            "range": "± 2193",
             "unit": "ns/iter"
           },
           {
@@ -3397,54 +2485,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 902956,
             "range": "± 16025",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9263607,
-            "range": "± 26083",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5052545,
-            "range": "± 47618",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2971014,
-            "range": "± 7060",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2723567,
-            "range": "± 26946",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65880390,
-            "range": "± 44185",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34214696,
-            "range": "± 38771",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18195820,
-            "range": "± 11143",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16177171,
-            "range": "± 217030",
             "unit": "ns/iter"
           },
           {
@@ -3496,51 +2536,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12556751639,
-            "range": "± 3173498",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6291208321,
-            "range": "± 6682810",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3165363172,
-            "range": "± 9049395",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2750019637,
-            "range": "± 429189",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217802,
-            "range": "± 1592",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639622,
             "range": "± 684",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300853,
-            "range": "± 3148",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763842,
-            "range": "± 4709",
             "unit": "ns/iter"
           },
           {
@@ -3553,12 +2551,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29946167,
             "range": "± 166570",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66794522,
-            "range": "± 87973",
             "unit": "ns/iter"
           },
           {
@@ -3860,27 +2852,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8011,
-            "range": "± 116",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41559,
             "range": "± 239",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141753,
-            "range": "± 897",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 895647,
-            "range": "± 1424",
             "unit": "ns/iter"
           },
           {
@@ -3893,36 +2867,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23486114,
             "range": "± 47986",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93595719,
-            "range": "± 125618",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 432697,
-            "range": "± 5812",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313742,
-            "range": "± 2341",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 247307,
-            "range": "± 4602",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 428778,
-            "range": "± 2056",
             "unit": "ns/iter"
           },
           {
@@ -3947,54 +2891,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 950842,
             "range": "± 60316",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9394125,
-            "range": "± 37394",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5076208,
-            "range": "± 53475",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2963302,
-            "range": "± 6935",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2820584,
-            "range": "± 65050",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65970075,
-            "range": "± 105296",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34272505,
-            "range": "± 50141",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18204765,
-            "range": "± 180962",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16197773,
-            "range": "± 180101",
             "unit": "ns/iter"
           },
           {
@@ -4046,51 +2942,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12519525591,
-            "range": "± 2594496",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6293103557,
-            "range": "± 7592548",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3165402895,
-            "range": "± 4595143",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2751526049,
-            "range": "± 4548082",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217500,
-            "range": "± 1519",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640520,
             "range": "± 1695",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301880,
-            "range": "± 3829",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3765349,
-            "range": "± 3800",
             "unit": "ns/iter"
           },
           {
@@ -4103,12 +2957,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29959390,
             "range": "± 14826",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66856602,
-            "range": "± 68685",
             "unit": "ns/iter"
           },
           {
@@ -4410,27 +3258,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8623,
-            "range": "± 243",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 45165,
             "range": "± 1475",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 148474,
-            "range": "± 2308",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 948430,
-            "range": "± 5097",
             "unit": "ns/iter"
           },
           {
@@ -4443,36 +3273,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 24988720,
             "range": "± 275185",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 98776319,
-            "range": "± 1943072",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 558720,
-            "range": "± 28292",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 410714,
-            "range": "± 16477",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 326146,
-            "range": "± 9875",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 520654,
-            "range": "± 7850",
             "unit": "ns/iter"
           },
           {
@@ -4497,54 +3297,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 1220785,
             "range": "± 104280",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 10692786,
-            "range": "± 153503",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5842987,
-            "range": "± 242098",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 3301931,
-            "range": "± 57103",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 3542789,
-            "range": "± 325897",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 71514043,
-            "range": "± 533767",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 37599949,
-            "range": "± 299596",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 19744885,
-            "range": "± 118983",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 17724291,
-            "range": "± 127808",
             "unit": "ns/iter"
           },
           {
@@ -4596,51 +3348,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 13210076482,
-            "range": "± 47898363",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6749403575,
-            "range": "± 20208502",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3410887728,
-            "range": "± 12135402",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2986483561,
-            "range": "± 19102798",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 230722,
-            "range": "± 2923",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 680581,
             "range": "± 7634",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1376671,
-            "range": "± 19583",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3963332,
-            "range": "± 75180",
             "unit": "ns/iter"
           },
           {
@@ -4653,12 +3363,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 31629135,
             "range": "± 547188",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 70721543,
-            "range": "± 733397",
             "unit": "ns/iter"
           },
           {
@@ -4960,27 +3664,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8284,
-            "range": "± 246",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 42852,
             "range": "± 596",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 145018,
-            "range": "± 2822",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 909825,
-            "range": "± 4621",
             "unit": "ns/iter"
           },
           {
@@ -4993,36 +3679,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23630439,
             "range": "± 62928",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93543385,
-            "range": "± 37571",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 428869,
-            "range": "± 7554",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 316905,
-            "range": "± 6492",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 260266,
-            "range": "± 4787",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 441131,
-            "range": "± 4153",
             "unit": "ns/iter"
           },
           {
@@ -5047,54 +3703,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 924773,
             "range": "± 20850",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9277033,
-            "range": "± 19291",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5050545,
-            "range": "± 36529",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2997365,
-            "range": "± 76155",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2770926,
-            "range": "± 54387",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66012814,
-            "range": "± 67386",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34304979,
-            "range": "± 52333",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18298503,
-            "range": "± 15483",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16269154,
-            "range": "± 33059",
             "unit": "ns/iter"
           },
           {
@@ -5146,51 +3754,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12522047342,
-            "range": "± 19071183",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6301827290,
-            "range": "± 11017518",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3167382811,
-            "range": "± 17286495",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2750469871,
-            "range": "± 2278260",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217639,
-            "range": "± 1598",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639922,
             "range": "± 748",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300349,
-            "range": "± 1345",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763354,
-            "range": "± 5699",
             "unit": "ns/iter"
           },
           {
@@ -5203,12 +3769,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29947887,
             "range": "± 17308",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66791563,
-            "range": "± 1501247",
             "unit": "ns/iter"
           },
           {
@@ -5510,27 +4070,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8015,
-            "range": "± 268",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41552,
             "range": "± 666",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 146298,
-            "range": "± 2935",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 900866,
-            "range": "± 3612",
             "unit": "ns/iter"
           },
           {
@@ -5543,36 +4085,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23514706,
             "range": "± 136397",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93764922,
-            "range": "± 312653",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 427369,
-            "range": "± 5168",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311811,
-            "range": "± 1958",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 254761,
-            "range": "± 3139",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 431753,
-            "range": "± 6500",
             "unit": "ns/iter"
           },
           {
@@ -5597,54 +4109,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 922475,
             "range": "± 12824",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9286847,
-            "range": "± 22961",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5079067,
-            "range": "± 49125",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2997029,
-            "range": "± 36407",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2761956,
-            "range": "± 29133",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66028532,
-            "range": "± 256435",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34323870,
-            "range": "± 52349",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18318919,
-            "range": "± 13676",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16285877,
-            "range": "± 110625",
             "unit": "ns/iter"
           },
           {
@@ -5696,51 +4160,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12513655402,
-            "range": "± 8368525",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6282106973,
-            "range": "± 16984576",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3166563566,
-            "range": "± 4756625",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2750612599,
-            "range": "± 1365538",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217595,
-            "range": "± 1601",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639885,
             "range": "± 3119",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300840,
-            "range": "± 1494",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763957,
-            "range": "± 4016",
             "unit": "ns/iter"
           },
           {
@@ -5753,12 +4175,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29958968,
             "range": "± 21048",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66827142,
-            "range": "± 107203",
             "unit": "ns/iter"
           },
           {
@@ -6060,27 +4476,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7997,
-            "range": "± 77",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41367,
             "range": "± 363",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140319,
-            "range": "± 872",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 894593,
-            "range": "± 2341",
             "unit": "ns/iter"
           },
           {
@@ -6093,36 +4491,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23319991,
             "range": "± 61118",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93155577,
-            "range": "± 277199",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 423091,
-            "range": "± 3332",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 310269,
-            "range": "± 3246",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 261010,
-            "range": "± 1876",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 421704,
-            "range": "± 4114",
             "unit": "ns/iter"
           },
           {
@@ -6147,54 +4515,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 920036,
             "range": "± 11046",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9290618,
-            "range": "± 21025",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5041780,
-            "range": "± 46854",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2968840,
-            "range": "± 7343",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2743450,
-            "range": "± 22463",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65882204,
-            "range": "± 57392",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34228866,
-            "range": "± 83798",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18197581,
-            "range": "± 17239",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16189790,
-            "range": "± 23182",
             "unit": "ns/iter"
           },
           {
@@ -6246,51 +4566,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12523534835,
-            "range": "± 6252364",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6283133837,
-            "range": "± 9393500",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3164315751,
-            "range": "± 9228269",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2749833614,
-            "range": "± 1543834",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218793,
-            "range": "± 1674",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 642530,
             "range": "± 1785",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1306174,
-            "range": "± 2530",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3778732,
-            "range": "± 6947",
             "unit": "ns/iter"
           },
           {
@@ -6303,12 +4581,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30054081,
             "range": "± 46063",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67075814,
-            "range": "± 66276",
             "unit": "ns/iter"
           },
           {
@@ -6610,27 +4882,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7977,
-            "range": "± 101",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41406,
             "range": "± 303",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140892,
-            "range": "± 580",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 898664,
-            "range": "± 4250",
             "unit": "ns/iter"
           },
           {
@@ -6643,36 +4897,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23561620,
             "range": "± 177143",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93707894,
-            "range": "± 86979",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426328,
-            "range": "± 5481",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313550,
-            "range": "± 4517",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 253715,
-            "range": "± 5821",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 423440,
-            "range": "± 5319",
             "unit": "ns/iter"
           },
           {
@@ -6697,54 +4921,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 912729,
             "range": "± 12600",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9254650,
-            "range": "± 16462",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5036355,
-            "range": "± 45885",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2971268,
-            "range": "± 17856",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2722734,
-            "range": "± 33425",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65930380,
-            "range": "± 153989",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34331091,
-            "range": "± 44710",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18244991,
-            "range": "± 86070",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16231139,
-            "range": "± 202392",
             "unit": "ns/iter"
           },
           {
@@ -6796,51 +4972,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12518369549,
-            "range": "± 3258563",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6282259538,
-            "range": "± 1243134",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3164437880,
-            "range": "± 3751489",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2749564672,
-            "range": "± 1050950",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217604,
-            "range": "± 1554",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639999,
             "range": "± 621",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300881,
-            "range": "± 1116",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3764963,
-            "range": "± 13479",
             "unit": "ns/iter"
           },
           {
@@ -6853,12 +4987,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29974105,
             "range": "± 47152",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66829151,
-            "range": "± 54119",
             "unit": "ns/iter"
           },
           {
@@ -7160,27 +5288,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8044,
-            "range": "± 34",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41386,
             "range": "± 183",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140855,
-            "range": "± 866",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 895071,
-            "range": "± 2244",
             "unit": "ns/iter"
           },
           {
@@ -7193,36 +5303,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23403850,
             "range": "± 44966",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93340166,
-            "range": "± 152494",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 440823,
-            "range": "± 7912",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 319767,
-            "range": "± 5180",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 252730,
-            "range": "± 3225",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 433881,
-            "range": "± 7737",
             "unit": "ns/iter"
           },
           {
@@ -7247,54 +5327,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 950075,
             "range": "± 49881",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9365311,
-            "range": "± 37436",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5106407,
-            "range": "± 57755",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2972663,
-            "range": "± 3283",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2845598,
-            "range": "± 168187",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66036313,
-            "range": "± 82261",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34387555,
-            "range": "± 101361",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18215905,
-            "range": "± 18874",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16225801,
-            "range": "± 43018",
             "unit": "ns/iter"
           },
           {
@@ -7346,51 +5378,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12527041466,
-            "range": "± 4314486",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6290542786,
-            "range": "± 10513529",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3167312941,
-            "range": "± 2695063",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752610235,
-            "range": "± 1237875",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218447,
-            "range": "± 1462",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 641687,
             "range": "± 1249",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1305074,
-            "range": "± 21051",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3775147,
-            "range": "± 6209",
             "unit": "ns/iter"
           },
           {
@@ -7403,12 +5393,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30030939,
             "range": "± 133561",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67040680,
-            "range": "± 198836",
             "unit": "ns/iter"
           },
           {
@@ -7710,27 +5694,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8029,
-            "range": "± 68",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41505,
             "range": "± 257",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140498,
-            "range": "± 754",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 894855,
-            "range": "± 1152",
             "unit": "ns/iter"
           },
           {
@@ -7743,36 +5709,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23397011,
             "range": "± 58095",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93579262,
-            "range": "± 609159",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 424186,
-            "range": "± 4438",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311155,
-            "range": "± 2639",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 265993,
-            "range": "± 6194",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 423231,
-            "range": "± 5724",
             "unit": "ns/iter"
           },
           {
@@ -7797,54 +5733,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 921146,
             "range": "± 19570",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9266009,
-            "range": "± 27087",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5045670,
-            "range": "± 42013",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2967521,
-            "range": "± 4636",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2741641,
-            "range": "± 25175",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65943048,
-            "range": "± 50298",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34192060,
-            "range": "± 35659",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18205580,
-            "range": "± 38879",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16172222,
-            "range": "± 45088",
             "unit": "ns/iter"
           },
           {
@@ -7896,51 +5784,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12522589131,
-            "range": "± 8426843",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6289589025,
-            "range": "± 9792505",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3168956616,
-            "range": "± 6479409",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2751579922,
-            "range": "± 576448",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217100,
-            "range": "± 1681",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639594,
             "range": "± 1532",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299467,
-            "range": "± 1290",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3760309,
-            "range": "± 4483",
             "unit": "ns/iter"
           },
           {
@@ -7953,12 +5799,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29922334,
             "range": "± 47221",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66770603,
-            "range": "± 20691",
             "unit": "ns/iter"
           },
           {
@@ -8260,27 +6100,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8013,
-            "range": "± 58",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41229,
             "range": "± 184",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140304,
-            "range": "± 486",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891797,
-            "range": "± 1798",
             "unit": "ns/iter"
           },
           {
@@ -8293,36 +6115,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23446126,
             "range": "± 65710",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93185791,
-            "range": "± 836375",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426925,
-            "range": "± 2319",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311986,
-            "range": "± 2875",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 265593,
-            "range": "± 3213",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 424741,
-            "range": "± 5146",
             "unit": "ns/iter"
           },
           {
@@ -8347,54 +6139,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 922451,
             "range": "± 12351",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9264196,
-            "range": "± 18051",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5049739,
-            "range": "± 46316",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2967554,
-            "range": "± 7540",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2764812,
-            "range": "± 30703",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65855256,
-            "range": "± 65792",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34185232,
-            "range": "± 51024",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18199161,
-            "range": "± 15307",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16191808,
-            "range": "± 16029",
             "unit": "ns/iter"
           },
           {
@@ -8446,51 +6190,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12502942240,
-            "range": "± 4513526",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6269896990,
-            "range": "± 19062303",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3164068306,
-            "range": "± 15354163",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2750725036,
-            "range": "± 843982",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217679,
-            "range": "± 1680",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639902,
             "range": "± 1734",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301642,
-            "range": "± 5067",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3762380,
-            "range": "± 24533",
             "unit": "ns/iter"
           },
           {
@@ -8503,12 +6205,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29932078,
             "range": "± 188812",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66736331,
-            "range": "± 140899",
             "unit": "ns/iter"
           },
           {
@@ -8828,27 +6524,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8387,
-            "range": "± 225",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 42222,
             "range": "± 598",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 143048,
-            "range": "± 2706",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 914103,
-            "range": "± 27416",
             "unit": "ns/iter"
           },
           {
@@ -8861,36 +6539,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23554839,
             "range": "± 55753",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93487377,
-            "range": "± 137563",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 429974,
-            "range": "± 4621",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 318052,
-            "range": "± 6644",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 273598,
-            "range": "± 3924",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 434511,
-            "range": "± 4751",
             "unit": "ns/iter"
           },
           {
@@ -8915,54 +6563,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 965295,
             "range": "± 20135",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9323167,
-            "range": "± 21907",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5067371,
-            "range": "± 38706",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2977812,
-            "range": "± 3649",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2804121,
-            "range": "± 75864",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66038589,
-            "range": "± 136735",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34310966,
-            "range": "± 127331",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18209124,
-            "range": "± 10221",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16200632,
-            "range": "± 39522",
             "unit": "ns/iter"
           },
           {
@@ -9014,51 +6614,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12561215342,
-            "range": "± 22424136",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6286861085,
-            "range": "± 31381939",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3166788564,
-            "range": "± 3326696",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2749627253,
-            "range": "± 1187594",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 216940,
-            "range": "± 11460",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638656,
             "range": "± 1436",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1298335,
-            "range": "± 1362",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3757744,
-            "range": "± 7467",
             "unit": "ns/iter"
           },
           {
@@ -9071,12 +6629,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29864613,
             "range": "± 310731",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66578019,
-            "range": "± 857978",
             "unit": "ns/iter"
           },
           {
@@ -9396,27 +6948,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8017,
-            "range": "± 35",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41376,
             "range": "± 259",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141284,
-            "range": "± 859",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 896564,
-            "range": "± 986",
             "unit": "ns/iter"
           },
           {
@@ -9429,36 +6963,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23573501,
             "range": "± 32134",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93682316,
-            "range": "± 6028711",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 424009,
-            "range": "± 17879",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312559,
-            "range": "± 2401",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 250635,
-            "range": "± 1733",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 424902,
-            "range": "± 2680",
             "unit": "ns/iter"
           },
           {
@@ -9483,54 +6987,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 922971,
             "range": "± 6810",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9285511,
-            "range": "± 22528",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5042017,
-            "range": "± 48386",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2972985,
-            "range": "± 11294",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2733907,
-            "range": "± 33884",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66252049,
-            "range": "± 36401",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34254961,
-            "range": "± 60392",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18229116,
-            "range": "± 18938",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16199745,
-            "range": "± 33558",
             "unit": "ns/iter"
           },
           {
@@ -9582,51 +7038,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12532088513,
-            "range": "± 21129432",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6286954599,
-            "range": "± 18491868",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3164550750,
-            "range": "± 6636359",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2750059799,
-            "range": "± 732756",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217900,
-            "range": "± 10424",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639578,
             "range": "± 1323",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299818,
-            "range": "± 2457",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3759828,
-            "range": "± 3245",
             "unit": "ns/iter"
           },
           {
@@ -9639,12 +7053,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29906693,
             "range": "± 888022",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66653531,
-            "range": "± 292878",
             "unit": "ns/iter"
           },
           {
@@ -9976,27 +7384,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7979,
-            "range": "± 81",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41310,
             "range": "± 125",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140331,
-            "range": "± 715",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 894753,
-            "range": "± 8932",
             "unit": "ns/iter"
           },
           {
@@ -10009,36 +7399,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23291369,
             "range": "± 243310",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93194116,
-            "range": "± 924314",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 423732,
-            "range": "± 1983",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313580,
-            "range": "± 4154",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 245039,
-            "range": "± 2498",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 418848,
-            "range": "± 2505",
             "unit": "ns/iter"
           },
           {
@@ -10063,54 +7423,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 912542,
             "range": "± 16543",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9271182,
-            "range": "± 17647",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5038490,
-            "range": "± 51156",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2974674,
-            "range": "± 15090",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2720510,
-            "range": "± 35075",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65926569,
-            "range": "± 400498",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34171315,
-            "range": "± 48317",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18205649,
-            "range": "± 10506",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16193896,
-            "range": "± 39196",
             "unit": "ns/iter"
           },
           {
@@ -10162,51 +7474,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12456319897,
-            "range": "± 41405216",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6284649377,
-            "range": "± 7884813",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3163967221,
-            "range": "± 5149361",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2747279324,
-            "range": "± 3365260",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217155,
-            "range": "± 3333",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 637990,
             "range": "± 11912",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1294420,
-            "range": "± 22906",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3756404,
-            "range": "± 73337",
             "unit": "ns/iter"
           },
           {
@@ -10219,12 +7489,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29777964,
             "range": "± 559251",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66476421,
-            "range": "± 1085392",
             "unit": "ns/iter"
           },
           {
@@ -10556,27 +7820,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8021,
-            "range": "± 130",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41427,
             "range": "± 598",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141896,
-            "range": "± 1721",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 904875,
-            "range": "± 2859",
             "unit": "ns/iter"
           },
           {
@@ -10589,36 +7835,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23591729,
             "range": "± 78299",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93496736,
-            "range": "± 342869",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 428937,
-            "range": "± 5002",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 317693,
-            "range": "± 6393",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 276833,
-            "range": "± 4532",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 440327,
-            "range": "± 8024",
             "unit": "ns/iter"
           },
           {
@@ -10643,54 +7859,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 971833,
             "range": "± 19638",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9288631,
-            "range": "± 26590",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5063123,
-            "range": "± 45111",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 3002601,
-            "range": "± 66538",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2842799,
-            "range": "± 67249",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65971351,
-            "range": "± 53563",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34298265,
-            "range": "± 78607",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18330619,
-            "range": "± 243064",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16267729,
-            "range": "± 122790",
             "unit": "ns/iter"
           },
           {
@@ -10742,51 +7910,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12512064349,
-            "range": "± 4183494",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6275888258,
-            "range": "± 10636914",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3160090744,
-            "range": "± 3945163",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2750875065,
-            "range": "± 784980",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217956,
-            "range": "± 4705",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638497,
             "range": "± 1090",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1298146,
-            "range": "± 2382",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3749444,
-            "range": "± 4291",
             "unit": "ns/iter"
           },
           {
@@ -10799,12 +7925,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29872302,
             "range": "± 13399",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66581852,
-            "range": "± 163764",
             "unit": "ns/iter"
           },
           {
@@ -11136,27 +8256,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8007,
-            "range": "± 26",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41456,
             "range": "± 294",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140368,
-            "range": "± 5166",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 893162,
-            "range": "± 2318",
             "unit": "ns/iter"
           },
           {
@@ -11169,36 +8271,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23530692,
             "range": "± 83377",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93388452,
-            "range": "± 132741",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425589,
-            "range": "± 4381",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312714,
-            "range": "± 2440",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 249869,
-            "range": "± 1943",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 430899,
-            "range": "± 4200",
             "unit": "ns/iter"
           },
           {
@@ -11223,54 +8295,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 913617,
             "range": "± 14723",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9266675,
-            "range": "± 30090",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5054264,
-            "range": "± 39555",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2971429,
-            "range": "± 92735",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2769773,
-            "range": "± 40414",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65977108,
-            "range": "± 225539",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34191211,
-            "range": "± 44984",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18227496,
-            "range": "± 64886",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16277975,
-            "range": "± 82343",
             "unit": "ns/iter"
           },
           {
@@ -11322,51 +8346,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12516691579,
-            "range": "± 14682603",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6278171093,
-            "range": "± 14954375",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3166267507,
-            "range": "± 14644389",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754802063,
-            "range": "± 2156649",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217945,
-            "range": "± 1701",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 641165,
             "range": "± 923",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1303261,
-            "range": "± 54440",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3768515,
-            "range": "± 5984",
             "unit": "ns/iter"
           },
           {
@@ -11379,12 +8361,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29957619,
             "range": "± 22081",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66825944,
-            "range": "± 30126",
             "unit": "ns/iter"
           },
           {
@@ -11716,27 +8692,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8315,
-            "range": "± 246",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41481,
             "range": "± 951",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140985,
-            "range": "± 867",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 897736,
-            "range": "± 3003",
             "unit": "ns/iter"
           },
           {
@@ -11749,36 +8707,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23476712,
             "range": "± 49338",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93439462,
-            "range": "± 343802",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 455658,
-            "range": "± 12943",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 325708,
-            "range": "± 6084",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 256447,
-            "range": "± 7189",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 439463,
-            "range": "± 5826",
             "unit": "ns/iter"
           },
           {
@@ -11803,54 +8731,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 1011468,
             "range": "± 52063",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9570529,
-            "range": "± 65990",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5143790,
-            "range": "± 111009",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2980832,
-            "range": "± 6730",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 3028701,
-            "range": "± 137519",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 67245694,
-            "range": "± 73009",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34638614,
-            "range": "± 105085",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18289895,
-            "range": "± 21480",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16287102,
-            "range": "± 42902",
             "unit": "ns/iter"
           },
           {
@@ -11902,51 +8782,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12509327663,
-            "range": "± 6073275",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6287209938,
-            "range": "± 8029042",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3161208454,
-            "range": "± 7445126",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752911095,
-            "range": "± 3221261",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217909,
-            "range": "± 1571",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 641080,
             "range": "± 1319",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1303549,
-            "range": "± 2416",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3773342,
-            "range": "± 7146",
             "unit": "ns/iter"
           },
           {
@@ -11959,12 +8797,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29973340,
             "range": "± 40235",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66832160,
-            "range": "± 106044",
             "unit": "ns/iter"
           },
           {
@@ -12296,27 +9128,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8031,
-            "range": "± 166",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41441,
             "range": "± 461",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140063,
-            "range": "± 818",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 903021,
-            "range": "± 1909",
             "unit": "ns/iter"
           },
           {
@@ -12329,36 +9143,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23592420,
             "range": "± 171142",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 94063323,
-            "range": "± 463493",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425209,
-            "range": "± 3331",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 319379,
-            "range": "± 2736",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 261343,
-            "range": "± 2166",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 445665,
-            "range": "± 4284",
             "unit": "ns/iter"
           },
           {
@@ -12383,54 +9167,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 967089,
             "range": "± 36478",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9318285,
-            "range": "± 19048",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5082696,
-            "range": "± 55647",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2996132,
-            "range": "± 9588",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2860344,
-            "range": "± 85697",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66010299,
-            "range": "± 46991",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34348828,
-            "range": "± 40580",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18314415,
-            "range": "± 22720",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16250321,
-            "range": "± 17194",
             "unit": "ns/iter"
           },
           {
@@ -12482,51 +9218,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12494365816,
-            "range": "± 8496669",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6280095884,
-            "range": "± 9157452",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3163729499,
-            "range": "± 14047543",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2751814368,
-            "range": "± 1496783",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217318,
-            "range": "± 1714",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640121,
             "range": "± 1377",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300991,
-            "range": "± 3045",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3764573,
-            "range": "± 4671",
             "unit": "ns/iter"
           },
           {
@@ -12539,12 +9233,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29943357,
             "range": "± 26010",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66806136,
-            "range": "± 118067",
             "unit": "ns/iter"
           },
           {
@@ -12876,27 +9564,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7818,
-            "range": "± 55",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40714,
             "range": "± 199",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139247,
-            "range": "± 1587",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891379,
-            "range": "± 1699",
             "unit": "ns/iter"
           },
           {
@@ -12909,36 +9579,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23407130,
             "range": "± 112324",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93658984,
-            "range": "± 435734",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 429146,
-            "range": "± 4597",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 315025,
-            "range": "± 3295",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 256544,
-            "range": "± 6554",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 432983,
-            "range": "± 6284",
             "unit": "ns/iter"
           },
           {
@@ -12963,54 +9603,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 939975,
             "range": "± 23244",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9267137,
-            "range": "± 19413",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5035549,
-            "range": "± 43895",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2972426,
-            "range": "± 16900",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2792371,
-            "range": "± 76925",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65865196,
-            "range": "± 41450",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34191652,
-            "range": "± 29498",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18225356,
-            "range": "± 24334",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16229123,
-            "range": "± 50140",
             "unit": "ns/iter"
           },
           {
@@ -13062,51 +9654,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12477986649,
-            "range": "± 9172874",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6265011120,
-            "range": "± 12062237",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3156772856,
-            "range": "± 3903726",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753811862,
-            "range": "± 925184",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217442,
-            "range": "± 1955",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639680,
             "range": "± 623",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300242,
-            "range": "± 1400",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763021,
-            "range": "± 3779",
             "unit": "ns/iter"
           },
           {
@@ -13119,12 +9669,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29938691,
             "range": "± 10075",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66792554,
-            "range": "± 40988",
             "unit": "ns/iter"
           },
           {
@@ -13456,27 +10000,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7825,
-            "range": "± 31",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40953,
             "range": "± 190",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139464,
-            "range": "± 506",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 892140,
-            "range": "± 1301",
             "unit": "ns/iter"
           },
           {
@@ -13489,36 +10015,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23396808,
             "range": "± 33396",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93565073,
-            "range": "± 110499",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 429567,
-            "range": "± 2935",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 317176,
-            "range": "± 2810",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 270805,
-            "range": "± 2582",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 430000,
-            "range": "± 4237",
             "unit": "ns/iter"
           },
           {
@@ -13543,54 +10039,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 933997,
             "range": "± 17904",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9258271,
-            "range": "± 22741",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5042871,
-            "range": "± 25187",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2967529,
-            "range": "± 8753",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2729524,
-            "range": "± 39165",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65823137,
-            "range": "± 51094",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34114596,
-            "range": "± 40512",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18194735,
-            "range": "± 310905",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16214954,
-            "range": "± 24983",
             "unit": "ns/iter"
           },
           {
@@ -13642,51 +10090,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12481877321,
-            "range": "± 6451326",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6262847606,
-            "range": "± 5349957",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3154195242,
-            "range": "± 1103596",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754386481,
-            "range": "± 1045630",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 219058,
-            "range": "± 409",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640407,
             "range": "± 559",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1302616,
-            "range": "± 1492",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3768912,
-            "range": "± 16731",
             "unit": "ns/iter"
           },
           {
@@ -13699,12 +10105,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29970281,
             "range": "± 23737",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66801645,
-            "range": "± 24122",
             "unit": "ns/iter"
           },
           {
@@ -14036,27 +10436,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7840,
-            "range": "± 142",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41307,
             "range": "± 1049",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139337,
-            "range": "± 637",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891841,
-            "range": "± 1188",
             "unit": "ns/iter"
           },
           {
@@ -14069,36 +10451,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23495264,
             "range": "± 109019",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93435729,
-            "range": "± 418085",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426652,
-            "range": "± 6010",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 314216,
-            "range": "± 2012",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 255638,
-            "range": "± 5600",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 439634,
-            "range": "± 9036",
             "unit": "ns/iter"
           },
           {
@@ -14123,54 +10475,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 927509,
             "range": "± 8679",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9293863,
-            "range": "± 27816",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5058727,
-            "range": "± 38861",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 3010218,
-            "range": "± 15099",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2787805,
-            "range": "± 59723",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66003728,
-            "range": "± 57475",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34338052,
-            "range": "± 20723",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18323304,
-            "range": "± 212077",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16259228,
-            "range": "± 34519",
             "unit": "ns/iter"
           },
           {
@@ -14222,51 +10526,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12502552147,
-            "range": "± 15116961",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6279704118,
-            "range": "± 15845339",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3161107845,
-            "range": "± 24822050",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754211078,
-            "range": "± 1586350",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217221,
-            "range": "± 1594",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639322,
             "range": "± 1236",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300314,
-            "range": "± 18119",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3760274,
-            "range": "± 4923",
             "unit": "ns/iter"
           },
           {
@@ -14279,12 +10541,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29922121,
             "range": "± 31507",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66700853,
-            "range": "± 33364",
             "unit": "ns/iter"
           },
           {
@@ -14616,27 +10872,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7823,
-            "range": "± 31",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41009,
             "range": "± 226",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139570,
-            "range": "± 548",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891015,
-            "range": "± 2962",
             "unit": "ns/iter"
           },
           {
@@ -14649,36 +10887,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23347024,
             "range": "± 99358",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93640372,
-            "range": "± 88824",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 423903,
-            "range": "± 3613",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313158,
-            "range": "± 2634",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 249606,
-            "range": "± 2060",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 425303,
-            "range": "± 2172",
             "unit": "ns/iter"
           },
           {
@@ -14703,54 +10911,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 916945,
             "range": "± 11291",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9275215,
-            "range": "± 33898",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5044496,
-            "range": "± 48061",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2970379,
-            "range": "± 8317",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2746854,
-            "range": "± 32337",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65941110,
-            "range": "± 70896",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34249691,
-            "range": "± 37371",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18215953,
-            "range": "± 281004",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16201628,
-            "range": "± 52771",
             "unit": "ns/iter"
           },
           {
@@ -14802,51 +10962,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12504570810,
-            "range": "± 4402304",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6291451598,
-            "range": "± 9478799",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3159354151,
-            "range": "± 11405273",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754542608,
-            "range": "± 990550",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218139,
-            "range": "± 1580",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639895,
             "range": "± 1356",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300866,
-            "range": "± 2534",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3762924,
-            "range": "± 8296",
             "unit": "ns/iter"
           },
           {
@@ -14859,12 +10977,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29922108,
             "range": "± 16334",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66711692,
-            "range": "± 32730",
             "unit": "ns/iter"
           },
           {
@@ -15196,27 +11308,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7857,
-            "range": "± 30",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40917,
             "range": "± 198",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139238,
-            "range": "± 336",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 890395,
-            "range": "± 1756",
             "unit": "ns/iter"
           },
           {
@@ -15229,36 +11323,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23294654,
             "range": "± 78943",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93458581,
-            "range": "± 400237",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 436785,
-            "range": "± 7283",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 318162,
-            "range": "± 4926",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 249917,
-            "range": "± 4187",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 430715,
-            "range": "± 5648",
             "unit": "ns/iter"
           },
           {
@@ -15283,54 +11347,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 962521,
             "range": "± 30345",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9383898,
-            "range": "± 44995",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5105930,
-            "range": "± 94715",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2967895,
-            "range": "± 17260",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2861503,
-            "range": "± 119918",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66103011,
-            "range": "± 72007",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34318629,
-            "range": "± 39645",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18198447,
-            "range": "± 22486",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16200419,
-            "range": "± 24349",
             "unit": "ns/iter"
           },
           {
@@ -15382,51 +11398,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12497730928,
-            "range": "± 13195591",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6285047974,
-            "range": "± 16817936",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3159042716,
-            "range": "± 7609794",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753511969,
-            "range": "± 1315084",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217344,
-            "range": "± 1697",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639743,
             "range": "± 3049",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300583,
-            "range": "± 59159",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3762029,
-            "range": "± 3263",
             "unit": "ns/iter"
           },
           {
@@ -15439,12 +11413,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29914674,
             "range": "± 36556",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66717777,
-            "range": "± 37714",
             "unit": "ns/iter"
           },
           {
@@ -15776,27 +11744,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8059,
-            "range": "± 110",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41795,
             "range": "± 798",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 143426,
-            "range": "± 2047",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 898620,
-            "range": "± 2117",
             "unit": "ns/iter"
           },
           {
@@ -15809,36 +11759,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23499273,
             "range": "± 105214",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93709962,
-            "range": "± 303205",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 428369,
-            "range": "± 3500",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 321275,
-            "range": "± 5095",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 269262,
-            "range": "± 3454",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 443654,
-            "range": "± 7285",
             "unit": "ns/iter"
           },
           {
@@ -15863,54 +11783,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 938891,
             "range": "± 13018",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9267251,
-            "range": "± 26701",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5069341,
-            "range": "± 49607",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2997845,
-            "range": "± 18092",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2782017,
-            "range": "± 23009",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66001390,
-            "range": "± 59049",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34310274,
-            "range": "± 36282",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18360503,
-            "range": "± 27049",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16306072,
-            "range": "± 106848",
             "unit": "ns/iter"
           },
           {
@@ -15962,51 +11834,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12497052825,
-            "range": "± 3989699",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6283418168,
-            "range": "± 12294250",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3162373832,
-            "range": "± 41058254",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2755982617,
-            "range": "± 13358273",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217448,
-            "range": "± 1609",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639952,
             "range": "± 1753",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299793,
-            "range": "± 4486",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3761880,
-            "range": "± 4959",
             "unit": "ns/iter"
           },
           {
@@ -16019,12 +11849,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29933183,
             "range": "± 116680",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66760626,
-            "range": "± 59686",
             "unit": "ns/iter"
           },
           {
@@ -16356,27 +12180,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7819,
-            "range": "± 34",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40945,
             "range": "± 146",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139506,
-            "range": "± 456",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891495,
-            "range": "± 1581",
             "unit": "ns/iter"
           },
           {
@@ -16389,36 +12195,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23331455,
             "range": "± 186413",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93581754,
-            "range": "± 133499",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426812,
-            "range": "± 4058",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311924,
-            "range": "± 2287",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 246928,
-            "range": "± 2583",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 426122,
-            "range": "± 3998",
             "unit": "ns/iter"
           },
           {
@@ -16443,54 +12219,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 923057,
             "range": "± 22710",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9286771,
-            "range": "± 31621",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5041873,
-            "range": "± 38675",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2966938,
-            "range": "± 5485",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2745396,
-            "range": "± 39212",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65852184,
-            "range": "± 94139",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34236560,
-            "range": "± 395418",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18212671,
-            "range": "± 174797",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16209604,
-            "range": "± 75833",
             "unit": "ns/iter"
           },
           {
@@ -16542,51 +12270,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12513984046,
-            "range": "± 17942072",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6283465958,
-            "range": "± 20894079",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3169571521,
-            "range": "± 21135179",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754156161,
-            "range": "± 652038",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217273,
-            "range": "± 2965",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639776,
             "range": "± 16457",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300361,
-            "range": "± 2672",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3762589,
-            "range": "± 13425",
             "unit": "ns/iter"
           },
           {
@@ -16599,12 +12285,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29935070,
             "range": "± 1337001",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66766298,
-            "range": "± 32017",
             "unit": "ns/iter"
           },
           {
@@ -16936,27 +12616,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8400,
-            "range": "± 155",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 42553,
             "range": "± 561",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 144099,
-            "range": "± 2499",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 903174,
-            "range": "± 3860",
             "unit": "ns/iter"
           },
           {
@@ -16969,36 +12631,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23695602,
             "range": "± 94390",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93712261,
-            "range": "± 340872",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 433615,
-            "range": "± 4270",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 322995,
-            "range": "± 3056",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 264096,
-            "range": "± 4079",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 448959,
-            "range": "± 6244",
             "unit": "ns/iter"
           },
           {
@@ -17023,54 +12655,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 950924,
             "range": "± 15468",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9337093,
-            "range": "± 29511",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5098746,
-            "range": "± 62477",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 3048753,
-            "range": "± 15162",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2799080,
-            "range": "± 26308",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65968833,
-            "range": "± 91450",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34388336,
-            "range": "± 44895",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18377955,
-            "range": "± 17852",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16325619,
-            "range": "± 56853",
             "unit": "ns/iter"
           },
           {
@@ -17122,51 +12706,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12501407200,
-            "range": "± 23374613",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6272976346,
-            "range": "± 5747440",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3159749856,
-            "range": "± 7003722",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754086672,
-            "range": "± 1463939",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217101,
-            "range": "± 1679",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639900,
             "range": "± 955",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300601,
-            "range": "± 7967",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763512,
-            "range": "± 5106",
             "unit": "ns/iter"
           },
           {
@@ -17179,12 +12721,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29927913,
             "range": "± 15474",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66746357,
-            "range": "± 184159",
             "unit": "ns/iter"
           },
           {
@@ -17516,27 +13052,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8054,
-            "range": "± 180",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41527,
             "range": "± 820",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141207,
-            "range": "± 1293",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 899946,
-            "range": "± 5110",
             "unit": "ns/iter"
           },
           {
@@ -17549,36 +13067,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23611506,
             "range": "± 165357",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93614044,
-            "range": "± 72341",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 427333,
-            "range": "± 5450",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 316468,
-            "range": "± 2765",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 271364,
-            "range": "± 4481",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 437583,
-            "range": "± 5649",
             "unit": "ns/iter"
           },
           {
@@ -17603,54 +13091,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 931370,
             "range": "± 12728",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9313062,
-            "range": "± 31228",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5081677,
-            "range": "± 48546",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 3002558,
-            "range": "± 13227",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2755396,
-            "range": "± 56449",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65941153,
-            "range": "± 18715",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34351554,
-            "range": "± 54553",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18324499,
-            "range": "± 489068",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16266505,
-            "range": "± 13412",
             "unit": "ns/iter"
           },
           {
@@ -17702,51 +13142,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12499471342,
-            "range": "± 12688747",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6275155163,
-            "range": "± 6443883",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3159926894,
-            "range": "± 3683833",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754209199,
-            "range": "± 1171582",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217658,
-            "range": "± 1936",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639457,
             "range": "± 983",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299985,
-            "range": "± 3769",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3760261,
-            "range": "± 4678",
             "unit": "ns/iter"
           },
           {
@@ -17759,12 +13157,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29914966,
             "range": "± 17285",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66690386,
-            "range": "± 23809",
             "unit": "ns/iter"
           },
           {
@@ -18096,27 +13488,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7834,
-            "range": "± 151",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41017,
             "range": "± 207",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139631,
-            "range": "± 325",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889888,
-            "range": "± 3673",
             "unit": "ns/iter"
           },
           {
@@ -18129,36 +13503,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23432221,
             "range": "± 105579",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93629836,
-            "range": "± 430111",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 424364,
-            "range": "± 3875",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313380,
-            "range": "± 2985",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 249121,
-            "range": "± 3100",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 426649,
-            "range": "± 11218",
             "unit": "ns/iter"
           },
           {
@@ -18183,54 +13527,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 924967,
             "range": "± 17902",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9292208,
-            "range": "± 31772",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5045348,
-            "range": "± 51630",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2973713,
-            "range": "± 5740",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2739229,
-            "range": "± 19816",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65981844,
-            "range": "± 53881",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34252084,
-            "range": "± 49114",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18194876,
-            "range": "± 13124",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16192123,
-            "range": "± 44505",
             "unit": "ns/iter"
           },
           {
@@ -18282,51 +13578,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12506208538,
-            "range": "± 5233539",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6294242967,
-            "range": "± 8663628",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3159980456,
-            "range": "± 4197206",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753567573,
-            "range": "± 932971",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217325,
-            "range": "± 1581",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639406,
             "range": "± 1961",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299662,
-            "range": "± 1382",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3760049,
-            "range": "± 4474",
             "unit": "ns/iter"
           },
           {
@@ -18339,12 +13593,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29915244,
             "range": "± 16571",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66705376,
-            "range": "± 39899",
             "unit": "ns/iter"
           },
           {
@@ -18676,27 +13924,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8028,
-            "range": "± 201",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41942,
             "range": "± 866",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141181,
-            "range": "± 17975",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 900068,
-            "range": "± 4947",
             "unit": "ns/iter"
           },
           {
@@ -18709,36 +13939,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23544935,
             "range": "± 119865",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93914951,
-            "range": "± 297316",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 431168,
-            "range": "± 2917",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 316567,
-            "range": "± 2227",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 271885,
-            "range": "± 6399",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 429156,
-            "range": "± 4830",
             "unit": "ns/iter"
           },
           {
@@ -18763,54 +13963,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 963045,
             "range": "± 25128",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9331289,
-            "range": "± 77694",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5045964,
-            "range": "± 43853",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2977040,
-            "range": "± 47621",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2791787,
-            "range": "± 42461",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65887374,
-            "range": "± 211496",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34217007,
-            "range": "± 52279",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18232663,
-            "range": "± 228153",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16209584,
-            "range": "± 32264",
             "unit": "ns/iter"
           },
           {
@@ -18862,51 +14014,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12500909295,
-            "range": "± 10976451",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6292957670,
-            "range": "± 9595550",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3159986617,
-            "range": "± 51074270",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2754187360,
-            "range": "± 520181",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217540,
-            "range": "± 5291",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639262,
             "range": "± 1279",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299437,
-            "range": "± 1341",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3759713,
-            "range": "± 3328",
             "unit": "ns/iter"
           },
           {
@@ -18919,12 +14029,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29908875,
             "range": "± 494209",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66671906,
-            "range": "± 84710",
             "unit": "ns/iter"
           },
           {
@@ -19256,27 +14360,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7849,
-            "range": "± 40",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40779,
             "range": "± 148",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139433,
-            "range": "± 737",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 890716,
-            "range": "± 3107",
             "unit": "ns/iter"
           },
           {
@@ -19289,36 +14375,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23419101,
             "range": "± 90069",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93533966,
-            "range": "± 432084",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 423672,
-            "range": "± 3454",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313221,
-            "range": "± 2036",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 268114,
-            "range": "± 4084",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 427603,
-            "range": "± 4942",
             "unit": "ns/iter"
           },
           {
@@ -19343,54 +14399,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 918537,
             "range": "± 16379",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9245899,
-            "range": "± 18296",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5036837,
-            "range": "± 40110",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2970105,
-            "range": "± 5053",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2728971,
-            "range": "± 31618",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65777299,
-            "range": "± 35296",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34174909,
-            "range": "± 33455",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18206265,
-            "range": "± 44808",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16249777,
-            "range": "± 31063",
             "unit": "ns/iter"
           },
           {
@@ -19442,51 +14450,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12473510471,
-            "range": "± 5002666",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6280903190,
-            "range": "± 11379943",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3154226852,
-            "range": "± 3133904",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753517017,
-            "range": "± 2545137",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217416,
-            "range": "± 1621",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639794,
             "range": "± 931",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300430,
-            "range": "± 2122",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763216,
-            "range": "± 5485",
             "unit": "ns/iter"
           },
           {
@@ -19499,12 +14465,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29963289,
             "range": "± 131638",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66815370,
-            "range": "± 71243",
             "unit": "ns/iter"
           },
           {
@@ -19836,27 +14796,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7825,
-            "range": "± 49",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40855,
             "range": "± 241",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139428,
-            "range": "± 510",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 888593,
-            "range": "± 2217",
             "unit": "ns/iter"
           },
           {
@@ -19869,36 +14811,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23302187,
             "range": "± 87564",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93273346,
-            "range": "± 159050",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 423662,
-            "range": "± 2369",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312173,
-            "range": "± 1949",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 247371,
-            "range": "± 1599",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 424817,
-            "range": "± 2764",
             "unit": "ns/iter"
           },
           {
@@ -19923,54 +14835,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 917989,
             "range": "± 28545",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9249759,
-            "range": "± 27283",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5040258,
-            "range": "± 41729",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2966634,
-            "range": "± 6896",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2773387,
-            "range": "± 28192",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65693453,
-            "range": "± 27670",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34180168,
-            "range": "± 48263",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18191772,
-            "range": "± 10111",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16212229,
-            "range": "± 54811",
             "unit": "ns/iter"
           },
           {
@@ -20022,51 +14886,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12468020192,
-            "range": "± 3633703",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6264409154,
-            "range": "± 7034020",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3155906171,
-            "range": "± 3321574",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753975692,
-            "range": "± 1541837",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217462,
-            "range": "± 2080",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640034,
             "range": "± 555",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301291,
-            "range": "± 3713",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763027,
-            "range": "± 7040",
             "unit": "ns/iter"
           },
           {
@@ -20079,12 +14901,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29956383,
             "range": "± 341097",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66850978,
-            "range": "± 47427",
             "unit": "ns/iter"
           },
           {
@@ -20416,27 +15232,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7936,
-            "range": "± 68",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40874,
             "range": "± 282",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139097,
-            "range": "± 671",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889464,
-            "range": "± 1390",
             "unit": "ns/iter"
           },
           {
@@ -20449,36 +15247,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23364284,
             "range": "± 170915",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93460785,
-            "range": "± 96195",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 422959,
-            "range": "± 4226",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311192,
-            "range": "± 2278",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 268260,
-            "range": "± 2444",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 427524,
-            "range": "± 2684",
             "unit": "ns/iter"
           },
           {
@@ -20503,54 +15271,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 942297,
             "range": "± 25367",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9242824,
-            "range": "± 16286",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5031801,
-            "range": "± 37065",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2965559,
-            "range": "± 9189",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2756958,
-            "range": "± 37019",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65761713,
-            "range": "± 54956",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34153330,
-            "range": "± 38564",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18185013,
-            "range": "± 128829",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16184611,
-            "range": "± 128101",
             "unit": "ns/iter"
           },
           {
@@ -20602,51 +15322,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12546937921,
-            "range": "± 18560411",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6270742399,
-            "range": "± 20322488",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3156608091,
-            "range": "± 4177710",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752419787,
-            "range": "± 618742",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218444,
-            "range": "± 1703",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639854,
             "range": "± 4526",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300403,
-            "range": "± 1665",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763046,
-            "range": "± 4515",
             "unit": "ns/iter"
           },
           {
@@ -20659,12 +15337,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29947456,
             "range": "± 571449",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66791683,
-            "range": "± 24923",
             "unit": "ns/iter"
           },
           {
@@ -20996,27 +15668,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7837,
-            "range": "± 51",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40756,
             "range": "± 201",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139491,
-            "range": "± 549",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889791,
-            "range": "± 1179",
             "unit": "ns/iter"
           },
           {
@@ -21029,36 +15683,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23430167,
             "range": "± 66379",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93576698,
-            "range": "± 307334",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 424555,
-            "range": "± 6174",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 314656,
-            "range": "± 2136",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 269137,
-            "range": "± 8232",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 431092,
-            "range": "± 4902",
             "unit": "ns/iter"
           },
           {
@@ -21083,54 +15707,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 938745,
             "range": "± 18966",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9254926,
-            "range": "± 19047",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5040042,
-            "range": "± 44921",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2970805,
-            "range": "± 16895",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2742996,
-            "range": "± 24832",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65734954,
-            "range": "± 49723",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34218129,
-            "range": "± 54547",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18214917,
-            "range": "± 265410",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16203167,
-            "range": "± 21889",
             "unit": "ns/iter"
           },
           {
@@ -21182,51 +15758,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12473012581,
-            "range": "± 5390901",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6264866753,
-            "range": "± 2593247",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3155859816,
-            "range": "± 4551465",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752464206,
-            "range": "± 597247",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217440,
-            "range": "± 1712",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640355,
             "range": "± 2785",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301653,
-            "range": "± 2664",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3766548,
-            "range": "± 16449",
             "unit": "ns/iter"
           },
           {
@@ -21239,12 +15773,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29977857,
             "range": "± 101775",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66859955,
-            "range": "± 74638",
             "unit": "ns/iter"
           },
           {
@@ -21576,27 +16104,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7847,
-            "range": "± 44",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40774,
             "range": "± 134",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139291,
-            "range": "± 1391",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 890022,
-            "range": "± 1488",
             "unit": "ns/iter"
           },
           {
@@ -21609,36 +16119,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23497032,
             "range": "± 35979",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93663374,
-            "range": "± 327253",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425326,
-            "range": "± 4657",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312474,
-            "range": "± 2876",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 255790,
-            "range": "± 3474",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 423957,
-            "range": "± 2647",
             "unit": "ns/iter"
           },
           {
@@ -21663,54 +16143,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 912434,
             "range": "± 14615",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9233546,
-            "range": "± 16166",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5035454,
-            "range": "± 42994",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2969367,
-            "range": "± 29172",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2738364,
-            "range": "± 11785",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65740102,
-            "range": "± 50181",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34178399,
-            "range": "± 16520",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18184057,
-            "range": "± 17408",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16210066,
-            "range": "± 39466",
             "unit": "ns/iter"
           },
           {
@@ -21762,51 +16194,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12543116114,
-            "range": "± 2809694",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6263696404,
-            "range": "± 2370822",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3156604036,
-            "range": "± 11391478",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752831353,
-            "range": "± 965697",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218027,
-            "range": "± 1740",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639508,
             "range": "± 612",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300031,
-            "range": "± 4900",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3761864,
-            "range": "± 4165",
             "unit": "ns/iter"
           },
           {
@@ -21819,12 +16209,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29938476,
             "range": "± 58250",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66790788,
-            "range": "± 46703",
             "unit": "ns/iter"
           },
           {
@@ -22156,27 +16540,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7809,
-            "range": "± 41",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40769,
             "range": "± 292",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139431,
-            "range": "± 394",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 888142,
-            "range": "± 1252",
             "unit": "ns/iter"
           },
           {
@@ -22189,36 +16555,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23334638,
             "range": "± 157666",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93506019,
-            "range": "± 204974",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 424650,
-            "range": "± 3097",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 314174,
-            "range": "± 2333",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 271870,
-            "range": "± 3159",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 433618,
-            "range": "± 4562",
             "unit": "ns/iter"
           },
           {
@@ -22243,54 +16579,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 941193,
             "range": "± 9134",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9245286,
-            "range": "± 38124",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5044025,
-            "range": "± 32575",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2979810,
-            "range": "± 33700",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2742303,
-            "range": "± 20368",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65771801,
-            "range": "± 36241",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34178299,
-            "range": "± 99685",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18202415,
-            "range": "± 141719",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16196003,
-            "range": "± 20617",
             "unit": "ns/iter"
           },
           {
@@ -22342,51 +16630,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12499361456,
-            "range": "± 10711995",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6274519946,
-            "range": "± 18686410",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3162853594,
-            "range": "± 10569894",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753348638,
-            "range": "± 1045668",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218458,
-            "range": "± 1095",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 644322,
             "range": "± 816",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1309730,
-            "range": "± 1068",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3785903,
-            "range": "± 3974",
             "unit": "ns/iter"
           },
           {
@@ -22399,12 +16645,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30120982,
             "range": "± 15023",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67251337,
-            "range": "± 798249",
             "unit": "ns/iter"
           },
           {
@@ -22736,27 +16976,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7820,
-            "range": "± 39",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40828,
             "range": "± 563",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139239,
-            "range": "± 821",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889271,
-            "range": "± 1053",
             "unit": "ns/iter"
           },
           {
@@ -22769,36 +16991,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23507355,
             "range": "± 96655",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93525048,
-            "range": "± 271797",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 424345,
-            "range": "± 3732",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 318871,
-            "range": "± 2772",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 252589,
-            "range": "± 4664",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 428885,
-            "range": "± 2834",
             "unit": "ns/iter"
           },
           {
@@ -22823,54 +17015,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 924314,
             "range": "± 20759",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9232755,
-            "range": "± 19695",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5033699,
-            "range": "± 43866",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2965979,
-            "range": "± 9066",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2726740,
-            "range": "± 22762",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65728953,
-            "range": "± 43399",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34185490,
-            "range": "± 23757",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18192163,
-            "range": "± 410794",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16201681,
-            "range": "± 81809",
             "unit": "ns/iter"
           },
           {
@@ -22922,51 +17066,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12484753184,
-            "range": "± 3356656",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6276299571,
-            "range": "± 8018221",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3155793900,
-            "range": "± 2916766",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752647577,
-            "range": "± 7337752",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217892,
-            "range": "± 1607",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 641196,
             "range": "± 2157",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1304179,
-            "range": "± 2193",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3772005,
-            "range": "± 3119",
             "unit": "ns/iter"
           },
           {
@@ -22979,12 +17081,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30009107,
             "range": "± 105653",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66986023,
-            "range": "± 73324",
             "unit": "ns/iter"
           },
           {
@@ -23316,27 +17412,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7816,
-            "range": "± 59",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40930,
             "range": "± 246",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139479,
-            "range": "± 649",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 902822,
-            "range": "± 3754",
             "unit": "ns/iter"
           },
           {
@@ -23349,36 +17427,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23590529,
             "range": "± 83052",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93708559,
-            "range": "± 366158",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 422754,
-            "range": "± 4766",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312862,
-            "range": "± 2728",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 250107,
-            "range": "± 1875",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 427367,
-            "range": "± 4432",
             "unit": "ns/iter"
           },
           {
@@ -23403,54 +17451,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 921731,
             "range": "± 21532",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9253956,
-            "range": "± 29350",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5036177,
-            "range": "± 49749",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2973436,
-            "range": "± 7593",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2746228,
-            "range": "± 26081",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65788527,
-            "range": "± 150389",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34223602,
-            "range": "± 49909",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18200458,
-            "range": "± 377161",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16207626,
-            "range": "± 23236",
             "unit": "ns/iter"
           },
           {
@@ -23502,51 +17502,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12472980201,
-            "range": "± 5251444",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6266709799,
-            "range": "± 10760378",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3155568094,
-            "range": "± 2651020",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752838310,
-            "range": "± 784927",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217753,
-            "range": "± 1682",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640160,
             "range": "± 766",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301564,
-            "range": "± 2713",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3765189,
-            "range": "± 27928",
             "unit": "ns/iter"
           },
           {
@@ -23559,12 +17517,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29957615,
             "range": "± 15147",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66831367,
-            "range": "± 40221",
             "unit": "ns/iter"
           },
           {
@@ -23896,27 +17848,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7941,
-            "range": "± 137",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40992,
             "range": "± 798",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 143494,
-            "range": "± 3412",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 902683,
-            "range": "± 4883",
             "unit": "ns/iter"
           },
           {
@@ -23929,36 +17863,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23548429,
             "range": "± 157180",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93962436,
-            "range": "± 367365",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425937,
-            "range": "± 2691",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 319397,
-            "range": "± 3305",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 265488,
-            "range": "± 4547",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 453331,
-            "range": "± 6155",
             "unit": "ns/iter"
           },
           {
@@ -23983,54 +17887,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 959896,
             "range": "± 22134",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9254641,
-            "range": "± 20177",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5064300,
-            "range": "± 47846",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2994582,
-            "range": "± 19056",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2832303,
-            "range": "± 76602",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66543321,
-            "range": "± 37162",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34360977,
-            "range": "± 27371",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18335247,
-            "range": "± 216186",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16317688,
-            "range": "± 51506",
             "unit": "ns/iter"
           },
           {
@@ -24082,51 +17938,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12479898379,
-            "range": "± 6050660",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6266925562,
-            "range": "± 4364810",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3156443437,
-            "range": "± 3430471",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753256442,
-            "range": "± 918168",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 219143,
-            "range": "± 1372",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 643912,
             "range": "± 1133",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1309329,
-            "range": "± 1647",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3786502,
-            "range": "± 16024",
             "unit": "ns/iter"
           },
           {
@@ -24139,12 +17953,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30119591,
             "range": "± 42077",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67236642,
-            "range": "± 101955",
             "unit": "ns/iter"
           },
           {
@@ -24476,27 +18284,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7881,
-            "range": "± 50",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40897,
             "range": "± 238",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139394,
-            "range": "± 284",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891628,
-            "range": "± 1586",
             "unit": "ns/iter"
           },
           {
@@ -24509,36 +18299,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23527092,
             "range": "± 145703",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93421378,
-            "range": "± 340768",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425328,
-            "range": "± 4531",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311499,
-            "range": "± 1910",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 250698,
-            "range": "± 2870",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 426764,
-            "range": "± 6289",
             "unit": "ns/iter"
           },
           {
@@ -24563,54 +18323,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 923234,
             "range": "± 22254",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9357139,
-            "range": "± 16391",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5029618,
-            "range": "± 44361",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2976429,
-            "range": "± 28436",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2744553,
-            "range": "± 41924",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66230816,
-            "range": "± 57508",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34180626,
-            "range": "± 28278",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18213665,
-            "range": "± 15748",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16222907,
-            "range": "± 55809",
             "unit": "ns/iter"
           },
           {
@@ -24662,51 +18374,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12476310216,
-            "range": "± 10408806",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6281950246,
-            "range": "± 10596971",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3157525861,
-            "range": "± 3726525",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752551492,
-            "range": "± 1626912",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217383,
-            "range": "± 1649",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639561,
             "range": "± 873",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299955,
-            "range": "± 1739",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3762684,
-            "range": "± 87384",
             "unit": "ns/iter"
           },
           {
@@ -24719,12 +18389,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29945909,
             "range": "± 22852",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66819827,
-            "range": "± 40274",
             "unit": "ns/iter"
           },
           {
@@ -25056,27 +18720,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7928,
-            "range": "± 122",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40894,
             "range": "± 269",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139636,
-            "range": "± 764",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891837,
-            "range": "± 1959",
             "unit": "ns/iter"
           },
           {
@@ -25089,36 +18735,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23461522,
             "range": "± 146509",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93725115,
-            "range": "± 322057",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425742,
-            "range": "± 8722",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 316853,
-            "range": "± 19105",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 253744,
-            "range": "± 3612",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 430117,
-            "range": "± 7428",
             "unit": "ns/iter"
           },
           {
@@ -25143,54 +18759,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 926812,
             "range": "± 17479",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9328468,
-            "range": "± 41210",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5045958,
-            "range": "± 52180",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2988812,
-            "range": "± 18395",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2746659,
-            "range": "± 34674",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65834722,
-            "range": "± 39894",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34202704,
-            "range": "± 37574",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18285466,
-            "range": "± 301386",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16307971,
-            "range": "± 260983",
             "unit": "ns/iter"
           },
           {
@@ -25242,51 +18810,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12471598497,
-            "range": "± 5067790",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6271172785,
-            "range": "± 7421591",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3156305281,
-            "range": "± 2150552",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752954371,
-            "range": "± 1457633",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218222,
-            "range": "± 3875",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 642190,
             "range": "± 954",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1305046,
-            "range": "± 1761",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3773827,
-            "range": "± 4503",
             "unit": "ns/iter"
           },
           {
@@ -25299,12 +18825,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30025753,
             "range": "± 9620",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67042527,
-            "range": "± 26925",
             "unit": "ns/iter"
           },
           {
@@ -25636,27 +19156,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7795,
-            "range": "± 56",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40897,
             "range": "± 208",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139157,
-            "range": "± 511",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889434,
-            "range": "± 1239",
             "unit": "ns/iter"
           },
           {
@@ -25669,36 +19171,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23493404,
             "range": "± 115977",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93545164,
-            "range": "± 243787",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 424772,
-            "range": "± 12451",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313815,
-            "range": "± 2082",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 253804,
-            "range": "± 3638",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 426525,
-            "range": "± 2557",
             "unit": "ns/iter"
           },
           {
@@ -25723,54 +19195,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 919739,
             "range": "± 19728",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9262461,
-            "range": "± 29983",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5032757,
-            "range": "± 43423",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2963870,
-            "range": "± 10814",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2735847,
-            "range": "± 48031",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65799829,
-            "range": "± 92394",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34179327,
-            "range": "± 39635",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18213198,
-            "range": "± 17180",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16248299,
-            "range": "± 112632",
             "unit": "ns/iter"
           },
           {
@@ -25822,51 +19246,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12582346209,
-            "range": "± 8552299",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6265113148,
-            "range": "± 13379134",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3154814299,
-            "range": "± 1124015",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752373340,
-            "range": "± 5634283",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217537,
-            "range": "± 1578",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639700,
             "range": "± 624",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300404,
-            "range": "± 2523",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763909,
-            "range": "± 27804",
             "unit": "ns/iter"
           },
           {
@@ -25879,12 +19261,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29957539,
             "range": "± 42465",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66882914,
-            "range": "± 39052",
             "unit": "ns/iter"
           },
           {
@@ -26216,27 +19592,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7854,
-            "range": "± 95",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40937,
             "range": "± 240",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139405,
-            "range": "± 613",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889588,
-            "range": "± 2693",
             "unit": "ns/iter"
           },
           {
@@ -26249,36 +19607,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23440833,
             "range": "± 179291",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93721623,
-            "range": "± 411805",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425904,
-            "range": "± 4232",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313231,
-            "range": "± 1782",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 253556,
-            "range": "± 2090",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 424432,
-            "range": "± 4160",
             "unit": "ns/iter"
           },
           {
@@ -26303,54 +19631,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 917338,
             "range": "± 16601",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9251378,
-            "range": "± 16855",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5038523,
-            "range": "± 43474",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2968999,
-            "range": "± 5592",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2753926,
-            "range": "± 40822",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65745122,
-            "range": "± 25026",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34163611,
-            "range": "± 35051",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18185541,
-            "range": "± 21096",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16195058,
-            "range": "± 113357",
             "unit": "ns/iter"
           },
           {
@@ -26402,51 +19682,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12473643573,
-            "range": "± 3156605",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6265101620,
-            "range": "± 6613680",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3156016475,
-            "range": "± 2572927",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752123048,
-            "range": "± 1021023",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217742,
-            "range": "± 1772",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639985,
             "range": "± 695",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301230,
-            "range": "± 2342",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3764733,
-            "range": "± 15634",
             "unit": "ns/iter"
           },
           {
@@ -26459,12 +19697,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29961162,
             "range": "± 134609",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66843521,
-            "range": "± 52296",
             "unit": "ns/iter"
           },
           {
@@ -26796,27 +20028,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8518,
-            "range": "± 135",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 44347,
             "range": "± 310",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 151534,
-            "range": "± 5671",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 897857,
-            "range": "± 2108",
             "unit": "ns/iter"
           },
           {
@@ -26829,36 +20043,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23452937,
             "range": "± 112712",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93660689,
-            "range": "± 533801",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425274,
-            "range": "± 2405",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 314171,
-            "range": "± 2702",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 253941,
-            "range": "± 6338",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 432645,
-            "range": "± 5740",
             "unit": "ns/iter"
           },
           {
@@ -26883,54 +20067,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 927989,
             "range": "± 17300",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9256780,
-            "range": "± 23878",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5057720,
-            "range": "± 40341",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2980624,
-            "range": "± 5158",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2744571,
-            "range": "± 24191",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65860290,
-            "range": "± 78497",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34254548,
-            "range": "± 47678",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18249228,
-            "range": "± 429578",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16238048,
-            "range": "± 13371",
             "unit": "ns/iter"
           },
           {
@@ -26982,51 +20118,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12464331014,
-            "range": "± 11287939",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6262018695,
-            "range": "± 11633198",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3153796016,
-            "range": "± 5175083",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753195276,
-            "range": "± 783916",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217937,
-            "range": "± 1614",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639796,
             "range": "± 1309",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300321,
-            "range": "± 1819",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763355,
-            "range": "± 4970",
             "unit": "ns/iter"
           },
           {
@@ -27039,12 +20133,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29945074,
             "range": "± 14925",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66779609,
-            "range": "± 328650",
             "unit": "ns/iter"
           },
           {
@@ -27376,27 +20464,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7982,
-            "range": "± 185",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41008,
             "range": "± 361",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140500,
-            "range": "± 1400",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 894117,
-            "range": "± 2933",
             "unit": "ns/iter"
           },
           {
@@ -27409,36 +20479,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23547129,
             "range": "± 104097",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93480611,
-            "range": "± 415184",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426029,
-            "range": "± 3418",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 317167,
-            "range": "± 4047",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 267407,
-            "range": "± 2873",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 432088,
-            "range": "± 6029",
             "unit": "ns/iter"
           },
           {
@@ -27463,54 +20503,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 915817,
             "range": "± 18592",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9274246,
-            "range": "± 33025",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5038216,
-            "range": "± 47890",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2980336,
-            "range": "± 13413",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2764197,
-            "range": "± 51361",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65851530,
-            "range": "± 44062",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34217123,
-            "range": "± 49269",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18257167,
-            "range": "± 37551",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16263947,
-            "range": "± 141871",
             "unit": "ns/iter"
           },
           {
@@ -27562,51 +20554,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12474156806,
-            "range": "± 3340122",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6264248383,
-            "range": "± 7273959",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3155913803,
-            "range": "± 2766716",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752718265,
-            "range": "± 954980",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217960,
-            "range": "± 1263",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 641818,
             "range": "± 1127",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1304519,
-            "range": "± 2535",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3773167,
-            "range": "± 6641",
             "unit": "ns/iter"
           },
           {
@@ -27619,12 +20569,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30020484,
             "range": "± 10514",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67017387,
-            "range": "± 37522",
             "unit": "ns/iter"
           },
           {
@@ -27956,27 +20900,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7817,
-            "range": "± 107",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40965,
             "range": "± 107",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139876,
-            "range": "± 382",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 893090,
-            "range": "± 1009",
             "unit": "ns/iter"
           },
           {
@@ -27989,36 +20915,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23543337,
             "range": "± 25827",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 94003535,
-            "range": "± 534586",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 428117,
-            "range": "± 3926",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313131,
-            "range": "± 2372",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 248823,
-            "range": "± 2412",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 424524,
-            "range": "± 3285",
             "unit": "ns/iter"
           },
           {
@@ -28043,54 +20939,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 915853,
             "range": "± 18596",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9347685,
-            "range": "± 23959",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5054674,
-            "range": "± 56209",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2975226,
-            "range": "± 7319",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2737853,
-            "range": "± 26761",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66044410,
-            "range": "± 184448",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34222885,
-            "range": "± 28775",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18225046,
-            "range": "± 17292",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16199796,
-            "range": "± 55221",
             "unit": "ns/iter"
           },
           {
@@ -28142,51 +20990,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12604323114,
-            "range": "± 1303846",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6294017373,
-            "range": "± 9270582",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3169079358,
-            "range": "± 3543364",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753130736,
-            "range": "± 1010732",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217206,
-            "range": "± 2354",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638810,
             "range": "± 1232",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299059,
-            "range": "± 2119",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3758772,
-            "range": "± 4816",
             "unit": "ns/iter"
           },
           {
@@ -28199,12 +21005,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29913200,
             "range": "± 79471",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66760404,
-            "range": "± 75129",
             "unit": "ns/iter"
           },
           {
@@ -28560,27 +21360,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7869,
-            "range": "± 34",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41042,
             "range": "± 221",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139815,
-            "range": "± 377",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891385,
-            "range": "± 1066",
             "unit": "ns/iter"
           },
           {
@@ -28593,36 +21375,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23284444,
             "range": "± 80133",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93697672,
-            "range": "± 310811",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425412,
-            "range": "± 3940",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312950,
-            "range": "± 1959",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 247021,
-            "range": "± 2105",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 423240,
-            "range": "± 3024",
             "unit": "ns/iter"
           },
           {
@@ -28647,54 +21399,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 917619,
             "range": "± 11392",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9275059,
-            "range": "± 16336",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5039899,
-            "range": "± 43646",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2970725,
-            "range": "± 13324",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2791395,
-            "range": "± 58485",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65925020,
-            "range": "± 42277",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34253633,
-            "range": "± 39245",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18199403,
-            "range": "± 9996",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16187974,
-            "range": "± 83487",
             "unit": "ns/iter"
           },
           {
@@ -28746,51 +21450,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12554943608,
-            "range": "± 3343064",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6296027817,
-            "range": "± 10021902",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3168814219,
-            "range": "± 3990356",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752554857,
-            "range": "± 1093909",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 216937,
-            "range": "± 1629",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639349,
             "range": "± 1557",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1298946,
-            "range": "± 2729",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3758646,
-            "range": "± 4936",
             "unit": "ns/iter"
           },
           {
@@ -28803,12 +21465,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29911741,
             "range": "± 52466",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66725609,
-            "range": "± 42675",
             "unit": "ns/iter"
           },
           {
@@ -29164,27 +21820,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7894,
-            "range": "± 117",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41125,
             "range": "± 198",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140284,
-            "range": "± 537",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 892331,
-            "range": "± 813",
             "unit": "ns/iter"
           },
           {
@@ -29197,36 +21835,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23478209,
             "range": "± 781512",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93804438,
-            "range": "± 177554",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426042,
-            "range": "± 4334",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 316105,
-            "range": "± 5767",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 255331,
-            "range": "± 1382",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 436505,
-            "range": "± 4083",
             "unit": "ns/iter"
           },
           {
@@ -29251,54 +21859,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 931787,
             "range": "± 21528",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9294207,
-            "range": "± 18513",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5079370,
-            "range": "± 66546",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2990122,
-            "range": "± 6852",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2779704,
-            "range": "± 24135",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65973278,
-            "range": "± 4716083",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34221517,
-            "range": "± 38801",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18215609,
-            "range": "± 24911",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16200095,
-            "range": "± 23325",
             "unit": "ns/iter"
           },
           {
@@ -29350,51 +21910,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12547723391,
-            "range": "± 21946728",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6291013480,
-            "range": "± 9765035",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3168359094,
-            "range": "± 9724858",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2751550144,
-            "range": "± 11454713",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 216937,
-            "range": "± 1785",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639920,
             "range": "± 2171",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300986,
-            "range": "± 47072",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763153,
-            "range": "± 5476",
             "unit": "ns/iter"
           },
           {
@@ -29407,12 +21925,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29930544,
             "range": "± 194765",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66801863,
-            "range": "± 44872",
             "unit": "ns/iter"
           },
           {
@@ -29768,27 +22280,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7980,
-            "range": "± 211",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41286,
             "range": "± 429",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141299,
-            "range": "± 4898",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 902758,
-            "range": "± 2121",
             "unit": "ns/iter"
           },
           {
@@ -29801,36 +22295,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23707934,
             "range": "± 69597",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 94083504,
-            "range": "± 357825",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426438,
-            "range": "± 5131",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 316185,
-            "range": "± 2136",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 257280,
-            "range": "± 2268",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 435355,
-            "range": "± 4410",
             "unit": "ns/iter"
           },
           {
@@ -29855,54 +22319,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 927301,
             "range": "± 11141",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9296294,
-            "range": "± 24740",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5075398,
-            "range": "± 31882",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2993309,
-            "range": "± 12122",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2765056,
-            "range": "± 48966",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65999092,
-            "range": "± 250694",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34301837,
-            "range": "± 27478",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18335942,
-            "range": "± 695493",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16275147,
-            "range": "± 40585",
             "unit": "ns/iter"
           },
           {
@@ -29954,51 +22370,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12542433522,
-            "range": "± 16346418",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6310067824,
-            "range": "± 15521994",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3168216432,
-            "range": "± 3985836",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2751459431,
-            "range": "± 828344",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 216470,
-            "range": "± 1686",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638400,
             "range": "± 566",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1298881,
-            "range": "± 4653",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3759389,
-            "range": "± 4411",
             "unit": "ns/iter"
           },
           {
@@ -30011,12 +22385,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29929234,
             "range": "± 25605",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66751040,
-            "range": "± 38121",
             "unit": "ns/iter"
           },
           {
@@ -30372,27 +22740,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7970,
-            "range": "± 148",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41560,
             "range": "± 408",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139870,
-            "range": "± 928",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 895465,
-            "range": "± 2112",
             "unit": "ns/iter"
           },
           {
@@ -30405,36 +22755,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23527008,
             "range": "± 72850",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93986450,
-            "range": "± 300235",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 428534,
-            "range": "± 4452",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 318499,
-            "range": "± 5391",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 258068,
-            "range": "± 10333",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 435363,
-            "range": "± 4861",
             "unit": "ns/iter"
           },
           {
@@ -30459,54 +22779,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 933788,
             "range": "± 7526",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9279697,
-            "range": "± 19854",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5055120,
-            "range": "± 33171",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2985787,
-            "range": "± 9368",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2752982,
-            "range": "± 36667",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65997500,
-            "range": "± 60022",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34301791,
-            "range": "± 52770",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18293209,
-            "range": "± 22823",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16264030,
-            "range": "± 33722",
             "unit": "ns/iter"
           },
           {
@@ -30558,51 +22830,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12550544993,
-            "range": "± 11449901",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6313086881,
-            "range": "± 14060983",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3168881555,
-            "range": "± 11610180",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752046883,
-            "range": "± 1468501",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217155,
-            "range": "± 1655",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 638738,
             "range": "± 23127",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1298775,
-            "range": "± 4441",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3759723,
-            "range": "± 92399",
             "unit": "ns/iter"
           },
           {
@@ -30615,12 +22845,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29928666,
             "range": "± 100428",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66757566,
-            "range": "± 77004",
             "unit": "ns/iter"
           },
           {
@@ -30976,27 +23200,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7835,
-            "range": "± 205",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41084,
             "range": "± 166",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140072,
-            "range": "± 1201",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 892591,
-            "range": "± 1862",
             "unit": "ns/iter"
           },
           {
@@ -31009,36 +23215,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23538166,
             "range": "± 77739",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93875400,
-            "range": "± 368084",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425817,
-            "range": "± 4618",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 315655,
-            "range": "± 1544",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 256357,
-            "range": "± 2077",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 427751,
-            "range": "± 3431",
             "unit": "ns/iter"
           },
           {
@@ -31063,54 +23239,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 950861,
             "range": "± 12982",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9311673,
-            "range": "± 16992",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5063731,
-            "range": "± 64151",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2992385,
-            "range": "± 6457",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2756878,
-            "range": "± 121224",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66031897,
-            "range": "± 63157",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34348926,
-            "range": "± 50621",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18299044,
-            "range": "± 28827",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16270995,
-            "range": "± 57502",
             "unit": "ns/iter"
           },
           {
@@ -31162,51 +23290,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12542870918,
-            "range": "± 23371685",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6304526445,
-            "range": "± 12708940",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3170006769,
-            "range": "± 11428242",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752511485,
-            "range": "± 5251147",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217005,
-            "range": "± 1747",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 641945,
             "range": "± 1237",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1304703,
-            "range": "± 2311",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3772599,
-            "range": "± 136271",
             "unit": "ns/iter"
           },
           {
@@ -31219,12 +23305,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30021525,
             "range": "± 14444",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67051632,
-            "range": "± 76875",
             "unit": "ns/iter"
           },
           {
@@ -31580,27 +23660,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8120,
-            "range": "± 195",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41520,
             "range": "± 680",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139744,
-            "range": "± 630",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 891486,
-            "range": "± 2564",
             "unit": "ns/iter"
           },
           {
@@ -31613,36 +23675,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23427013,
             "range": "± 64384",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93640778,
-            "range": "± 86497",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 432779,
-            "range": "± 7194",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 316715,
-            "range": "± 8138",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 273336,
-            "range": "± 29390",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 432886,
-            "range": "± 2856",
             "unit": "ns/iter"
           },
           {
@@ -31667,54 +23699,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 916910,
             "range": "± 13748",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9257600,
-            "range": "± 20615",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5048323,
-            "range": "± 53695",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2972551,
-            "range": "± 9710",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2750604,
-            "range": "± 35430",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65891320,
-            "range": "± 59050",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34268527,
-            "range": "± 57450",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18243536,
-            "range": "± 21151",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16270397,
-            "range": "± 76257",
             "unit": "ns/iter"
           },
           {
@@ -31766,51 +23750,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12493166979,
-            "range": "± 9033295",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6275946762,
-            "range": "± 12927918",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3155673650,
-            "range": "± 3915664",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2753665241,
-            "range": "± 1269438",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217428,
-            "range": "± 1785",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639396,
             "range": "± 672",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299776,
-            "range": "± 1391",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3760705,
-            "range": "± 3241",
             "unit": "ns/iter"
           },
           {
@@ -31823,12 +23765,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29910349,
             "range": "± 47563",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66670135,
-            "range": "± 80365",
             "unit": "ns/iter"
           },
           {
@@ -32184,27 +24120,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8136,
-            "range": "± 148",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41848,
             "range": "± 576",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 141830,
-            "range": "± 986",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 907582,
-            "range": "± 3029",
             "unit": "ns/iter"
           },
           {
@@ -32217,36 +24135,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23535277,
             "range": "± 25890",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 94366374,
-            "range": "± 135010",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 431318,
-            "range": "± 14727",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 322960,
-            "range": "± 4688",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 289688,
-            "range": "± 4679",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 449415,
-            "range": "± 6144",
             "unit": "ns/iter"
           },
           {
@@ -32271,54 +24159,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 1040773,
             "range": "± 70975",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9282232,
-            "range": "± 26522",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5082511,
-            "range": "± 26222",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 3042718,
-            "range": "± 87628",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2865847,
-            "range": "± 77867",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65926882,
-            "range": "± 99553",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34309861,
-            "range": "± 246761",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18498065,
-            "range": "± 1231654",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16316453,
-            "range": "± 129381",
             "unit": "ns/iter"
           },
           {
@@ -32370,51 +24210,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12488297763,
-            "range": "± 31141694",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6270304968,
-            "range": "± 3793073",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3164443869,
-            "range": "± 11043583",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2755096748,
-            "range": "± 7206714",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217842,
-            "range": "± 1599",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 641186,
             "range": "± 727",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1303405,
-            "range": "± 5010",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3770990,
-            "range": "± 30209",
             "unit": "ns/iter"
           },
           {
@@ -32427,12 +24225,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29977606,
             "range": "± 17791",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66834246,
-            "range": "± 210178",
             "unit": "ns/iter"
           },
           {
@@ -32788,27 +24580,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7800,
-            "range": "± 85",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40833,
             "range": "± 178",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139710,
-            "range": "± 782",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 890899,
-            "range": "± 2096",
             "unit": "ns/iter"
           },
           {
@@ -32821,36 +24595,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23591159,
             "range": "± 89599",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93704409,
-            "range": "± 416000",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 426190,
-            "range": "± 3816",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 310807,
-            "range": "± 4673",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 271150,
-            "range": "± 4826",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 427900,
-            "range": "± 5774",
             "unit": "ns/iter"
           },
           {
@@ -32875,54 +24619,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 939233,
             "range": "± 20529",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9338414,
-            "range": "± 71004",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5050878,
-            "range": "± 27756",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2976799,
-            "range": "± 12525",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2843232,
-            "range": "± 176995",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65871488,
-            "range": "± 51443",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34301735,
-            "range": "± 90003",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18266555,
-            "range": "± 115353",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16225160,
-            "range": "± 79933",
             "unit": "ns/iter"
           },
           {
@@ -32974,51 +24670,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12482461235,
-            "range": "± 5198879",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6281492169,
-            "range": "± 15455284",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3153902986,
-            "range": "± 1203114",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752539115,
-            "range": "± 1068664",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218732,
-            "range": "± 1476",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 644570,
             "range": "± 802",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1310156,
-            "range": "± 1637",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3785352,
-            "range": "± 4903",
             "unit": "ns/iter"
           },
           {
@@ -33031,12 +24685,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30096954,
             "range": "± 55891",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67123833,
-            "range": "± 55864",
             "unit": "ns/iter"
           },
           {
@@ -33392,27 +25040,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7851,
-            "range": "± 54",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40902,
             "range": "± 283",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139390,
-            "range": "± 1137",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 888587,
-            "range": "± 1031",
             "unit": "ns/iter"
           },
           {
@@ -33425,36 +25055,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23570178,
             "range": "± 68936",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93541842,
-            "range": "± 522800",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 430947,
-            "range": "± 4350",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313634,
-            "range": "± 2382",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 252446,
-            "range": "± 11634",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 427323,
-            "range": "± 4609",
             "unit": "ns/iter"
           },
           {
@@ -33479,54 +25079,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 926885,
             "range": "± 24789",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9269219,
-            "range": "± 26569",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5036820,
-            "range": "± 57945",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2968357,
-            "range": "± 6570",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2742143,
-            "range": "± 41621",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65802206,
-            "range": "± 68339",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34165664,
-            "range": "± 61975",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18179061,
-            "range": "± 113141",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16210294,
-            "range": "± 34542",
             "unit": "ns/iter"
           },
           {
@@ -33578,51 +25130,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12483366889,
-            "range": "± 13114113",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6285802554,
-            "range": "± 14949765",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3155911608,
-            "range": "± 16650377",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752189723,
-            "range": "± 3639981",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217240,
-            "range": "± 9349",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639704,
             "range": "± 1180",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300527,
-            "range": "± 15197",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3762060,
-            "range": "± 226776",
             "unit": "ns/iter"
           },
           {
@@ -33635,12 +25145,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29904206,
             "range": "± 826213",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66660495,
-            "range": "± 1635121",
             "unit": "ns/iter"
           },
           {
@@ -33996,27 +25500,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7808,
-            "range": "± 101",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40898,
             "range": "± 245",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139485,
-            "range": "± 706",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889460,
-            "range": "± 1416",
             "unit": "ns/iter"
           },
           {
@@ -34029,36 +25515,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23556301,
             "range": "± 64648",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93567693,
-            "range": "± 167092",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425375,
-            "range": "± 3003",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 311830,
-            "range": "± 1918",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 249571,
-            "range": "± 3022",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 427286,
-            "range": "± 3555",
             "unit": "ns/iter"
           },
           {
@@ -34083,54 +25539,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 937232,
             "range": "± 11623",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9271588,
-            "range": "± 27620",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5029364,
-            "range": "± 51640",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2966102,
-            "range": "± 8475",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2767499,
-            "range": "± 48620",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65845369,
-            "range": "± 38112",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34227531,
-            "range": "± 1030267",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18221320,
-            "range": "± 38172",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16203210,
-            "range": "± 81826",
             "unit": "ns/iter"
           },
           {
@@ -34182,51 +25590,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12481006899,
-            "range": "± 12403076",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6267148706,
-            "range": "± 7876763",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3154639692,
-            "range": "± 1773096",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752224708,
-            "range": "± 686127",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217535,
-            "range": "± 1578",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640296,
             "range": "± 1193",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301585,
-            "range": "± 1769",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3765891,
-            "range": "± 22135",
             "unit": "ns/iter"
           },
           {
@@ -34239,12 +25605,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29940976,
             "range": "± 15277",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66708433,
-            "range": "± 18074",
             "unit": "ns/iter"
           },
           {
@@ -34600,27 +25960,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7847,
-            "range": "± 50",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40845,
             "range": "± 195",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139377,
-            "range": "± 1350",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 896086,
-            "range": "± 6055",
             "unit": "ns/iter"
           },
           {
@@ -34633,36 +25975,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23451984,
             "range": "± 115235",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93458361,
-            "range": "± 351344",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 423820,
-            "range": "± 4974",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 310971,
-            "range": "± 1905",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 248747,
-            "range": "± 3437",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 423140,
-            "range": "± 3094",
             "unit": "ns/iter"
           },
           {
@@ -34687,54 +25999,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 920472,
             "range": "± 24407",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9258846,
-            "range": "± 33349",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5042836,
-            "range": "± 64233",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2972760,
-            "range": "± 6767",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2744940,
-            "range": "± 37716",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65930095,
-            "range": "± 49942",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34216600,
-            "range": "± 60689",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18263461,
-            "range": "± 250278",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16219898,
-            "range": "± 46037",
             "unit": "ns/iter"
           },
           {
@@ -34786,51 +26050,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12486316104,
-            "range": "± 5055356",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6265751281,
-            "range": "± 10771343",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3154844512,
-            "range": "± 3308947",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2751724941,
-            "range": "± 3089766",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 220148,
-            "range": "± 1745",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639711,
             "range": "± 1845",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299902,
-            "range": "± 19251",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3759767,
-            "range": "± 51877",
             "unit": "ns/iter"
           },
           {
@@ -34843,12 +26065,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29906849,
             "range": "± 516055",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66402861,
-            "range": "± 1478907",
             "unit": "ns/iter"
           },
           {
@@ -35204,27 +26420,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7906,
-            "range": "± 129",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41360,
             "range": "± 584",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140311,
-            "range": "± 1037",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 890870,
-            "range": "± 2831",
             "unit": "ns/iter"
           },
           {
@@ -35237,36 +26435,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23609477,
             "range": "± 97700",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 94103384,
-            "range": "± 400170",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 427443,
-            "range": "± 6240",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 322915,
-            "range": "± 5021",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 260729,
-            "range": "± 8903",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 436395,
-            "range": "± 7849",
             "unit": "ns/iter"
           },
           {
@@ -35291,54 +26459,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 918709,
             "range": "± 38792",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9247090,
-            "range": "± 23429",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5043379,
-            "range": "± 53896",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2979137,
-            "range": "± 6468",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2744920,
-            "range": "± 15933",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66360305,
-            "range": "± 44938",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34175731,
-            "range": "± 28278",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18277193,
-            "range": "± 22646",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16285661,
-            "range": "± 27236",
             "unit": "ns/iter"
           },
           {
@@ -35390,51 +26510,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12494351383,
-            "range": "± 17995155",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6266957110,
-            "range": "± 8801735",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3153694090,
-            "range": "± 1409507",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752761938,
-            "range": "± 1083435",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217714,
-            "range": "± 1599",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 639617,
             "range": "± 863",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1299907,
-            "range": "± 1606",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3761680,
-            "range": "± 4577",
             "unit": "ns/iter"
           },
           {
@@ -35447,12 +26525,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29924429,
             "range": "± 88857",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66706698,
-            "range": "± 21626",
             "unit": "ns/iter"
           },
           {
@@ -35808,27 +26880,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7822,
-            "range": "± 40",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 40880,
             "range": "± 274",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 139305,
-            "range": "± 413",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 889906,
-            "range": "± 1728",
             "unit": "ns/iter"
           },
           {
@@ -35841,36 +26895,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23511314,
             "range": "± 48205",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93616708,
-            "range": "± 56265",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 425493,
-            "range": "± 3965",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 312745,
-            "range": "± 2832",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 264669,
-            "range": "± 5377",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 426417,
-            "range": "± 2805",
             "unit": "ns/iter"
           },
           {
@@ -35895,54 +26919,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 929005,
             "range": "± 14817",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9271673,
-            "range": "± 15532",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5036040,
-            "range": "± 19576",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2982556,
-            "range": "± 12062",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2757020,
-            "range": "± 22008",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65918699,
-            "range": "± 50678",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34161471,
-            "range": "± 44546",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18209803,
-            "range": "± 16982",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16195946,
-            "range": "± 59593",
             "unit": "ns/iter"
           },
           {
@@ -35994,51 +26970,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12507362364,
-            "range": "± 3484839",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6280447092,
-            "range": "± 4529302",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3158366276,
-            "range": "± 2152919",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2752953474,
-            "range": "± 647217",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 218015,
-            "range": "± 1596",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640135,
             "range": "± 796",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301243,
-            "range": "± 2112",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3763801,
-            "range": "± 4035",
             "unit": "ns/iter"
           },
           {
@@ -36051,12 +26985,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29936415,
             "range": "± 13472",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66739228,
-            "range": "± 46514",
             "unit": "ns/iter"
           },
           {
@@ -36412,27 +27340,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7107,
-            "range": "± 34",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 37062,
             "range": "± 77",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 126037,
-            "range": "± 2370",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 816083,
-            "range": "± 964",
             "unit": "ns/iter"
           },
           {
@@ -36445,36 +27355,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 21498273,
             "range": "± 107609",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 85972717,
-            "range": "± 456736",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 413928,
-            "range": "± 16055",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 308600,
-            "range": "± 13307",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 268842,
-            "range": "± 9598",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 413638,
-            "range": "± 12153",
             "unit": "ns/iter"
           },
           {
@@ -36499,54 +27379,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 901117,
             "range": "± 56192",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9004085,
-            "range": "± 68915",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 4858500,
-            "range": "± 167877",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2797676,
-            "range": "± 22977",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2799865,
-            "range": "± 142177",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 61831412,
-            "range": "± 131423",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 32531737,
-            "range": "± 224346",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 17255624,
-            "range": "± 67618",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 15631952,
-            "range": "± 66984",
             "unit": "ns/iter"
           },
           {
@@ -36598,51 +27430,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 11701250104,
-            "range": "± 4261824",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 5858515196,
-            "range": "± 9102234",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 2949633480,
-            "range": "± 5303772",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2618424616,
-            "range": "± 1578397",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217968,
-            "range": "± 601",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640108,
             "range": "± 912",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1300738,
-            "range": "± 1101",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3758704,
-            "range": "± 2259",
             "unit": "ns/iter"
           },
           {
@@ -36655,12 +27445,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29864962,
             "range": "± 23347",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66683056,
-            "range": "± 161429",
             "unit": "ns/iter"
           },
           {
@@ -37016,27 +27800,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 8043,
-            "range": "± 149",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41293,
             "range": "± 870",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140343,
-            "range": "± 1170",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 894373,
-            "range": "± 28377",
             "unit": "ns/iter"
           },
           {
@@ -37049,36 +27815,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23542203,
             "range": "± 45636",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 93755662,
-            "range": "± 478895",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 430357,
-            "range": "± 5811",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 315657,
-            "range": "± 3047",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 255369,
-            "range": "± 1815",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 434442,
-            "range": "± 4341",
             "unit": "ns/iter"
           },
           {
@@ -37103,54 +27839,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 924260,
             "range": "± 11387",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9309506,
-            "range": "± 26715",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5053004,
-            "range": "± 61436",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2992457,
-            "range": "± 9980",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2734581,
-            "range": "± 27538",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 65916412,
-            "range": "± 43249",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34207902,
-            "range": "± 29195",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18245989,
-            "range": "± 19491",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16250617,
-            "range": "± 54930",
             "unit": "ns/iter"
           },
           {
@@ -37202,51 +27890,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12564748360,
-            "range": "± 9746598",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6277997042,
-            "range": "± 9772115",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3161536034,
-            "range": "± 2339082",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2751426644,
-            "range": "± 8290293",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217672,
-            "range": "± 1561",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640370,
             "range": "± 1000",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301426,
-            "range": "± 1333",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3769830,
-            "range": "± 4020",
             "unit": "ns/iter"
           },
           {
@@ -37259,12 +27905,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 29929276,
             "range": "± 188041",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 66766842,
-            "range": "± 20841",
             "unit": "ns/iter"
           },
           {
@@ -37620,27 +28260,9 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "bls12381::dkg_recovery/n=5 t=3",
-            "value": 7870,
-            "range": "± 38",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::dkg_recovery/n=10 t=7",
             "value": 41123,
             "range": "± 303",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=20 t=13",
-            "value": 140214,
-            "range": "± 532",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=50 t=33",
-            "value": 894697,
-            "range": "± 2543",
             "unit": "ns/iter"
           },
           {
@@ -37653,36 +28275,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_recovery/n=250 t=167",
             "value": 23633306,
             "range": "± 89238",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_recovery/n=500 t=333",
-            "value": 94142089,
-            "range": "± 340728",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=5 t=3",
-            "value": 422632,
-            "range": "± 2029",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=5 t=3",
-            "value": 313231,
-            "range": "± 2412",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=5 t=3",
-            "value": 251055,
-            "range": "± 3841",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=5 t=3",
-            "value": 424739,
-            "range": "± 5533",
             "unit": "ns/iter"
           },
           {
@@ -37707,54 +28299,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::dkg_reshare_recovery/conc=8 n=10 t=7",
             "value": 911110,
             "range": "± 10449",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=20 t=13",
-            "value": 9269276,
-            "range": "± 18444",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=20 t=13",
-            "value": 5044231,
-            "range": "± 50802",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=20 t=13",
-            "value": 2972564,
-            "range": "± 6969",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=20 t=13",
-            "value": 2731597,
-            "range": "± 24044",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=50 t=33",
-            "value": 66033952,
-            "range": "± 974578",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=50 t=33",
-            "value": 34307014,
-            "range": "± 71157",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=50 t=33",
-            "value": 18318981,
-            "range": "± 585748",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=50 t=33",
-            "value": 16294250,
-            "range": "± 42141",
             "unit": "ns/iter"
           },
           {
@@ -37806,51 +28350,9 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "bls12381::dkg_reshare_recovery/conc=1 n=500 t=333",
-            "value": 12774359270,
-            "range": "± 8431504",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=2 n=500 t=333",
-            "value": 6404777073,
-            "range": "± 2326263",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=4 n=500 t=333",
-            "value": 3228112186,
-            "range": "± 4486909",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::dkg_reshare_recovery/conc=8 n=500 t=333",
-            "value": 2771127375,
-            "range": "± 936050",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=5 t=3",
-            "value": 217332,
-            "range": "± 1581",
-            "unit": "ns/iter"
-          },
-          {
             "name": "bls12381::threshold_signature_recover/n=10 t=7",
             "value": 640109,
             "range": "± 1111",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=20 t=13",
-            "value": 1301520,
-            "range": "± 1398",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=50 t=33",
-            "value": 3772579,
-            "range": "± 4735",
             "unit": "ns/iter"
           },
           {
@@ -37863,12 +28365,6 @@ window.BENCHMARK_DATA = {
             "name": "bls12381::threshold_signature_recover/n=250 t=167",
             "value": 30199894,
             "range": "± 15698",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "bls12381::threshold_signature_recover/n=500 t=333",
-            "value": 67758486,
-            "range": "± 29628",
             "unit": "ns/iter"
           },
           {
