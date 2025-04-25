@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745592298526,
+  "lastUpdate": 1745592821317,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -90347,6 +90347,124 @@ window.BENCHMARK_DATA = {
             "name": "public_key::receiver_receive/len=67108864",
             "value": 193329958,
             "range": "± 1436774",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Patrick O'Grady",
+            "username": "patrick-ogrady",
+            "email": "me@patrickogrady.xyz"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b36ba66830260a5fb108a8065bc495b60733f4bb",
+          "message": "[storage] Introduce `Codec` for `journal::variable` and `archive` (#811)\n\nCo-authored-by: Brendan Chou <3680392+BrendanChou@users.noreply.github.com>\nCo-authored-by: Dan Laine <dan@commonware.xyz>\nCo-authored-by: Roberto Bayardo <roberto@commonware.xyz>",
+          "timestamp": "2025-04-25T02:51:05Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/b36ba66830260a5fb108a8065bc495b60733f4bb"
+        },
+        "date": 1745592820299,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2704,
+            "range": "± 32",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 4986,
+            "range": "± 18",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 14061,
+            "range": "± 62",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 218182,
+            "range": "± 18917",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 796783,
+            "range": "± 105716",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 4315336,
+            "range": "± 54970",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 16995278,
+            "range": "± 78803",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 90692065,
+            "range": "± 247843",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4528,
+            "range": "± 12",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 11878,
+            "range": "± 827",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 41214,
+            "range": "± 84",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 635963,
+            "range": "± 8651",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2541730,
+            "range": "± 8144",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 10109428,
+            "range": "± 142475",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 43699753,
+            "range": "± 215830",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 194617293,
+            "range": "± 505759",
             "unit": "ns/iter"
           }
         ]
