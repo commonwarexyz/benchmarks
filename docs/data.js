@@ -34762,163 +34762,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5333774,
             "range": "± 410482",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6674380,
             "range": "± 890949",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7507803,
             "range": "± 1043506",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7204789,
             "range": "± 789547",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62160501,
             "range": "± 1267691",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65021860,
             "range": "± 873017",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71841012,
             "range": "± 378230",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 148518950,
             "range": "± 3378257",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 704118826,
             "range": "± 10698393",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 762549933,
             "range": "± 65998553",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 855054307,
             "range": "± 65028303",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 1859253945,
             "range": "± 9230237",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5596907,
             "range": "± 23930",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 108303200,
             "range": "± 663176",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1389931148,
             "range": "± 33678301",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11472282,
             "range": "± 367308",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11860583,
             "range": "± 164735",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 12406563,
             "range": "± 359013",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 13949486,
             "range": "± 557944",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 390121447,
             "range": "± 12232752",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 406013784,
             "range": "± 14547954",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 406187702,
             "range": "± 5806648",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 484384954,
             "range": "± 20424004",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3927066425,
             "range": "± 53956125",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4124866270,
             "range": "± 96016968",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4064816456,
             "range": "± 33122986",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4142091602,
             "range": "± 98133115",
             "unit": "ns/iter"
@@ -34946,163 +34946,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4710554,
             "range": "± 737843",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5723766,
             "range": "± 1043294",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7041787,
             "range": "± 1276276",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 6630482,
             "range": "± 1280406",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 63097016,
             "range": "± 575570",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 67627196,
             "range": "± 1197387",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 74418169,
             "range": "± 589570",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 148337462,
             "range": "± 1101389",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 764103086,
             "range": "± 10566777",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 812224741,
             "range": "± 10042511",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 847281590,
             "range": "± 11694089",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 1902070598,
             "range": "± 31992580",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5583676,
             "range": "± 31103",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 108855229,
             "range": "± 435752",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1361514883,
             "range": "± 6538644",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10984180,
             "range": "± 71606",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11268649,
             "range": "± 86835",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11543158,
             "range": "± 228165",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12391773,
             "range": "± 126451",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 341782780,
             "range": "± 5944398",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 360176066,
             "range": "± 11833925",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 366203901,
             "range": "± 5941866",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 432889177,
             "range": "± 8991607",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 4092857423,
             "range": "± 69410477",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4365819068,
             "range": "± 61089306",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4111526132,
             "range": "± 66752156",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4206455258,
             "range": "± 38239217",
             "unit": "ns/iter"
@@ -35130,163 +35130,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4496642,
             "range": "± 675634",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5262765,
             "range": "± 1011835",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6770482,
             "range": "± 1140426",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 6192757,
             "range": "± 1218014",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58642522,
             "range": "± 258747",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62159232,
             "range": "± 1539435",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69867235,
             "range": "± 342652",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 133306325,
             "range": "± 1509383",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 786535399,
             "range": "± 28999775",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 779912974,
             "range": "± 12489616",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 826840381,
             "range": "± 14664083",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 1800572811,
             "range": "± 16941839",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5555340,
             "range": "± 27354",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 105811418,
             "range": "± 164278",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1268581085,
             "range": "± 6831474",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11034655,
             "range": "± 94660",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11445531,
             "range": "± 96335",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11708137,
             "range": "± 127506",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12652683,
             "range": "± 180793",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 320313389,
             "range": "± 2405683",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 333608992,
             "range": "± 2429736",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 342603659,
             "range": "± 4554855",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 413735574,
             "range": "± 4199444",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 4012992638,
             "range": "± 69176556",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4173355100,
             "range": "± 47546683",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4249491900,
             "range": "± 123079478",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4065034418,
             "range": "± 56775921",
             "unit": "ns/iter"
@@ -35314,163 +35314,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4509177,
             "range": "± 725086",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5741715,
             "range": "± 1017388",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6865753,
             "range": "± 1187593",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 6274699,
             "range": "± 1298652",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59154115,
             "range": "± 463992",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62419254,
             "range": "± 358898",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69462824,
             "range": "± 439112",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 134469555,
             "range": "± 1725810",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 696912117,
             "range": "± 13978001",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 719215967,
             "range": "± 7099932",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 768837108,
             "range": "± 11811975",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 1835117584,
             "range": "± 20878455",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5595599,
             "range": "± 33023",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 105276386,
             "range": "± 170756",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1278823906,
             "range": "± 7017528",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10910861,
             "range": "± 117640",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11257212,
             "range": "± 132462",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11587215,
             "range": "± 141589",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12555053,
             "range": "± 78389",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 318955250,
             "range": "± 3745827",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 336909837,
             "range": "± 3325245",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 336576398,
             "range": "± 2241130",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 418196036,
             "range": "± 4169263",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3852136934,
             "range": "± 29415296",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4117033470,
             "range": "± 44814686",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4117210501,
             "range": "± 32177440",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4225601859,
             "range": "± 43117698",
             "unit": "ns/iter"
@@ -35498,163 +35498,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5432826,
             "range": "± 460729",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6116811,
             "range": "± 1174148",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7261814,
             "range": "± 1193770",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7636221,
             "range": "± 1427389",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60669154,
             "range": "± 808384",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 66169943,
             "range": "± 1872324",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70202798,
             "range": "± 1719708",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 159657026,
             "range": "± 2720469",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 749355846,
             "range": "± 9644910",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 774117706,
             "range": "± 17595505",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 843336877,
             "range": "± 36226802",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2156344667,
             "range": "± 37157223",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5510072,
             "range": "± 10941",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 107512121,
             "range": "± 493711",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1367051898,
             "range": "± 13340153",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10752425,
             "range": "± 91337",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11554337,
             "range": "± 732147",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11388084,
             "range": "± 185941",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12406548,
             "range": "± 109423",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 340834447,
             "range": "± 13070885",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 355702988,
             "range": "± 4013093",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 382465588,
             "range": "± 37285817",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 448075587,
             "range": "± 6059152",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3906202237,
             "range": "± 71331351",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4027799060,
             "range": "± 40211018",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3969245803,
             "range": "± 98525272",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4161670771,
             "range": "± 49056717",
             "unit": "ns/iter"
@@ -35682,163 +35682,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 6948119,
             "range": "± 380242",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 9837988,
             "range": "± 495552",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 10781771,
             "range": "± 190988",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7647602,
             "range": "± 1826019",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 76993228,
             "range": "± 4153290",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 76381859,
             "range": "± 1384714",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 79972383,
             "range": "± 6751575",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 214964038,
             "range": "± 6090242",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 863460860,
             "range": "± 8558666",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 884115399,
             "range": "± 12546585",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 1030459041,
             "range": "± 88196210",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 3087955560,
             "range": "± 33205441",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 6742888,
             "range": "± 205616",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 132412205,
             "range": "± 620519",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 2014937185,
             "range": "± 14296950",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 18746974,
             "range": "± 611396",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 21126087,
             "range": "± 888136",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 21506539,
             "range": "± 1052107",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 26863618,
             "range": "± 362709",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 565324782,
             "range": "± 8787481",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 596222455,
             "range": "± 4828536",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 586356839,
             "range": "± 3642501",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 617189548,
             "range": "± 8954133",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 4912661327,
             "range": "± 39715434",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 5099409853,
             "range": "± 56655086",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 5102435120,
             "range": "± 31260574",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 5141417783,
             "range": "± 50944404",
             "unit": "ns/iter"
@@ -35866,163 +35866,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4524539,
             "range": "± 787545",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6585239,
             "range": "± 994297",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7297794,
             "range": "± 1349643",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7488541,
             "range": "± 1491454",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61723752,
             "range": "± 934616",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64379378,
             "range": "± 1319857",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 72090052,
             "range": "± 746724",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 153566846,
             "range": "± 2730406",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 725152189,
             "range": "± 9301503",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 747866367,
             "range": "± 5351857",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 800480777,
             "range": "± 14302133",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2329913770,
             "range": "± 221262489",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5572347,
             "range": "± 71141",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 104444948,
             "range": "± 2155713",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1538107629,
             "range": "± 113665589",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10840312,
             "range": "± 514471",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 12778443,
             "range": "± 941296",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 12928920,
             "range": "± 797065",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 14701795,
             "range": "± 1003173",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 422179740,
             "range": "± 20093369",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 454590516,
             "range": "± 20690405",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 452008596,
             "range": "± 32815405",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 502340188,
             "range": "± 14513543",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 4240783839,
             "range": "± 164734689",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4208590623,
             "range": "± 51035787",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4213326466,
             "range": "± 24223513",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4361001962,
             "range": "± 27920802",
             "unit": "ns/iter"
@@ -36050,163 +36050,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4711815,
             "range": "± 787489",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5949526,
             "range": "± 1110404",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7300085,
             "range": "± 1318126",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7663518,
             "range": "± 1520018",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 63001258,
             "range": "± 1596280",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 67618371,
             "range": "± 762133",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 73778868,
             "range": "± 746522",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 161067359,
             "range": "± 2887897",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 714690138,
             "range": "± 16138594",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 762875571,
             "range": "± 13635149",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 806360696,
             "range": "± 10194944",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2155595002,
             "range": "± 30658911",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5616493,
             "range": "± 21520",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110749476,
             "range": "± 3229636",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1331283933,
             "range": "± 10312210",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10906646,
             "range": "± 172530",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11166254,
             "range": "± 84426",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11377587,
             "range": "± 99863",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12173585,
             "range": "± 74610",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 309987521,
             "range": "± 8422793",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 332419041,
             "range": "± 3025493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 339548258,
             "range": "± 4811244",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 416328714,
             "range": "± 3914380",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3649029464,
             "range": "± 35115216",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4057470353,
             "range": "± 45599493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4182448039,
             "range": "± 23922633",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4262201694,
             "range": "± 16112491",
             "unit": "ns/iter"
@@ -36234,163 +36234,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5032243,
             "range": "± 667210",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6177178,
             "range": "± 1181997",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7557639,
             "range": "± 1089067",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7972847,
             "range": "± 1525030",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 66963075,
             "range": "± 1289721",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 66643320,
             "range": "± 1333841",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 72685437,
             "range": "± 1134913",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 158660156,
             "range": "± 2302647",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 731406995,
             "range": "± 9755675",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 748210379,
             "range": "± 101256115",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 805348385,
             "range": "± 57970335",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2201390710,
             "range": "± 29036346",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5573960,
             "range": "± 9919",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 108270361,
             "range": "± 1785419",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1351439784,
             "range": "± 17172199",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10816040,
             "range": "± 83348",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11047174,
             "range": "± 116363",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11368802,
             "range": "± 89516",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12208172,
             "range": "± 272000",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 341637752,
             "range": "± 10447942",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 349245080,
             "range": "± 24729878",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 359827024,
             "range": "± 22747908",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 429422556,
             "range": "± 11333761",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3603123589,
             "range": "± 32375372",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3884521554,
             "range": "± 18410094",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3821020039,
             "range": "± 59190107",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4073562298,
             "range": "± 20296959",
             "unit": "ns/iter"
@@ -36418,163 +36418,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5262987,
             "range": "± 636869",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6292766,
             "range": "± 1030333",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7579439,
             "range": "± 1192739",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7923405,
             "range": "± 1532624",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 67744406,
             "range": "± 668375",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 69591542,
             "range": "± 1054228",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 72885865,
             "range": "± 3643549",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 164485101,
             "range": "± 2353152",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 737705285,
             "range": "± 7612840",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 781251239,
             "range": "± 39810093",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 818001989,
             "range": "± 34929167",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2163639052,
             "range": "± 30941001",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5617902,
             "range": "± 54896",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 111105888,
             "range": "± 712193",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1376792037,
             "range": "± 73667973",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10759383,
             "range": "± 135914",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11607007,
             "range": "± 497537",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11263850,
             "range": "± 125435",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12529922,
             "range": "± 330978",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 378506996,
             "range": "± 12832973",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 383658714,
             "range": "± 24107601",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 397901427,
             "range": "± 20477386",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 484439993,
             "range": "± 15172392",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3759051527,
             "range": "± 55432096",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3963775438,
             "range": "± 42291340",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4097557457,
             "range": "± 61114336",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4061146980,
             "range": "± 25618583",
             "unit": "ns/iter"
@@ -36602,163 +36602,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5613215,
             "range": "± 446336",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 7032780,
             "range": "± 645268",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7610332,
             "range": "± 675463",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 8184415,
             "range": "± 275771",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 64844527,
             "range": "± 293201",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 67432129,
             "range": "± 1073850",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 75298019,
             "range": "± 1314958",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 173627445,
             "range": "± 2870463",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 758116129,
             "range": "± 16553690",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 756508055,
             "range": "± 7560178",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 815336860,
             "range": "± 14704063",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2163507815,
             "range": "± 25039860",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5648397,
             "range": "± 119750",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110281137,
             "range": "± 1547084",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1438650762,
             "range": "± 13114601",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11005880,
             "range": "± 198993",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11418494,
             "range": "± 200532",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11568471,
             "range": "± 398346",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12922503,
             "range": "± 279725",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 362141412,
             "range": "± 4422386",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 378935010,
             "range": "± 4131389",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 372883069,
             "range": "± 6675864",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 431276436,
             "range": "± 4025382",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3873129235,
             "range": "± 28402740",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4053292105,
             "range": "± 52219042",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3922939543,
             "range": "± 48766499",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4160152109,
             "range": "± 35257422",
             "unit": "ns/iter"
@@ -36786,163 +36786,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4857402,
             "range": "± 765969",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5777601,
             "range": "± 1106882",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7251291,
             "range": "± 1215807",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7739952,
             "range": "± 1298918",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60526780,
             "range": "± 240464",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63678761,
             "range": "± 905461",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68171772,
             "range": "± 154203",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 155419118,
             "range": "± 3272885",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 718206180,
             "range": "± 8650279",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 745361908,
             "range": "± 6419864",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 787093613,
             "range": "± 5009997",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2070490476,
             "range": "± 16564031",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5620711,
             "range": "± 28246",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 101657726,
             "range": "± 360227",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1361389383,
             "range": "± 11478833",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10551377,
             "range": "± 96924",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10893911,
             "range": "± 46983",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11199975,
             "range": "± 248673",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12168891,
             "range": "± 104127",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 304170387,
             "range": "± 8055401",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 330814621,
             "range": "± 7266641",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 323507728,
             "range": "± 1675092",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 402995706,
             "range": "± 4340821",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3481965285,
             "range": "± 11239422",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3789553579,
             "range": "± 23908080",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3824485664,
             "range": "± 29922972",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4000793102,
             "range": "± 25345809",
             "unit": "ns/iter"
@@ -37450,163 +37450,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4956627,
             "range": "± 603693",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6249325,
             "range": "± 1113119",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7154150,
             "range": "± 1157569",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7704614,
             "range": "± 1361341",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60188563,
             "range": "± 877038",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65028121,
             "range": "± 367739",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71639101,
             "range": "± 2518592",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 158865240,
             "range": "± 4794051",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 695254625,
             "range": "± 8082975",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 720164127,
             "range": "± 7505011",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 776607305,
             "range": "± 5283688",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2019531083,
             "range": "± 22324199",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5552803,
             "range": "± 20372",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 102755039,
             "range": "± 1081686",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1346394654,
             "range": "± 13278981",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10551527,
             "range": "± 135987",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10439047,
             "range": "± 107118",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10843029,
             "range": "± 56903",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11807047,
             "range": "± 147292",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 298164552,
             "range": "± 11795025",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 312703691,
             "range": "± 11287612",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 318481131,
             "range": "± 6291139",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 387836711,
             "range": "± 10588507",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3068280348,
             "range": "± 16589808",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3528549575,
             "range": "± 24564044",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3507068968,
             "range": "± 20585961",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3756951739,
             "range": "± 66302885",
             "unit": "ns/iter"
@@ -38114,163 +38114,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4766496,
             "range": "± 708760",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6004441,
             "range": "± 1102284",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7424620,
             "range": "± 1252473",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7787674,
             "range": "± 1465631",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61592148,
             "range": "± 361314",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65360065,
             "range": "± 5063842",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 73099551,
             "range": "± 2562185",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 155746538,
             "range": "± 2603865",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 702931427,
             "range": "± 84042116",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 740262723,
             "range": "± 9415803",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 794389219,
             "range": "± 7399678",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2088956340,
             "range": "± 16730679",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5535903,
             "range": "± 19258",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 109415275,
             "range": "± 718957",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1357476736,
             "range": "± 9229466",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10374460,
             "range": "± 90263",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10550008,
             "range": "± 43561",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10790955,
             "range": "± 44601",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11632168,
             "range": "± 154635",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 289660369,
             "range": "± 6522892",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 300610782,
             "range": "± 4821149",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 302400410,
             "range": "± 5495160",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 396144814,
             "range": "± 7638988",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3130627239,
             "range": "± 30649901",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3618314246,
             "range": "± 50364286",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3566092202,
             "range": "± 34188586",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3661793085,
             "range": "± 39772586",
             "unit": "ns/iter"
@@ -38778,163 +38778,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4831575,
             "range": "± 627076",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6116170,
             "range": "± 1000021",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7120919,
             "range": "± 1020078",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7269487,
             "range": "± 1334276",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58010569,
             "range": "± 1103842",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 61079412,
             "range": "± 1363525",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 66512493,
             "range": "± 275123",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 149184478,
             "range": "± 2523327",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 710421342,
             "range": "± 8457542",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 728615612,
             "range": "± 4453168",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 780877237,
             "range": "± 33085363",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2046681339,
             "range": "± 10336157",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5543586,
             "range": "± 38429",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106689984,
             "range": "± 810159",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1377450476,
             "range": "± 21204614",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10448788,
             "range": "± 68202",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10668919,
             "range": "± 109118",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10882666,
             "range": "± 125419",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11878230,
             "range": "± 108887",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 297151878,
             "range": "± 5179824",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 326233336,
             "range": "± 5196950",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 321519806,
             "range": "± 8478379",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 383669860,
             "range": "± 3641351",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3053735369,
             "range": "± 11036924",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3618141418,
             "range": "± 63650362",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3583209866,
             "range": "± 72859209",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3897566114,
             "range": "± 58991540",
             "unit": "ns/iter"
@@ -39442,163 +39442,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4829478,
             "range": "± 726202",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5961112,
             "range": "± 1157832",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7091847,
             "range": "± 1187184",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7647054,
             "range": "± 1492062",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61398559,
             "range": "± 1194647",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63376301,
             "range": "± 272998",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70432253,
             "range": "± 1415012",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 156906028,
             "range": "± 4340956",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 700328967,
             "range": "± 7648258",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 744582591,
             "range": "± 72599106",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 823227171,
             "range": "± 41038171",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2061142030,
             "range": "± 13013760",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5567144,
             "range": "± 42189",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 101296561,
             "range": "± 1218074",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1314111765,
             "range": "± 21460544",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10190922,
             "range": "± 46545",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10413063,
             "range": "± 131397",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10736940,
             "range": "± 132720",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11665682,
             "range": "± 184060",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 286000309,
             "range": "± 10943233",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 307548061,
             "range": "± 6776797",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 306616796,
             "range": "± 8839949",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 380042691,
             "range": "± 7377676",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3028341946,
             "range": "± 20703248",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3443321934,
             "range": "± 24095246",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3510556579,
             "range": "± 30961803",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3701633983,
             "range": "± 21476191",
             "unit": "ns/iter"
@@ -40106,163 +40106,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5662919,
             "range": "± 381428",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6542280,
             "range": "± 1072267",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7129833,
             "range": "± 1354664",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7571240,
             "range": "± 1474300",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62942066,
             "range": "± 3447155",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65293863,
             "range": "± 1324699",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 72439544,
             "range": "± 3153648",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 162449513,
             "range": "± 7516869",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 801787321,
             "range": "± 16187480",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 817920970,
             "range": "± 41376120",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 907702358,
             "range": "± 52398282",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2411914417,
             "range": "± 72132419",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5636523,
             "range": "± 45585",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 115286955,
             "range": "± 4866230",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1414214900,
             "range": "± 19731847",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11257634,
             "range": "± 357006",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11333851,
             "range": "± 315834",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11390662,
             "range": "± 203971",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12378400,
             "range": "± 200969",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 401636566,
             "range": "± 43394709",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 460215233,
             "range": "± 27171842",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 431977413,
             "range": "± 25575137",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 521900501,
             "range": "± 19663592",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 4317309252,
             "range": "± 69038662",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4902239379,
             "range": "± 208879001",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4413026366,
             "range": "± 82645123",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4505797067,
             "range": "± 147996094",
             "unit": "ns/iter"
@@ -40770,163 +40770,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4734030,
             "range": "± 768295",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5261519,
             "range": "± 1044442",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7220765,
             "range": "± 1252666",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7126389,
             "range": "± 1312592",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59946124,
             "range": "± 128603",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63980010,
             "range": "± 106486",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68158346,
             "range": "± 152657",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 150699775,
             "range": "± 2027587",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 692592577,
             "range": "± 7847567",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 720791705,
             "range": "± 5171610",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 806528702,
             "range": "± 57893924",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2020857663,
             "range": "± 14123616",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5511153,
             "range": "± 17054",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 100503651,
             "range": "± 2631365",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1271538044,
             "range": "± 4793346",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10217657,
             "range": "± 44611",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10437795,
             "range": "± 24817",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10667481,
             "range": "± 44855",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11605302,
             "range": "± 68334",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 264994532,
             "range": "± 2138046",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 280407198,
             "range": "± 1845312",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 282646879,
             "range": "± 3062364",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 363834461,
             "range": "± 2965358",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3026884267,
             "range": "± 18738956",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3501405117,
             "range": "± 24216493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3553557989,
             "range": "± 42358952",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3721971101,
             "range": "± 41018082",
             "unit": "ns/iter"
@@ -41434,163 +41434,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4511368,
             "range": "± 719072",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5764645,
             "range": "± 1014273",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6750857,
             "range": "± 1249943",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7118394,
             "range": "± 1382945",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 56941244,
             "range": "± 656845",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 59992080,
             "range": "± 1732714",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 65389854,
             "range": "± 1151240",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 152150818,
             "range": "± 7152208",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 765715774,
             "range": "± 66635423",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 709652563,
             "range": "± 13709468",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 752019117,
             "range": "± 5674396",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2032203336,
             "range": "± 23874946",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5543647,
             "range": "± 12468",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 100069880,
             "range": "± 876233",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1356196199,
             "range": "± 13151900",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10437601,
             "range": "± 188669",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10621336,
             "range": "± 130338",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10753255,
             "range": "± 58857",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11714369,
             "range": "± 380072",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 288129652,
             "range": "± 19597142",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 312424676,
             "range": "± 6966087",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 318446014,
             "range": "± 10175287",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 373056405,
             "range": "± 6337177",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3090749640,
             "range": "± 230785923",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3552573361,
             "range": "± 22135914",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3509741724,
             "range": "± 25238818",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3658192686,
             "range": "± 31534005",
             "unit": "ns/iter"
@@ -42098,163 +42098,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5550824,
             "range": "± 384918",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 7240023,
             "range": "± 654954",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7848792,
             "range": "± 567642",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 9450953,
             "range": "± 454935",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 64048863,
             "range": "± 1152311",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 68182171,
             "range": "± 1232762",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 72574669,
             "range": "± 478404",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 175996435,
             "range": "± 6577854",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 726632459,
             "range": "± 12176917",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 749172195,
             "range": "± 48785828",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 796722801,
             "range": "± 21848464",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2230590637,
             "range": "± 39543866",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5865085,
             "range": "± 108367",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110768168,
             "range": "± 2073507",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1562854891,
             "range": "± 27524690",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11875475,
             "range": "± 233192",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 12038624,
             "range": "± 340735",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 12404307,
             "range": "± 501344",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12930095,
             "range": "± 507925",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 380864709,
             "range": "± 13798120",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 396987250,
             "range": "± 29094977",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 403999946,
             "range": "± 32229233",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 452649363,
             "range": "± 24577773",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3462042493,
             "range": "± 101542312",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3965861696,
             "range": "± 90596314",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3856692257,
             "range": "± 93244334",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4130521881,
             "range": "± 143698859",
             "unit": "ns/iter"
@@ -42762,163 +42762,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5159333,
             "range": "± 698898",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6521857,
             "range": "± 1118947",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7482949,
             "range": "± 1191401",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7844760,
             "range": "± 1383434",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61493925,
             "range": "± 501242",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63748138,
             "range": "± 535660",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69925038,
             "range": "± 358450",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 160065803,
             "range": "± 4778673",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 761697149,
             "range": "± 3313015",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 769251784,
             "range": "± 6395720",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 852161187,
             "range": "± 146666447",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2181753597,
             "range": "± 15880035",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5574203,
             "range": "± 20602",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106342503,
             "range": "± 1136975",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1420268698,
             "range": "± 21486570",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10945762,
             "range": "± 222247",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11214710,
             "range": "± 164009",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11496867,
             "range": "± 252129",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12503301,
             "range": "± 308909",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 334209877,
             "range": "± 13474350",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 361958486,
             "range": "± 7499143",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 362825019,
             "range": "± 6839515",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 438322261,
             "range": "± 18240800",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3360393334,
             "range": "± 12424103",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3962416434,
             "range": "± 22903038",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3921138094,
             "range": "± 58570878",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4033837242,
             "range": "± 36245642",
             "unit": "ns/iter"
@@ -43426,163 +43426,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4665044,
             "range": "± 727664",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5778202,
             "range": "± 1076863",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7227364,
             "range": "± 1203875",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7479159,
             "range": "± 1232716",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62599982,
             "range": "± 343623",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 67852401,
             "range": "± 1254305",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 74363605,
             "range": "± 2229422",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 161700483,
             "range": "± 2146113",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 756611630,
             "range": "± 14342240",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 752104352,
             "range": "± 6384551",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 805934714,
             "range": "± 46098347",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2107235200,
             "range": "± 10754637",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5546380,
             "range": "± 9394",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 103573970,
             "range": "± 406667",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1358288251,
             "range": "± 10179116",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10397959,
             "range": "± 91009",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10639368,
             "range": "± 85239",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10865248,
             "range": "± 97249",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11745621,
             "range": "± 126720",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 297137283,
             "range": "± 6365846",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 320176626,
             "range": "± 5756375",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 321896830,
             "range": "± 6302516",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 398304795,
             "range": "± 6166374",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3144811129,
             "range": "± 32822905",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3670956807,
             "range": "± 54505362",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3655976866,
             "range": "± 20138141",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3796137420,
             "range": "± 57949405",
             "unit": "ns/iter"
@@ -44090,163 +44090,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4553338,
             "range": "± 807829",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5247573,
             "range": "± 1105584",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7039629,
             "range": "± 1397303",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7053961,
             "range": "± 1461891",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58762116,
             "range": "± 1391847",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62770101,
             "range": "± 2094262",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68910130,
             "range": "± 1816543",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 157363289,
             "range": "± 2964769",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 735548955,
             "range": "± 17014230",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 804254503,
             "range": "± 44104918",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 823150769,
             "range": "± 115306216",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2156188361,
             "range": "± 32929728",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5585748,
             "range": "± 14160",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106996237,
             "range": "± 642533",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1315129268,
             "range": "± 19609066",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10312677,
             "range": "± 58266",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10546894,
             "range": "± 96547",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10750604,
             "range": "± 58136",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11692651,
             "range": "± 98898",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 278527006,
             "range": "± 4442641",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 299373151,
             "range": "± 5852419",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 299066203,
             "range": "± 4097962",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 380302353,
             "range": "± 3862416",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3086287232,
             "range": "± 32376437",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3768370243,
             "range": "± 48984117",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3764798256,
             "range": "± 21368698",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3952460489,
             "range": "± 40612676",
             "unit": "ns/iter"
@@ -44838,163 +44838,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4963439,
             "range": "± 702097",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6086093,
             "range": "± 975537",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6881759,
             "range": "± 1114248",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7376816,
             "range": "± 1231248",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59127474,
             "range": "± 324338",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 60067567,
             "range": "± 718003",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 64992123,
             "range": "± 756292",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 149771535,
             "range": "± 2954019",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 753105314,
             "range": "± 56931938",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 755372634,
             "range": "± 43636785",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 786255679,
             "range": "± 49043210",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2045919368,
             "range": "± 10980297",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5520056,
             "range": "± 9894",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 104020972,
             "range": "± 550825",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1335726223,
             "range": "± 6947904",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10173609,
             "range": "± 42483",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10395472,
             "range": "± 58340",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10630579,
             "range": "± 89614",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11579767,
             "range": "± 98115",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 285539564,
             "range": "± 2313025",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 309728270,
             "range": "± 11021905",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 306498345,
             "range": "± 6262741",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 379687272,
             "range": "± 6478622",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3111154358,
             "range": "± 30562760",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3609306358,
             "range": "± 16620278",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3700041332,
             "range": "± 12083654",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3900681792,
             "range": "± 19116824",
             "unit": "ns/iter"
@@ -45586,163 +45586,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5439733,
             "range": "± 570380",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6718136,
             "range": "± 1038620",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7434256,
             "range": "± 1099871",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7644495,
             "range": "± 1302359",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62130652,
             "range": "± 343912",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64071459,
             "range": "± 410387",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70754846,
             "range": "± 4046892",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 164960637,
             "range": "± 1095432",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 947403170,
             "range": "± 144528086",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 794690933,
             "range": "± 12645694",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 865126070,
             "range": "± 35146580",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2160345948,
             "range": "± 11887765",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5504641,
             "range": "± 13724",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 109429764,
             "range": "± 313177",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1410069170,
             "range": "± 31925856",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10436481,
             "range": "± 111916",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10903815,
             "range": "± 164852",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11228652,
             "range": "± 206232",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12033055,
             "range": "± 122476",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 322034273,
             "range": "± 4354732",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 346899595,
             "range": "± 3549173",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 359030930,
             "range": "± 14223533",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 421984557,
             "range": "± 3148109",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3292065932,
             "range": "± 10873293",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3993830934,
             "range": "± 32090518",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4067490981,
             "range": "± 53369923",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4069206556,
             "range": "± 51200353",
             "unit": "ns/iter"
@@ -46334,163 +46334,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4712185,
             "range": "± 770333",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5728509,
             "range": "± 1156508",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7093780,
             "range": "± 1216639",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7199631,
             "range": "± 1412913",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59648652,
             "range": "± 1003374",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62549599,
             "range": "± 1192223",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68491217,
             "range": "± 727120",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 154672500,
             "range": "± 2357169",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 725508876,
             "range": "± 9898638",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 754730789,
             "range": "± 22256303",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 836261329,
             "range": "± 17058128",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2116876251,
             "range": "± 7955200",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5570554,
             "range": "± 8049",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 108082075,
             "range": "± 410003",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1292929951,
             "range": "± 5242650",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10378576,
             "range": "± 99023",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10675875,
             "range": "± 71873",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10886627,
             "range": "± 35100",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11783245,
             "range": "± 71457",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 317412721,
             "range": "± 3915880",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 344566123,
             "range": "± 8467133",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 322854423,
             "range": "± 3042279",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 393530360,
             "range": "± 4927055",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3045244515,
             "range": "± 31174860",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3675837538,
             "range": "± 69279085",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3635880449,
             "range": "± 41014239",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3884849589,
             "range": "± 25676488",
             "unit": "ns/iter"
@@ -47082,163 +47082,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5733370,
             "range": "± 203649",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 7503013,
             "range": "± 532144",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 8220102,
             "range": "± 334585",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 9180183,
             "range": "± 432540",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 69430927,
             "range": "± 2658578",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 69542505,
             "range": "± 6656481",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71616252,
             "range": "± 2015767",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 181702336,
             "range": "± 3213458",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 739231208,
             "range": "± 31035459",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 770771012,
             "range": "± 28438982",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 848277976,
             "range": "± 36499897",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2193790433,
             "range": "± 52918002",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5745662,
             "range": "± 63744",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 116018620,
             "range": "± 1066647",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1567771930,
             "range": "± 23919368",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11678966,
             "range": "± 256248",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 13182599,
             "range": "± 594672",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 12180757,
             "range": "± 274570",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 15823952,
             "range": "± 1383625",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 363451376,
             "range": "± 4879960",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 417218250,
             "range": "± 6169654",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 416722983,
             "range": "± 7445896",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 461810521,
             "range": "± 9426757",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3415904591,
             "range": "± 28309823",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3874996513,
             "range": "± 75251134",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3892768233,
             "range": "± 76038999",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4062241233,
             "range": "± 53971839",
             "unit": "ns/iter"
@@ -47830,163 +47830,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5194234,
             "range": "± 887466",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6793487,
             "range": "± 1362396",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7690392,
             "range": "± 1478840",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 8778119,
             "range": "± 1921754",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 71871143,
             "range": "± 5231798",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 77897442,
             "range": "± 4993477",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 89220982,
             "range": "± 8123817",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 183316134,
             "range": "± 5249988",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 873735192,
             "range": "± 46243955",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 1027870107,
             "range": "± 111127162",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 945465281,
             "range": "± 34119207",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2414283142,
             "range": "± 41128214",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5558110,
             "range": "± 15803",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110562277,
             "range": "± 4048911",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1501848217,
             "range": "± 40254980",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10593700,
             "range": "± 127025",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10752675,
             "range": "± 97958",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11107604,
             "range": "± 179719",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12096646,
             "range": "± 243054",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 332367562,
             "range": "± 14299675",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 368906170,
             "range": "± 19461800",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 366928667,
             "range": "± 11633884",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 449243520,
             "range": "± 15391393",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3541069436,
             "range": "± 59636329",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4272186613,
             "range": "± 49376627",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4200510821,
             "range": "± 76165953",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4444491191,
             "range": "± 79474482",
             "unit": "ns/iter"
@@ -48578,163 +48578,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4552827,
             "range": "± 813829",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5302897,
             "range": "± 1113743",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7373559,
             "range": "± 1318819",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7324330,
             "range": "± 1528395",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61982420,
             "range": "± 1017834",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63722607,
             "range": "± 273796",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70437403,
             "range": "± 1407872",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 154646852,
             "range": "± 1849148",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 748372905,
             "range": "± 10330493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 790893349,
             "range": "± 62630923",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 824309659,
             "range": "± 20472790",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2160571897,
             "range": "± 13362887",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5669257,
             "range": "± 55166",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 109287885,
             "range": "± 715403",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1337834149,
             "range": "± 6202582",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10947129,
             "range": "± 194949",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10670213,
             "range": "± 65873",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10898200,
             "range": "± 84528",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11921720,
             "range": "± 181739",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 284587619,
             "range": "± 2109536",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 308035335,
             "range": "± 3340860",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 311786592,
             "range": "± 3100337",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 398694341,
             "range": "± 2584960",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3169789348,
             "range": "± 26717608",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3677500298,
             "range": "± 27545587",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3713116158,
             "range": "± 53801435",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3888320368,
             "range": "± 40738900",
             "unit": "ns/iter"
@@ -49326,163 +49326,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5501460,
             "range": "± 471062",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5084856,
             "range": "± 1122384",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7265882,
             "range": "± 1414473",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7446993,
             "range": "± 1552361",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62570607,
             "range": "± 552524",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 68115236,
             "range": "± 3900691",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 74207005,
             "range": "± 298687",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 160597919,
             "range": "± 2379470",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 762767030,
             "range": "± 37408391",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 825440706,
             "range": "± 85942042",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 810617385,
             "range": "± 42703863",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2125142590,
             "range": "± 9839788",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5553425,
             "range": "± 8597",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 100588064,
             "range": "± 329493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1354678927,
             "range": "± 27165170",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10579308,
             "range": "± 276217",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10669768,
             "range": "± 95354",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10815740,
             "range": "± 50668",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11816519,
             "range": "± 198308",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 285484603,
             "range": "± 2809470",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 312201465,
             "range": "± 3922486",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 309198489,
             "range": "± 5487701",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 392197059,
             "range": "± 2839620",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3144813404,
             "range": "± 60051398",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3762516200,
             "range": "± 85564258",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3788568798,
             "range": "± 53957878",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3983814191,
             "range": "± 99821870",
             "unit": "ns/iter"
@@ -50074,163 +50074,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4885355,
             "range": "± 777299",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5663880,
             "range": "± 1121590",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7232627,
             "range": "± 1240544",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7265146,
             "range": "± 1447484",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60184299,
             "range": "± 576939",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63023416,
             "range": "± 782404",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69746173,
             "range": "± 335950",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 155365801,
             "range": "± 4370195",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 770125651,
             "range": "± 50601123",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 794472553,
             "range": "± 63427501",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 846161325,
             "range": "± 29686393",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2156770216,
             "range": "± 23715042",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5516052,
             "range": "± 9811",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 103621416,
             "range": "± 1455052",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1415498003,
             "range": "± 30477685",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10384821,
             "range": "± 75493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10645352,
             "range": "± 64009",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10874355,
             "range": "± 72370",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11818961,
             "range": "± 82943",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 287414289,
             "range": "± 3650328",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 311053966,
             "range": "± 3561815",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 311819119,
             "range": "± 5654153",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 391139601,
             "range": "± 3463569",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3166866887,
             "range": "± 10457539",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3729614750,
             "range": "± 33969801",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3683949052,
             "range": "± 38994843",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3966362498,
             "range": "± 66945169",
             "unit": "ns/iter"
@@ -50822,163 +50822,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5289049,
             "range": "± 539959",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6488711,
             "range": "± 976427",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7488921,
             "range": "± 1128033",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7904747,
             "range": "± 1374390",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 63078273,
             "range": "± 5063911",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65603363,
             "range": "± 464212",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71534615,
             "range": "± 218990",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 160098357,
             "range": "± 1921023",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 761234215,
             "range": "± 58011340",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 757762755,
             "range": "± 50175089",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 817118895,
             "range": "± 41800238",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2038242008,
             "range": "± 12054485",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5541267,
             "range": "± 16338",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106815218,
             "range": "± 867279",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1390839793,
             "range": "± 72472635",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10517414,
             "range": "± 215132",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10902950,
             "range": "± 103535",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11059368,
             "range": "± 111322",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12241017,
             "range": "± 947366",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 312502189,
             "range": "± 4403724",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 339192870,
             "range": "± 3234175",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 352960904,
             "range": "± 3802376",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 395143989,
             "range": "± 3245248",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3172789469,
             "range": "± 52513823",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3713441498,
             "range": "± 24231782",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3688648706,
             "range": "± 31650754",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3776776837,
             "range": "± 38745070",
             "unit": "ns/iter"
@@ -51570,163 +51570,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4611402,
             "range": "± 677536",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5948578,
             "range": "± 1008171",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6973056,
             "range": "± 1180218",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7478788,
             "range": "± 1152059",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60580911,
             "range": "± 3139882",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64546765,
             "range": "± 287923",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70295472,
             "range": "± 618212",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 153996153,
             "range": "± 4438679",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 733159362,
             "range": "± 28625994",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 744521551,
             "range": "± 99864900",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 802019870,
             "range": "± 50256957",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2048344863,
             "range": "± 14438775",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5495172,
             "range": "± 20314",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 100102246,
             "range": "± 382085",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1325902646,
             "range": "± 7257452",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10137059,
             "range": "± 88055",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10347349,
             "range": "± 44161",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10590718,
             "range": "± 32482",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11488802,
             "range": "± 109472",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 273842026,
             "range": "± 2890773",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 292319375,
             "range": "± 10618801",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 296877158,
             "range": "± 13332188",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 366972831,
             "range": "± 1411254",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3005788966,
             "range": "± 21106814",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3460885539,
             "range": "± 43808953",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3438423054,
             "range": "± 27474357",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3641756671,
             "range": "± 16556581",
             "unit": "ns/iter"
@@ -52318,163 +52318,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5305328,
             "range": "± 580482",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6751970,
             "range": "± 911922",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7854946,
             "range": "± 912106",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7931013,
             "range": "± 1380493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 64843423,
             "range": "± 1589691",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 68684653,
             "range": "± 836082",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 74361120,
             "range": "± 2097605",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 167075561,
             "range": "± 2557657",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 751953988,
             "range": "± 38176385",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 768468176,
             "range": "± 93013812",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 801512556,
             "range": "± 22348818",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2169308794,
             "range": "± 12202991",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5587008,
             "range": "± 26519",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 104380084,
             "range": "± 1882916",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1417527919,
             "range": "± 13941154",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10434649,
             "range": "± 292247",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10640891,
             "range": "± 91857",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10803010,
             "range": "± 220516",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12028805,
             "range": "± 137150",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 316849335,
             "range": "± 8963458",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 346029174,
             "range": "± 5024103",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 351994080,
             "range": "± 6817169",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 418020863,
             "range": "± 16228928",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3129244444,
             "range": "± 14876741",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3742078456,
             "range": "± 29984195",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3803108992,
             "range": "± 26224926",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3919381297,
             "range": "± 19501712",
             "unit": "ns/iter"
@@ -53066,163 +53066,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5133390,
             "range": "± 712288",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6018482,
             "range": "± 1206644",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7358480,
             "range": "± 1253213",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7984589,
             "range": "± 1481979",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 63435849,
             "range": "± 639336",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65902148,
             "range": "± 248987",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 72045706,
             "range": "± 771619",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 160237854,
             "range": "± 1827986",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 766181027,
             "range": "± 5201931",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 786882518,
             "range": "± 3540823",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 836416113,
             "range": "± 4231836",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2220564387,
             "range": "± 16760345",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5609142,
             "range": "± 8115",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110459477,
             "range": "± 400443",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1341247516,
             "range": "± 13266630",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10444784,
             "range": "± 91941",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10534339,
             "range": "± 43936",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10813321,
             "range": "± 49323",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11795937,
             "range": "± 67339",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 302131232,
             "range": "± 8784552",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 324788057,
             "range": "± 4455818",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 333630952,
             "range": "± 6137491",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 406497782,
             "range": "± 4009959",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3168502371,
             "range": "± 13071638",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3755969571,
             "range": "± 60895438",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3746185351,
             "range": "± 20932920",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3929907748,
             "range": "± 101484826",
             "unit": "ns/iter"
@@ -53814,163 +53814,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4883235,
             "range": "± 777413",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6016953,
             "range": "± 1106803",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7161580,
             "range": "± 1130898",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7800168,
             "range": "± 1424906",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62134740,
             "range": "± 634990",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65592675,
             "range": "± 303541",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71376040,
             "range": "± 332207",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 157263185,
             "range": "± 1640949",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 724730904,
             "range": "± 9618068",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 750253796,
             "range": "± 22385811",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 797433458,
             "range": "± 10760074",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2121074249,
             "range": "± 12752165",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5544804,
             "range": "± 19447",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106979596,
             "range": "± 1019573",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1409488650,
             "range": "± 6353894",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10298857,
             "range": "± 128104",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10509845,
             "range": "± 99248",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10676271,
             "range": "± 37866",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11655962,
             "range": "± 195894",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 292574526,
             "range": "± 4551474",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 317486785,
             "range": "± 6501498",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 319750947,
             "range": "± 7153323",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 393477626,
             "range": "± 2781924",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3263552164,
             "range": "± 13232238",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3866281709,
             "range": "± 77384645",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3901688652,
             "range": "± 17709074",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4130509469,
             "range": "± 19354054",
             "unit": "ns/iter"
@@ -54562,163 +54562,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5306335,
             "range": "± 567417",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6715640,
             "range": "± 954094",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7648024,
             "range": "± 1078199",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7903488,
             "range": "± 994553",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61781345,
             "range": "± 1838812",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64551062,
             "range": "± 875700",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69191671,
             "range": "± 608523",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 160330237,
             "range": "± 4133399",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 735011091,
             "range": "± 83917697",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 728907912,
             "range": "± 11278368",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 838057448,
             "range": "± 47869984",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2135329005,
             "range": "± 18609702",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5631815,
             "range": "± 24943",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 111172224,
             "range": "± 2369108",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1370930372,
             "range": "± 22898502",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10803011,
             "range": "± 241657",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11030866,
             "range": "± 493680",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11303131,
             "range": "± 108158",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12401712,
             "range": "± 317359",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 320285316,
             "range": "± 6303396",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 357298117,
             "range": "± 11630118",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 358306267,
             "range": "± 5940399",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 432451886,
             "range": "± 10874794",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3169405755,
             "range": "± 12782602",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3878011379,
             "range": "± 37655731",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3894614074,
             "range": "± 66607099",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4050754190,
             "range": "± 62150739",
             "unit": "ns/iter"
@@ -55310,163 +55310,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5280774,
             "range": "± 229934",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6465667,
             "range": "± 946981",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7279000,
             "range": "± 1069814",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7563948,
             "range": "± 1209324",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58689415,
             "range": "± 1356117",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 61612416,
             "range": "± 842784",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68123953,
             "range": "± 657076",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 158275592,
             "range": "± 4985287",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 730380858,
             "range": "± 14014592",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 752641348,
             "range": "± 21030269",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 805627405,
             "range": "± 4852478",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2104579832,
             "range": "± 25013975",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5512940,
             "range": "± 13003",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 108104846,
             "range": "± 542091",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1392470218,
             "range": "± 18773982",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10333935,
             "range": "± 104102",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10486548,
             "range": "± 88453",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10742243,
             "range": "± 65854",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11847219,
             "range": "± 134231",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 307679835,
             "range": "± 3898955",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 379686013,
             "range": "± 11959844",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 388269782,
             "range": "± 21659704",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 406293960,
             "range": "± 3198419",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3203308024,
             "range": "± 14115596",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3835862971,
             "range": "± 35325361",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3766404314,
             "range": "± 24234792",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3884210383,
             "range": "± 50329953",
             "unit": "ns/iter"
@@ -56058,163 +56058,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5014474,
             "range": "± 632452",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6176479,
             "range": "± 1166469",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7125035,
             "range": "± 1179091",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 8070737,
             "range": "± 1540873",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61342502,
             "range": "± 627021",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63467482,
             "range": "± 804233",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 72055174,
             "range": "± 280115",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 171107976,
             "range": "± 3099355",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 759669378,
             "range": "± 1776107",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 785336770,
             "range": "± 10267595",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 830064805,
             "range": "± 7143941",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2191480567,
             "range": "± 19852687",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5532426,
             "range": "± 28372",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 111160955,
             "range": "± 490253",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1400404138,
             "range": "± 15299694",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10407792,
             "range": "± 696195",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10705649,
             "range": "± 347204",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10735107,
             "range": "± 225516",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11715677,
             "range": "± 125302",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 294661349,
             "range": "± 11915355",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 322989887,
             "range": "± 14559097",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 323388608,
             "range": "± 13339731",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 395354706,
             "range": "± 4695958",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3117687483,
             "range": "± 15691283",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3651498563,
             "range": "± 44846370",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3613547866,
             "range": "± 43305383",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3951967853,
             "range": "± 34779660",
             "unit": "ns/iter"
@@ -56806,163 +56806,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5471483,
             "range": "± 391491",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6650239,
             "range": "± 1193849",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7284481,
             "range": "± 644686",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7796508,
             "range": "± 1275466",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61923696,
             "range": "± 1075354",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63833048,
             "range": "± 1400246",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 67412074,
             "range": "± 826981",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 156899623,
             "range": "± 4490449",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 686460316,
             "range": "± 14274462",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 723310879,
             "range": "± 21390228",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 770813355,
             "range": "± 7658401",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2086475124,
             "range": "± 28272963",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5639740,
             "range": "± 30712",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 102945245,
             "range": "± 906966",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1346614775,
             "range": "± 35461110",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10135241,
             "range": "± 54122",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10396799,
             "range": "± 88658",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10855907,
             "range": "± 358055",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11728046,
             "range": "± 100193",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 277695163,
             "range": "± 2777026",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 318657006,
             "range": "± 8104830",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 310394555,
             "range": "± 21865792",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 379307708,
             "range": "± 21584842",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3255517973,
             "range": "± 46341936",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3903161639,
             "range": "± 50839125",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3668366169,
             "range": "± 48032603",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3781904582,
             "range": "± 30768519",
             "unit": "ns/iter"
@@ -57554,163 +57554,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5452933,
             "range": "± 320903",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 7850331,
             "range": "± 163932",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 8592677,
             "range": "± 170563",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 9786125,
             "range": "± 132599",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 65458897,
             "range": "± 413432",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62538243,
             "range": "± 1981496",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70204239,
             "range": "± 3252043",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 181962041,
             "range": "± 8591706",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 743062077,
             "range": "± 16378484",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 746456467,
             "range": "± 38215594",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 783009045,
             "range": "± 91695745",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2044457912,
             "range": "± 14852222",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5532674,
             "range": "± 15022",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 103380713,
             "range": "± 706448",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1328751823,
             "range": "± 4635240",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10350748,
             "range": "± 86899",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10489285,
             "range": "± 69867",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10786864,
             "range": "± 90253",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11749245,
             "range": "± 157491",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 284164294,
             "range": "± 2945221",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 295095002,
             "range": "± 3979680",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 295873887,
             "range": "± 5264965",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 386023292,
             "range": "± 7291649",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3524351527,
             "range": "± 10399464",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4044113716,
             "range": "± 41701924",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4101223663,
             "range": "± 21199360",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4062359267,
             "range": "± 59611611",
             "unit": "ns/iter"
@@ -58302,163 +58302,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4708852,
             "range": "± 764169",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5585254,
             "range": "± 1110533",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7184833,
             "range": "± 1221444",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7528182,
             "range": "± 1601276",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61145265,
             "range": "± 700452",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65278827,
             "range": "± 920216",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70209956,
             "range": "± 1312616",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 154495985,
             "range": "± 3196433",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 723109267,
             "range": "± 24930003",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 766334841,
             "range": "± 43523558",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 817326891,
             "range": "± 41740385",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2078675605,
             "range": "± 11276730",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5590459,
             "range": "± 9282",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 108898056,
             "range": "± 416710",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1363626719,
             "range": "± 12908392",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10201653,
             "range": "± 84878",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10423018,
             "range": "± 76132",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10697780,
             "range": "± 59156",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11675694,
             "range": "± 137672",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 292281477,
             "range": "± 5731970",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 310645892,
             "range": "± 4069123",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 315480124,
             "range": "± 5901960",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 394496377,
             "range": "± 3684462",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3166202933,
             "range": "± 12336555",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3834959047,
             "range": "± 27406331",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3809711984,
             "range": "± 32790882",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4022886710,
             "range": "± 30554464",
             "unit": "ns/iter"
@@ -59050,163 +59050,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4625501,
             "range": "± 713113",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5549760,
             "range": "± 1060432",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7170484,
             "range": "± 1159442",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7373353,
             "range": "± 1363628",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61015112,
             "range": "± 355741",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64524139,
             "range": "± 508138",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71093731,
             "range": "± 774183",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 157688127,
             "range": "± 2505907",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 878929297,
             "range": "± 173963720",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 794404512,
             "range": "± 97562699",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 777602528,
             "range": "± 4245518",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2067741138,
             "range": "± 15566671",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5653871,
             "range": "± 22281",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106379104,
             "range": "± 491276",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1358511233,
             "range": "± 7037521",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10677581,
             "range": "± 180446",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10994240,
             "range": "± 164086",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11263001,
             "range": "± 183093",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12320207,
             "range": "± 175401",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 298236822,
             "range": "± 2504025",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 335098387,
             "range": "± 2333221",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 339010621,
             "range": "± 3303143",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 417516002,
             "range": "± 2299361",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3152039324,
             "range": "± 13345082",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3814508578,
             "range": "± 22333028",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3707117156,
             "range": "± 26513492",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3887583722,
             "range": "± 71081686",
             "unit": "ns/iter"
@@ -59798,163 +59798,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4664563,
             "range": "± 684570",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5880405,
             "range": "± 1077618",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7021572,
             "range": "± 1159357",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7770066,
             "range": "± 1485782",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62129377,
             "range": "± 560052",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 66734929,
             "range": "± 611611",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70879019,
             "range": "± 495858",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 162335322,
             "range": "± 3353962",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 720030474,
             "range": "± 3234540",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 762577926,
             "range": "± 5913945",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 846033937,
             "range": "± 13852163",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2145377062,
             "range": "± 45242110",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5526284,
             "range": "± 9583",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110378028,
             "range": "± 616567",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1394293928,
             "range": "± 6393275",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10169472,
             "range": "± 38130",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10497630,
             "range": "± 49199",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10747574,
             "range": "± 37717",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11775096,
             "range": "± 110155",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 314683533,
             "range": "± 5309053",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 340087575,
             "range": "± 4138005",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 335739215,
             "range": "± 7624641",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 400057758,
             "range": "± 2307695",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3122583070,
             "range": "± 30863344",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3716575506,
             "range": "± 26903120",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3772031828,
             "range": "± 21405514",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3943418861,
             "range": "± 14309297",
             "unit": "ns/iter"
@@ -60546,163 +60546,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5036521,
             "range": "± 740711",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6192531,
             "range": "± 1122157",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7114834,
             "range": "± 1186255",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7449955,
             "range": "± 1491796",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60208619,
             "range": "± 546611",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63239941,
             "range": "± 2900738",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69439820,
             "range": "± 351919",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 156705682,
             "range": "± 2356351",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 728291321,
             "range": "± 8364994",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 789275801,
             "range": "± 44532022",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 810655635,
             "range": "± 9628001",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2147708304,
             "range": "± 11328908",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5520483,
             "range": "± 8228",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 111967259,
             "range": "± 519336",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1353277144,
             "range": "± 12800747",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10277468,
             "range": "± 54317",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10604209,
             "range": "± 87022",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10854220,
             "range": "± 51131",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11841799,
             "range": "± 104200",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 301814338,
             "range": "± 4849318",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 328424009,
             "range": "± 7433573",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 335743110,
             "range": "± 5477022",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 429382471,
             "range": "± 14558614",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3137165180,
             "range": "± 23055320",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3641690986,
             "range": "± 25459838",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3578127784,
             "range": "± 12170555",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3799395597,
             "range": "± 15426860",
             "unit": "ns/iter"
@@ -61294,163 +61294,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5418630,
             "range": "± 606878",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5302418,
             "range": "± 1089223",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6881306,
             "range": "± 1225846",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7281156,
             "range": "± 1463065",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59257721,
             "range": "± 318972",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63217439,
             "range": "± 851111",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69316202,
             "range": "± 888523",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 159340189,
             "range": "± 3746206",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 737453606,
             "range": "± 8519859",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 775726893,
             "range": "± 28930016",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 805818382,
             "range": "± 25869757",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2204031902,
             "range": "± 76475627",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5543950,
             "range": "± 30786",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 112853034,
             "range": "± 1608818",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1458374852,
             "range": "± 216062171",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10397630,
             "range": "± 170140",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10496288,
             "range": "± 39251",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11472728,
             "range": "± 350290",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11891264,
             "range": "± 556739",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 547177225,
             "range": "± 33371429",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 588053507,
             "range": "± 11805252",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 607558870,
             "range": "± 47163683",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 491466564,
             "range": "± 78366498",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3065028858,
             "range": "± 38420311",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3512731627,
             "range": "± 44183190",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3953727522,
             "range": "± 588830520",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 5549311518,
             "range": "± 1370138077",
             "unit": "ns/iter"
@@ -62042,163 +62042,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5569235,
             "range": "± 493277",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 7416920,
             "range": "± 315821",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7507113,
             "range": "± 1087647",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 8397502,
             "range": "± 1416806",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 65622336,
             "range": "± 2156683",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 69932043,
             "range": "± 1513907",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 74144361,
             "range": "± 928496",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 174311142,
             "range": "± 7137775",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 782797887,
             "range": "± 64517552",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 781477777,
             "range": "± 9503225",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 798679757,
             "range": "± 8959891",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2204074953,
             "range": "± 58323525",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5595805,
             "range": "± 30963",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 122292065,
             "range": "± 2117593",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1335634425,
             "range": "± 40693198",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10090451,
             "range": "± 80104",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10297911,
             "range": "± 51210",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10533676,
             "range": "± 49490",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11541980,
             "range": "± 185385",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 315134431,
             "range": "± 18533682",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 404010111,
             "range": "± 13072042",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 364911354,
             "range": "± 39591526",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 377553411,
             "range": "± 2550618",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 2986334642,
             "range": "± 261752786",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4217254200,
             "range": "± 245277881",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4421591260,
             "range": "± 177327086",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4280951798,
             "range": "± 132398555",
             "unit": "ns/iter"
@@ -62790,163 +62790,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4660012,
             "range": "± 713521",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5674761,
             "range": "± 1071417",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7197324,
             "range": "± 1243720",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7916284,
             "range": "± 1540269",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62270778,
             "range": "± 653630",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 67115602,
             "range": "± 3410483",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 73725258,
             "range": "± 398287",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 162235593,
             "range": "± 2559304",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 708555176,
             "range": "± 8322022",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 748808513,
             "range": "± 18263297",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 784734181,
             "range": "± 13026981",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2041135634,
             "range": "± 10008160",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5548935,
             "range": "± 14251",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 109633953,
             "range": "± 474063",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1306632138,
             "range": "± 9340005",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10330642,
             "range": "± 102547",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10581988,
             "range": "± 89868",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10962883,
             "range": "± 149382",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11796472,
             "range": "± 148079",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 307915842,
             "range": "± 8942845",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 314700147,
             "range": "± 4828189",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 320845633,
             "range": "± 3564182",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 389378449,
             "range": "± 2063567",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3011483536,
             "range": "± 18420640",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3625473981,
             "range": "± 44491035",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3575501574,
             "range": "± 74759433",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3821366379,
             "range": "± 61204522",
             "unit": "ns/iter"
@@ -63538,163 +63538,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4492098,
             "range": "± 802865",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5226858,
             "range": "± 1067225",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7129981,
             "range": "± 1315925",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7325007,
             "range": "± 1498873",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59209385,
             "range": "± 999214",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62531498,
             "range": "± 1404789",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70692189,
             "range": "± 1170220",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 155333783,
             "range": "± 2040283",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 713024606,
             "range": "± 4175908",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 762915203,
             "range": "± 41529386",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 795952633,
             "range": "± 5234823",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2105781878,
             "range": "± 16826633",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5623908,
             "range": "± 24273",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 107270052,
             "range": "± 345323",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1360773647,
             "range": "± 10227416",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10069087,
             "range": "± 34861",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10369398,
             "range": "± 53427",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10625516,
             "range": "± 51392",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11532446,
             "range": "± 148219",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 287308752,
             "range": "± 2321634",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 312359982,
             "range": "± 3047347",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 317523649,
             "range": "± 5223496",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 408228006,
             "range": "± 4030810",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3160362905,
             "range": "± 24010288",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3753621495,
             "range": "± 30241328",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3887396750,
             "range": "± 52432156",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4012488578,
             "range": "± 30697430",
             "unit": "ns/iter"
@@ -64286,163 +64286,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4622653,
             "range": "± 718840",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6079421,
             "range": "± 1018402",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6971638,
             "range": "± 1111866",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7165647,
             "range": "± 1454258",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58969964,
             "range": "± 543626",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63209208,
             "range": "± 170538",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69974459,
             "range": "± 332048",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 150031923,
             "range": "± 1168187",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 703163320,
             "range": "± 16908914",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 722377743,
             "range": "± 9018514",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 766507258,
             "range": "± 57337894",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2015025390,
             "range": "± 16945717",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5613195,
             "range": "± 21399",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106125927,
             "range": "± 245791",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1278606697,
             "range": "± 5778786",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10479030,
             "range": "± 109603",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10764344,
             "range": "± 110769",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11051399,
             "range": "± 127689",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11998807,
             "range": "± 125442",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 282052839,
             "range": "± 1671183",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 301616644,
             "range": "± 5013098",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 306875146,
             "range": "± 3651048",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 378045374,
             "range": "± 3463113",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 2833904536,
             "range": "± 16776903",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3343442147,
             "range": "± 7670176",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3423983846,
             "range": "± 6929366",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3571459425,
             "range": "± 8410147",
             "unit": "ns/iter"
@@ -65034,163 +65034,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4925173,
             "range": "± 665914",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6351988,
             "range": "± 912848",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7270256,
             "range": "± 1058857",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7769108,
             "range": "± 1096035",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58795329,
             "range": "± 911695",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 60192083,
             "range": "± 1786576",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 64983831,
             "range": "± 391700",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 152392728,
             "range": "± 2240368",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 683103190,
             "range": "± 108393668",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 746030407,
             "range": "± 106411669",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 850881093,
             "range": "± 135643881",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2021157873,
             "range": "± 18224035",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5576811,
             "range": "± 37086",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110411616,
             "range": "± 2554840",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1282219752,
             "range": "± 9385333",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10377858,
             "range": "± 96881",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10667200,
             "range": "± 80913",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11005790,
             "range": "± 89860",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12054102,
             "range": "± 163297",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 302263914,
             "range": "± 6283658",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 334614858,
             "range": "± 8922824",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 337949816,
             "range": "± 7355249",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 407634852,
             "range": "± 5834071",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 2931194213,
             "range": "± 9606726",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3516761963,
             "range": "± 76773999",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3456548384,
             "range": "± 19651164",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3745260473,
             "range": "± 77296011",
             "unit": "ns/iter"
@@ -65782,163 +65782,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4688435,
             "range": "± 676191",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6286815,
             "range": "± 978996",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6942914,
             "range": "± 1092622",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7523330,
             "range": "± 1361454",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 57947375,
             "range": "± 489496",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 60070471,
             "range": "± 1053614",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 65954415,
             "range": "± 805617",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 146172282,
             "range": "± 3354865",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 664129098,
             "range": "± 6676007",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 708879589,
             "range": "± 4523370",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 748987956,
             "range": "± 4053339",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2043122104,
             "range": "± 25420431",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5632037,
             "range": "± 43590",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 104633925,
             "range": "± 396344",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1267412983,
             "range": "± 10394740",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10447996,
             "range": "± 142717",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10761023,
             "range": "± 164901",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10992394,
             "range": "± 145926",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11957758,
             "range": "± 188589",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 287635299,
             "range": "± 6545983",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 310133918,
             "range": "± 7323856",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 306608971,
             "range": "± 3721782",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 380774122,
             "range": "± 3383825",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 2952154639,
             "range": "± 28377296",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3539460371,
             "range": "± 37527404",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3546496343,
             "range": "± 30290854",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3827230146,
             "range": "± 47903218",
             "unit": "ns/iter"
@@ -66530,163 +66530,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5596414,
             "range": "± 1435626",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 7937483,
             "range": "± 1885695",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7410654,
             "range": "± 2097006",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 9457287,
             "range": "± 2777451",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 85979529,
             "range": "± 9979738",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 93440684,
             "range": "± 15910173",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 96590017,
             "range": "± 24815784",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 191193113,
             "range": "± 22658613",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 1003662343,
             "range": "± 45214582",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 1029109861,
             "range": "± 68188509",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 1242713100,
             "range": "± 205598261",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2990463364,
             "range": "± 310870454",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5727214,
             "range": "± 89781",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 145774430,
             "range": "± 14509070",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 2061737571,
             "range": "± 195277302",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 12990541,
             "range": "± 1620274",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10870438,
             "range": "± 316490",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11470308,
             "range": "± 922659",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12360247,
             "range": "± 412472",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 373539900,
             "range": "± 65562971",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 480900863,
             "range": "± 91216957",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 409107765,
             "range": "± 48270845",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 532419978,
             "range": "± 20356148",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 4416077946,
             "range": "± 301990568",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 5133749765,
             "range": "± 233829651",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4835145955,
             "range": "± 357729303",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 5021169136,
             "range": "± 378780750",
             "unit": "ns/iter"
@@ -67278,163 +67278,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5090047,
             "range": "± 726553",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6084503,
             "range": "± 1051225",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7521312,
             "range": "± 903359",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7959351,
             "range": "± 1517263",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58061497,
             "range": "± 784957",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62147271,
             "range": "± 426792",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68076668,
             "range": "± 2070021",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 152902553,
             "range": "± 2285233",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 723316326,
             "range": "± 23271076",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 753357463,
             "range": "± 10420972",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 800552146,
             "range": "± 11214238",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2112854843,
             "range": "± 14907019",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5610900,
             "range": "± 60619",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 102041125,
             "range": "± 646135",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1329075060,
             "range": "± 19411287",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10305453,
             "range": "± 164034",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10484949,
             "range": "± 67456",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10693433,
             "range": "± 79004",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11560183,
             "range": "± 105659",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 286434611,
             "range": "± 3668020",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 315059383,
             "range": "± 6567730",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 311100546,
             "range": "± 2750440",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 381466639,
             "range": "± 4338771",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 2889728060,
             "range": "± 36041744",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3527407645,
             "range": "± 23497297",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3520244266,
             "range": "± 21421773",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3595560608,
             "range": "± 11161127",
             "unit": "ns/iter"
@@ -68026,163 +68026,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5700260,
             "range": "± 415998",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 7392373,
             "range": "± 737641",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 8031946,
             "range": "± 336162",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 9023390,
             "range": "± 374951",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 66076918,
             "range": "± 3651935",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 67090907,
             "range": "± 948356",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 74192741,
             "range": "± 4006471",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 182605914,
             "range": "± 6209354",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 753875694,
             "range": "± 48744045",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 771770258,
             "range": "± 100510160",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 789767658,
             "range": "± 13221275",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2165084493,
             "range": "± 47130738",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5629545,
             "range": "± 81696",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 116638639,
             "range": "± 2378937",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1453833679,
             "range": "± 24464217",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10495029,
             "range": "± 162009",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10872015,
             "range": "± 231905",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 12037774,
             "range": "± 507995",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12611944,
             "range": "± 234042",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 345633971,
             "range": "± 9938521",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 374129909,
             "range": "± 23319517",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 386398719,
             "range": "± 7401969",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 465903504,
             "range": "± 9693966",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3153512707,
             "range": "± 32786682",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3776164710,
             "range": "± 55293107",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3799471126,
             "range": "± 66259434",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3973322699,
             "range": "± 44340478",
             "unit": "ns/iter"
@@ -68774,163 +68774,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5527185,
             "range": "± 313835",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5771305,
             "range": "± 1038527",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7714798,
             "range": "± 1093750",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7845684,
             "range": "± 1424266",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59841873,
             "range": "± 2829993",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 63647091,
             "range": "± 1384983",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68490225,
             "range": "± 921776",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 152885188,
             "range": "± 8061464",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 705809441,
             "range": "± 18125169",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 710000451,
             "range": "± 15994341",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 777010656,
             "range": "± 11638456",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2023376195,
             "range": "± 48650378",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5575344,
             "range": "± 15086",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 107678488,
             "range": "± 1786758",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1325056155,
             "range": "± 21659712",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10137559,
             "range": "± 173500",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10539466,
             "range": "± 142151",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10689103,
             "range": "± 131628",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11548330,
             "range": "± 235002",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 304588043,
             "range": "± 11213314",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 341486443,
             "range": "± 11163620",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 350292477,
             "range": "± 9795591",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 429077226,
             "range": "± 12201446",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3125116564,
             "range": "± 29947978",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3754949511,
             "range": "± 79482092",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3807702651,
             "range": "± 36281907",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4212477885,
             "range": "± 110147784",
             "unit": "ns/iter"
@@ -69522,163 +69522,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5374588,
             "range": "± 645501",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6579676,
             "range": "± 1034135",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7281918,
             "range": "± 445955",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7943484,
             "range": "± 1491499",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 63851661,
             "range": "± 4190472",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62994186,
             "range": "± 592036",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68820612,
             "range": "± 1041060",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 159846619,
             "range": "± 2397937",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 721988565,
             "range": "± 104596880",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 737968182,
             "range": "± 7987050",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 794599222,
             "range": "± 9111172",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2127330781,
             "range": "± 25891521",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5563559,
             "range": "± 9418",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 109387371,
             "range": "± 1162835",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1397197506,
             "range": "± 57408760",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10493202,
             "range": "± 233838",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11042141,
             "range": "± 489367",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11228014,
             "range": "± 348671",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12193261,
             "range": "± 482908",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 311260363,
             "range": "± 12125420",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 374260787,
             "range": "± 29024473",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 346608238,
             "range": "± 12206294",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 423087269,
             "range": "± 6673164",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3357961750,
             "range": "± 78176078",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3908722653,
             "range": "± 36569931",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4111861612,
             "range": "± 58798698",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4117316978,
             "range": "± 54930924",
             "unit": "ns/iter"
@@ -70270,163 +70270,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4882216,
             "range": "± 699951",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6077307,
             "range": "± 937315",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6882814,
             "range": "± 1207834",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7179264,
             "range": "± 1416110",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59561467,
             "range": "± 1711206",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 60379555,
             "range": "± 4269963",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 65197715,
             "range": "± 1403346",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 149826088,
             "range": "± 2575708",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 688961331,
             "range": "± 27104730",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 727375618,
             "range": "± 9426409",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 770201647,
             "range": "± 7476267",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2092442271,
             "range": "± 15231572",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5599089,
             "range": "± 21291",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106075764,
             "range": "± 658301",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1317679045,
             "range": "± 71148579",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11613484,
             "range": "± 324094",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10548670,
             "range": "± 681687",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10779406,
             "range": "± 98574",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11684161,
             "range": "± 53928",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 295740297,
             "range": "± 6408576",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 318148435,
             "range": "± 5998553",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 312534432,
             "range": "± 4249846",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 438525680,
             "range": "± 10340752",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3103639923,
             "range": "± 27108596",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3737600266,
             "range": "± 65869306",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3665005001,
             "range": "± 22865327",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3773771400,
             "range": "± 32520937",
             "unit": "ns/iter"
@@ -71018,163 +71018,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4671979,
             "range": "± 639738",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6341892,
             "range": "± 1076401",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7042769,
             "range": "± 1079697",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7413744,
             "range": "± 1416107",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58095482,
             "range": "± 308027",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 61037964,
             "range": "± 483505",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68148754,
             "range": "± 546897",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 154704577,
             "range": "± 3023862",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 711336263,
             "range": "± 2746398",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 747732958,
             "range": "± 4883284",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 788042253,
             "range": "± 9135692",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2058502114,
             "range": "± 13962343",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5599051,
             "range": "± 63905",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 100384248,
             "range": "± 427994",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1382808438,
             "range": "± 12970999",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10096983,
             "range": "± 33987",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10433752,
             "range": "± 53304",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10726511,
             "range": "± 55537",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11768454,
             "range": "± 100733",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 284569796,
             "range": "± 4931309",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 306499268,
             "range": "± 4519784",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 313296693,
             "range": "± 6618885",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 376494277,
             "range": "± 2614037",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 2955357799,
             "range": "± 38023859",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3525984207,
             "range": "± 22458526",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3429391790,
             "range": "± 26637017",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3693731160,
             "range": "± 42050916",
             "unit": "ns/iter"
@@ -71766,163 +71766,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5727465,
             "range": "± 579559",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6726790,
             "range": "± 811152",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 8571323,
             "range": "± 1484296",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 12118663,
             "range": "± 1295130",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 57905283,
             "range": "± 670708",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 61001917,
             "range": "± 507694",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71344757,
             "range": "± 1481799",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 206541162,
             "range": "± 3767637",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 646030530,
             "range": "± 10932198",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 680517698,
             "range": "± 13002706",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 806728209,
             "range": "± 44540222",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2272769454,
             "range": "± 15875976",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5216381,
             "range": "± 123846",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 113968804,
             "range": "± 1299650",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1513275053,
             "range": "± 9524436",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 12548859,
             "range": "± 723335",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 14067518,
             "range": "± 470830",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 14034786,
             "range": "± 414310",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 14868032,
             "range": "± 462897",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 302932212,
             "range": "± 6244073",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 360815329,
             "range": "± 7957230",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 373984295,
             "range": "± 15285688",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 402348700,
             "range": "± 30036464",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3081857944,
             "range": "± 102062001",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4075745097,
             "range": "± 225765591",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4020847336,
             "range": "± 88315841",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4225152583,
             "range": "± 68118522",
             "unit": "ns/iter"
@@ -72514,163 +72514,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5151503,
             "range": "± 626054",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6655370,
             "range": "± 901713",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7614382,
             "range": "± 1473928",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 9588334,
             "range": "± 2093340",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 56149273,
             "range": "± 1332664",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 60724332,
             "range": "± 1073221",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70136371,
             "range": "± 695939",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 180772918,
             "range": "± 2495271",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 655538390,
             "range": "± 6686455",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 687582489,
             "range": "± 6297406",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 787769005,
             "range": "± 11638127",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2343430464,
             "range": "± 34979161",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5056194,
             "range": "± 96365",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 110924471,
             "range": "± 1224550",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1467607871,
             "range": "± 19429911",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 12448515,
             "range": "± 621854",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 13728358,
             "range": "± 771464",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 14030448,
             "range": "± 563262",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 14840478,
             "range": "± 782968",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 310773835,
             "range": "± 5824790",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 370190147,
             "range": "± 8004171",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 351005172,
             "range": "± 8391232",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 390303797,
             "range": "± 6914206",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3198176647,
             "range": "± 60572774",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3933913501,
             "range": "± 63655817",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3878498284,
             "range": "± 108098158",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3975970535,
             "range": "± 24297893",
             "unit": "ns/iter"
@@ -73262,163 +73262,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5380751,
             "range": "± 425607",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6717025,
             "range": "± 907007",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7514093,
             "range": "± 1127779",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 8191748,
             "range": "± 1525285",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 63008847,
             "range": "± 961586",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 66352928,
             "range": "± 614703",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71520117,
             "range": "± 4213915",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 166144331,
             "range": "± 4750416",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 720285144,
             "range": "± 5353184",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 740116182,
             "range": "± 25719529",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 784097521,
             "range": "± 8376781",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2120617807,
             "range": "± 15627652",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5645447,
             "range": "± 27027",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 111658936,
             "range": "± 1683428",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1419972094,
             "range": "± 18213598",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10742322,
             "range": "± 213214",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11192244,
             "range": "± 194613",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11542122,
             "range": "± 308575",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12730033,
             "range": "± 540886",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 328922026,
             "range": "± 9370071",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 363047283,
             "range": "± 8331507",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 372095714,
             "range": "± 6005342",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 446816321,
             "range": "± 14963427",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3251037554,
             "range": "± 31667054",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3957343161,
             "range": "± 37258329",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3917428857,
             "range": "± 30866177",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4093954929,
             "range": "± 31594635",
             "unit": "ns/iter"
@@ -74010,163 +74010,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5389027,
             "range": "± 643940",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6563111,
             "range": "± 1210586",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7386387,
             "range": "± 1155826",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7605284,
             "range": "± 1185186",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59826953,
             "range": "± 744583",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62225915,
             "range": "± 1373098",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69300251,
             "range": "± 1161952",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 167763205,
             "range": "± 6076321",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 718449555,
             "range": "± 10439273",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 756547461,
             "range": "± 23889435",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 808352869,
             "range": "± 26162991",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2128796170,
             "range": "± 30425593",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5613606,
             "range": "± 49559",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 112577254,
             "range": "± 4528766",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1455322807,
             "range": "± 34616039",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10680191,
             "range": "± 241322",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11032038,
             "range": "± 346545",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11135104,
             "range": "± 196988",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12427059,
             "range": "± 566988",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 325260790,
             "range": "± 8642596",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 355284514,
             "range": "± 13344951",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 360916736,
             "range": "± 26509803",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 418726814,
             "range": "± 10431052",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3329224173,
             "range": "± 28280754",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3918963913,
             "range": "± 54840857",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3900167897,
             "range": "± 47109788",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4074494430,
             "range": "± 50199843",
             "unit": "ns/iter"
@@ -74758,163 +74758,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4652272,
             "range": "± 706525",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5725254,
             "range": "± 1019934",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7457088,
             "range": "± 1270570",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7441227,
             "range": "± 1358434",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60409711,
             "range": "± 342199",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 68184029,
             "range": "± 2082990",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71745843,
             "range": "± 564857",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 173927479,
             "range": "± 11045139",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 729180018,
             "range": "± 12614501",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 761860033,
             "range": "± 31252739",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 783858644,
             "range": "± 44422123",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2021390445,
             "range": "± 32913818",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5534293,
             "range": "± 20595",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 104583615,
             "range": "± 1816825",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1338207956,
             "range": "± 88338155",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10401571,
             "range": "± 172578",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10616690,
             "range": "± 180463",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10926716,
             "range": "± 298549",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11740484,
             "range": "± 86820",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 308344914,
             "range": "± 21226132",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 318575969,
             "range": "± 14590720",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 333040164,
             "range": "± 15423142",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 397353802,
             "range": "± 23430550",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3564582307,
             "range": "± 84645668",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3735600313,
             "range": "± 143507403",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3748816434,
             "range": "± 129788985",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3795662392,
             "range": "± 111212292",
             "unit": "ns/iter"
@@ -75506,163 +75506,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5846343,
             "range": "± 530674",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6891031,
             "range": "± 761725",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 8600235,
             "range": "± 1288629",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 10971292,
             "range": "± 1706161",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 55029413,
             "range": "± 903476",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 59136745,
             "range": "± 304665",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68333531,
             "range": "± 379326",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 183427194,
             "range": "± 3577996",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 656428595,
             "range": "± 2817068",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 681948811,
             "range": "± 3654893",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 777608273,
             "range": "± 3482628",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2387352657,
             "range": "± 53416022",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5334862,
             "range": "± 164161",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 114776304,
             "range": "± 2450144",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1515929946,
             "range": "± 41424133",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 12471445,
             "range": "± 1020805",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 13785011,
             "range": "± 747467",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 13984664,
             "range": "± 853163",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 15258991,
             "range": "± 689808",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 331390717,
             "range": "± 8731031",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 387481293,
             "range": "± 8026092",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 361950044,
             "range": "± 8000240",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 390018929,
             "range": "± 10243184",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3158945206,
             "range": "± 34645270",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3897206273,
             "range": "± 51890091",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3902019229,
             "range": "± 50435208",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4016509159,
             "range": "± 59435594",
             "unit": "ns/iter"
@@ -76254,163 +76254,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4827128,
             "range": "± 750471",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6040010,
             "range": "± 922452",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6890490,
             "range": "± 1118606",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7187768,
             "range": "± 1308328",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 57428330,
             "range": "± 332902",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 59633742,
             "range": "± 618893",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 65304726,
             "range": "± 234768",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 152688713,
             "range": "± 1500257",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 698012886,
             "range": "± 1776550",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 729808850,
             "range": "± 1990367",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 773432020,
             "range": "± 4742069",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2071657804,
             "range": "± 13578532",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5495071,
             "range": "± 19414",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 103372072,
             "range": "± 348598",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1311969439,
             "range": "± 9070718",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10286738,
             "range": "± 79339",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10461525,
             "range": "± 40382",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10690035,
             "range": "± 31992",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11661411,
             "range": "± 47804",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 296480148,
             "range": "± 3302225",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 303279108,
             "range": "± 5069299",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 306700542,
             "range": "± 3296493",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 398113050,
             "range": "± 3234377",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3405695413,
             "range": "± 9993227",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3576474867,
             "range": "± 43127475",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3632640298,
             "range": "± 23136470",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3727275355,
             "range": "± 25803275",
             "unit": "ns/iter"
@@ -77002,163 +77002,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4555917,
             "range": "± 866972",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5681778,
             "range": "± 1242557",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6779167,
             "range": "± 1377610",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 6790456,
             "range": "± 1420335",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 57818598,
             "range": "± 252942",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62063472,
             "range": "± 225795",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68725562,
             "range": "± 101926",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 150944951,
             "range": "± 890762",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 738273689,
             "range": "± 1687916",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 777129280,
             "range": "± 497829",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 811997865,
             "range": "± 3515070",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2143394093,
             "range": "± 9270511",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5506363,
             "range": "± 12327",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 104979504,
             "range": "± 90424",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1294204601,
             "range": "± 5180092",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10487827,
             "range": "± 113145",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10736997,
             "range": "± 93475",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10892439,
             "range": "± 93883",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11826388,
             "range": "± 102188",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 297008365,
             "range": "± 3738303",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 307927159,
             "range": "± 4473948",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 307046091,
             "range": "± 3959265",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 389904374,
             "range": "± 2822747",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3497525048,
             "range": "± 21917208",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3660873925,
             "range": "± 41046330",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3554233008,
             "range": "± 21978663",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3699360040,
             "range": "± 18029259",
             "unit": "ns/iter"
@@ -77750,163 +77750,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4587329,
             "range": "± 724385",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 5710401,
             "range": "± 1023272",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6905365,
             "range": "± 1146066",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7367517,
             "range": "± 1476001",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59829272,
             "range": "± 741612",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64412117,
             "range": "± 811365",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 70680792,
             "range": "± 430090",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 153923273,
             "range": "± 3350963",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 714433243,
             "range": "± 4694698",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 728823026,
             "range": "± 9470606",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 767757110,
             "range": "± 6371869",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2024553280,
             "range": "± 12958590",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5495747,
             "range": "± 9502",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 103809197,
             "range": "± 935532",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1428251225,
             "range": "± 39865526",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10549074,
             "range": "± 173700",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10809629,
             "range": "± 324161",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11459488,
             "range": "± 276787",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12644945,
             "range": "± 624593",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 351151699,
             "range": "± 5653384",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 376557272,
             "range": "± 21641123",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 368611665,
             "range": "± 31145101",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 436574383,
             "range": "± 23363704",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3862171584,
             "range": "± 174292252",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3709663916,
             "range": "± 20559743",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3706907673,
             "range": "± 80433446",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3893818436,
             "range": "± 56219261",
             "unit": "ns/iter"
@@ -78498,163 +78498,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5004813,
             "range": "± 649649",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6184598,
             "range": "± 845429",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7607538,
             "range": "± 1264588",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 8111278,
             "range": "± 848391",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 63958244,
             "range": "± 683844",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64620012,
             "range": "± 900023",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71318763,
             "range": "± 230589",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 174427653,
             "range": "± 2510311",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 715897346,
             "range": "± 12025992",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 719048283,
             "range": "± 7493849",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 767094112,
             "range": "± 4477192",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2065653837,
             "range": "± 17103220",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5552747,
             "range": "± 18325",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 104380254,
             "range": "± 327653",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1293053372,
             "range": "± 25972095",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10488825,
             "range": "± 112526",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10666010,
             "range": "± 60955",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10785349,
             "range": "± 114815",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11858506,
             "range": "± 196959",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 311456372,
             "range": "± 8198575",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 332769791,
             "range": "± 6473138",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 323181327,
             "range": "± 12055274",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 392135914,
             "range": "± 3224027",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3389124675,
             "range": "± 27651636",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3542617541,
             "range": "± 38961327",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3509971639,
             "range": "± 16822586",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3598092308,
             "range": "± 33823038",
             "unit": "ns/iter"
@@ -79246,163 +79246,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4966604,
             "range": "± 733980",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6537368,
             "range": "± 1167560",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7223578,
             "range": "± 1178681",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7497422,
             "range": "± 1356764",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 60825850,
             "range": "± 513842",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 64147679,
             "range": "± 502463",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 69601654,
             "range": "± 387759",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 163379170,
             "range": "± 3064966",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 744254262,
             "range": "± 3147323",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 769409840,
             "range": "± 1873475",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 830739564,
             "range": "± 1956729",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2191420542,
             "range": "± 12218519",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5548551,
             "range": "± 5867",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 109609843,
             "range": "± 775701",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1367820278,
             "range": "± 15723054",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10260537,
             "range": "± 82889",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10485188,
             "range": "± 54954",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10761524,
             "range": "± 52165",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11804722,
             "range": "± 72863",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 321413977,
             "range": "± 4498444",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 334214833,
             "range": "± 4211815",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 338858678,
             "range": "± 8640739",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 402074182,
             "range": "± 7697723",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3637717980,
             "range": "± 12858368",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3827111609,
             "range": "± 37015751",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3814359445,
             "range": "± 63384383",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3889936544,
             "range": "± 41271190",
             "unit": "ns/iter"
@@ -79994,163 +79994,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5506832,
             "range": "± 390213",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6144788,
             "range": "± 1195021",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7093930,
             "range": "± 1134135",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7499594,
             "range": "± 1616814",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 62866121,
             "range": "± 1022325",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 65989875,
             "range": "± 1755785",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 73108047,
             "range": "± 1196817",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 163171358,
             "range": "± 4649997",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 753656964,
             "range": "± 68051640",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 828167832,
             "range": "± 48428848",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 835573821,
             "range": "± 117837842",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2253842405,
             "range": "± 26702398",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5640567,
             "range": "± 36177",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 113303355,
             "range": "± 2166907",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1472829662,
             "range": "± 45081616",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 12545004,
             "range": "± 718318",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 12704044,
             "range": "± 548814",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 12953394,
             "range": "± 704019",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 14678064,
             "range": "± 845679",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 386114813,
             "range": "± 9225622",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 358720320,
             "range": "± 20448031",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 390539361,
             "range": "± 20648712",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 444204086,
             "range": "± 16847352",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3833785970,
             "range": "± 81704812",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 4091114971,
             "range": "± 67556568",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 4162130960,
             "range": "± 58190383",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4080626267,
             "range": "± 137307839",
             "unit": "ns/iter"
@@ -80742,163 +80742,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5013486,
             "range": "± 702378",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6119210,
             "range": "± 1061757",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7159609,
             "range": "± 1227270",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7526666,
             "range": "± 1494855",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 59253676,
             "range": "± 2347908",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 61829210,
             "range": "± 498624",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 67100776,
             "range": "± 1025632",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 152252464,
             "range": "± 11314962",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 682521507,
             "range": "± 13579709",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 704941901,
             "range": "± 13759425",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 776311608,
             "range": "± 1585082",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2071716215,
             "range": "± 24049874",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5536616,
             "range": "± 11654",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 106732707,
             "range": "± 1766449",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1363706376,
             "range": "± 51250182",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10612267,
             "range": "± 413623",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11045206,
             "range": "± 443878",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10673939,
             "range": "± 60558",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12031937,
             "range": "± 478479",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 314166462,
             "range": "± 23615572",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 312688497,
             "range": "± 10846902",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 316035375,
             "range": "± 9063036",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 386492262,
             "range": "± 12274629",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3389843208,
             "range": "± 121616743",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3815995720,
             "range": "± 119374810",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3607882131,
             "range": "± 100800553",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3768592003,
             "range": "± 53802906",
             "unit": "ns/iter"
@@ -81610,163 +81610,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 5476257,
             "range": "± 422844",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6889713,
             "range": "± 947660",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 7437619,
             "range": "± 807140",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7745087,
             "range": "± 1411691",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 61477024,
             "range": "± 757142",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 67473877,
             "range": "± 857932",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 71078108,
             "range": "± 1948483",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 174647027,
             "range": "± 4142974",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 750239811,
             "range": "± 14004672",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 810146929,
             "range": "± 80392327",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 840507794,
             "range": "± 30933739",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2235205967,
             "range": "± 48420454",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5565801,
             "range": "± 39361",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 114430736,
             "range": "± 904050",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1477514148,
             "range": "± 26413986",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 11338070,
             "range": "± 398342",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 11011757,
             "range": "± 108611",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 11552644,
             "range": "± 394141",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 12147246,
             "range": "± 184907",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 394769012,
             "range": "± 26145653",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 371651702,
             "range": "± 7605660",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 410271910,
             "range": "± 26912326",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 425279100,
             "range": "± 7784285",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3726951606,
             "range": "± 155197598",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3914457233,
             "range": "± 145632352",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3862230976,
             "range": "± 155115660",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 4006664247,
             "range": "± 78560140",
             "unit": "ns/iter"
@@ -82478,163 +82478,163 @@ window.BENCHMARK_DATA = {
         "tool": "cargo",
         "benches": [
           {
-            "name": "archive::hashmap_iteration/n=100000 k=4",
+            "name": "index::hashmap_iteration/n=100000 k=4",
             "value": 4881559,
             "range": "± 662222",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=8",
+            "name": "index::hashmap_iteration/n=100000 k=8",
             "value": 6100304,
             "range": "± 1016491",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=16",
+            "name": "index::hashmap_iteration/n=100000 k=16",
             "value": 6910995,
             "range": "± 1277404",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=100000 k=32",
+            "name": "index::hashmap_iteration/n=100000 k=32",
             "value": 7170558,
             "range": "± 1441919",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=4",
+            "name": "index::hashmap_iteration/n=1000000 k=4",
             "value": 58142499,
             "range": "± 447060",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=8",
+            "name": "index::hashmap_iteration/n=1000000 k=8",
             "value": 62118210,
             "range": "± 336825",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=16",
+            "name": "index::hashmap_iteration/n=1000000 k=16",
             "value": 68572703,
             "range": "± 349402",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=1000000 k=32",
+            "name": "index::hashmap_iteration/n=1000000 k=32",
             "value": 152356840,
             "range": "± 1589179",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=4",
+            "name": "index::hashmap_iteration/n=10000000 k=4",
             "value": 724919552,
             "range": "± 3819393",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=8",
+            "name": "index::hashmap_iteration/n=10000000 k=8",
             "value": 748454744,
             "range": "± 2148743",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=16",
+            "name": "index::hashmap_iteration/n=10000000 k=16",
             "value": 792583792,
             "range": "± 5653714",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_iteration/n=10000000 k=32",
+            "name": "index::hashmap_iteration/n=10000000 k=32",
             "value": 2045296195,
             "range": "± 16020638",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=100000 k=4",
+            "name": "index::hashmap_insert_fixed/n=100000 k=4",
             "value": 5528056,
             "range": "± 17135",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=1000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=1000000 k=4",
             "value": 102494925,
             "range": "± 869909",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert_fixed/n=10000000 k=4",
+            "name": "index::hashmap_insert_fixed/n=10000000 k=4",
             "value": 1312687383,
             "range": "± 16914275",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=4",
+            "name": "index::hashmap_insert/n=100000 k=4",
             "value": 10190331,
             "range": "± 58263",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=8",
+            "name": "index::hashmap_insert/n=100000 k=8",
             "value": 10535164,
             "range": "± 45706",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=16",
+            "name": "index::hashmap_insert/n=100000 k=16",
             "value": 10722577,
             "range": "± 81235",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=100000 k=32",
+            "name": "index::hashmap_insert/n=100000 k=32",
             "value": 11586534,
             "range": "± 111303",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=4",
+            "name": "index::hashmap_insert/n=1000000 k=4",
             "value": 291795181,
             "range": "± 5358467",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=8",
+            "name": "index::hashmap_insert/n=1000000 k=8",
             "value": 298544870,
             "range": "± 7830875",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=16",
+            "name": "index::hashmap_insert/n=1000000 k=16",
             "value": 300295199,
             "range": "± 4474768",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=1000000 k=32",
+            "name": "index::hashmap_insert/n=1000000 k=32",
             "value": 369963452,
             "range": "± 3093747",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=4",
+            "name": "index::hashmap_insert/n=10000000 k=4",
             "value": 3344461980,
             "range": "± 11239583",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=8",
+            "name": "index::hashmap_insert/n=10000000 k=8",
             "value": 3474468829,
             "range": "± 22267026",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=16",
+            "name": "index::hashmap_insert/n=10000000 k=16",
             "value": 3477274474,
             "range": "± 37332188",
             "unit": "ns/iter"
           },
           {
-            "name": "archive::hashmap_insert/n=10000000 k=32",
+            "name": "index::hashmap_insert/n=10000000 k=32",
             "value": 3596480356,
             "range": "± 30151942",
             "unit": "ns/iter"
