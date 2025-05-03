@@ -84708,30 +84708,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 44544854,
-            "range": "± 969012",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 444296281,
-            "range": "± 15727426",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4504302027,
-            "range": "± 46325084",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22729830879,
-            "range": "± 238445058",
-            "unit": "ns/iter"
-          },
-          {
             "name": "mmr::append/n=10000",
             "value": 2521562,
             "range": "± 1937",
@@ -85576,30 +85552,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 45368923,
-            "range": "± 642123",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 449364285,
-            "range": "± 16468384",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4527361824,
-            "range": "± 74984118",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22720340789,
-            "range": "± 233493085",
-            "unit": "ns/iter"
-          },
-          {
             "name": "mmr::append/n=10000",
             "value": 2527941,
             "range": "± 2968",
@@ -86441,30 +86393,6 @@ window.BENCHMARK_DATA = {
             "name": "journal::fixed_read_sequential/items=500000 size=32",
             "value": 22648692350,
             "range": "± 183865704",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 44095203,
-            "range": "± 1212521",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 439685186,
-            "range": "± 12762650",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4406413303,
-            "range": "± 76971117",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22298819941,
-            "range": "± 193341668",
             "unit": "ns/iter"
           },
           {
@@ -87528,30 +87456,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 44891293,
-            "range": "± 1135432",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 447346357,
-            "range": "± 6675604",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4574320628,
-            "range": "± 57137279",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22890621448,
-            "range": "± 148783906",
-            "unit": "ns/iter"
-          },
-          {
             "name": "mmr::append/n=10000",
             "value": 2797665,
             "range": "± 745",
@@ -88609,30 +88513,6 @@ window.BENCHMARK_DATA = {
             "name": "journal::fixed_read_sequential/items=500000 size=32",
             "value": 22902596272,
             "range": "± 271180403",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 44694492,
-            "range": "± 1181365",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 446930592,
-            "range": "± 8901471",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4569653664,
-            "range": "± 84546821",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22917542853,
-            "range": "± 200557259",
             "unit": "ns/iter"
           },
           {
@@ -89696,30 +89576,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 44280024,
-            "range": "± 1110343",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 442666979,
-            "range": "± 13051342",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4402549216,
-            "range": "± 86809169",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22013968543,
-            "range": "± 355456857",
-            "unit": "ns/iter"
-          },
-          {
             "name": "mmr::append/n=10000",
             "value": 2555071,
             "range": "± 27884",
@@ -90780,30 +90636,6 @@ window.BENCHMARK_DATA = {
             "unit": "ns/iter"
           },
           {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 44422209,
-            "range": "± 368780",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 451960968,
-            "range": "± 17248184",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4467927582,
-            "range": "± 56342136",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22473715058,
-            "range": "± 160300844",
-            "unit": "ns/iter"
-          },
-          {
             "name": "mmr::append/n=10000",
             "value": 2503352,
             "range": "± 1580",
@@ -91861,30 +91693,6 @@ window.BENCHMARK_DATA = {
             "name": "journal::fixed_read_sequential/items=500000 size=32",
             "value": 22535658940,
             "range": "± 228929478",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=1000 size=32",
-            "value": 43711096,
-            "range": "± 992023",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=10000 size=32",
-            "value": 442043060,
-            "range": "± 9945639",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=100000 size=32",
-            "value": 4419172663,
-            "range": "± 128167748",
-            "unit": "ns/iter"
-          },
-          {
-            "name": "journal::fixed_replay/items=500000 size=32",
-            "value": 22348050578,
-            "range": "± 150319235",
             "unit": "ns/iter"
           },
           {
