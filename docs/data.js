@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747332309685,
+  "lastUpdate": 1747332627835,
   "repoUrl": "https://github.com/commonwarexyz/monorepo",
   "entries": {
     "commonware-cryptography": [
@@ -122161,6 +122161,124 @@ window.BENCHMARK_DATA = {
             "name": "public_key::receiver_receive/len=67108864",
             "value": 180408500,
             "range": "± 491984",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dan Laine",
+            "username": "danlaine",
+            "email": "dan@commonware.xyz"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "595825072c4c325ad3a7c5fa26c70970cfa59b17",
+          "message": "[runtime] Change `Blob`'s `read_at` and `write_at` signature (#933)",
+          "timestamp": "2025-05-15T15:39:39Z",
+          "url": "https://github.com/commonwarexyz/monorepo/commit/595825072c4c325ad3a7c5fa26c70970cfa59b17"
+        },
+        "date": 1747332626792,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "public_key::sender_send/len=1024",
+            "value": 2756,
+            "range": "± 28",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4096",
+            "value": 5127,
+            "range": "± 61",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16384",
+            "value": 14562,
+            "range": "± 309",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=262144",
+            "value": 211643,
+            "range": "± 17115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=1048576",
+            "value": 833689,
+            "range": "± 160039",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=4194304",
+            "value": 4523555,
+            "range": "± 18241",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=16777216",
+            "value": 18748497,
+            "range": "± 255902",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::sender_send/len=67108864",
+            "value": 103659051,
+            "range": "± 2148571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1024",
+            "value": 4597,
+            "range": "± 91",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4096",
+            "value": 11962,
+            "range": "± 48",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16384",
+            "value": 41368,
+            "range": "± 67",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=262144",
+            "value": 635604,
+            "range": "± 3576",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=1048576",
+            "value": 2543346,
+            "range": "± 6016",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=4194304",
+            "value": 10269486,
+            "range": "± 122372",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=16777216",
+            "value": 43267987,
+            "range": "± 1336054",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "public_key::receiver_receive/len=67108864",
+            "value": 196888095,
+            "range": "± 1023951",
             "unit": "ns/iter"
           }
         ]
