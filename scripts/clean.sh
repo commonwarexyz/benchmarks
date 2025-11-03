@@ -83,6 +83,14 @@ def main(path: str, max_age_days: int) -> None:
     raw = p.read_text(encoding="utf-8")
     prefix, data = load_js_json(raw)
     stale_benchmarks = find_stale_benchmarks(data, max_age_days)
+
+    if stale_benchmarks:
+        print(f"Removing {len(stale_benchmarks)} stale benchmark(s):")
+        for bench_name in sorted(stale_benchmarks):
+            print(f"  - {bench_name}")
+    else:
+        print("No stale benchmarks found.")
+
     remove_stale_benchmarks(data, stale_benchmarks)
     # Preserve Unicode characters (e.g. '±') instead of escaping them.
     p.write_text(f"{prefix} {json.dumps(data, indent=2, ensure_ascii=False)}\n",
